@@ -6,13 +6,15 @@
  Projeto da formação "Gerando Valor com Dados" da Escola de Dados [Preditiva.IA](https://www.preditiva.ai.com)
 
 ## Índice
-- [Contextualização](Contextualização)
-- [Benchmark de Turnover no Setor de Tecnologia no Brasil](Benchmark-de-Turnover-no-Setor-de-Tecnologia-no-Brasil)
-- [Metodologia - CRISP-DM](Metodologia-CRISP-DM)
+- [Contextualização](Contextualização.)
+- [Benchmark de Turnover no Setor de Tecnologia no Brasil.](Benchmark-de-Turnover-no-Setor-de-Tecnologia-no-Brasil)
+- [Metodologia:  CRISP-DM](Metodologia-CRISP-DM.)
+  - [Etapa 1: Compreensão do Negócio -*Business Understanding*-.](Etapa-1-Compreensão-do-Negócio-Business-Understanding)
+  - [Etapa 2: Compreensão dos Dados -*Data Understanding*-.](Etapa-2-Compreensão-dos-Dados-Data-Understanding)
 
 ## 📌 Contextualização  
 
-### O desafio do turnover nas empresas  
+### O desafio do ***turnover*** nas empresas  
 
 O ***turnover*** é um dos desafios mais críticos enfrentados pelas empresas atualmente. No Brasil, a taxa de rotatividade é uma das mais altas do mundo, chegando a **56%**, refletindo mudanças profundas no mercado de trabalho. Os profissionais estão cada vez menos dispostos a permanecer por longos períodos em uma mesma companhia, buscando novas oportunidades e maior equilíbrio entre vida pessoal e profissional.  
 
@@ -69,7 +71,7 @@ A metodologia ***CRISP-DM (Cross Industry Standard Process for Data Mining)*** �
 Este projeto busca **entender os fatores que influenciam o turnover** e propor **estratégias para reduzir a rotatividade** dos funcionários em uma empresa de tecnologia. Como se trata de uma análise exploratória e investigativa, a CRISP-DM é a metodologia ideal, pois oferece um fluxo de trabalho lógico e sistemático para abordar o problema de forma eficiente.  
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/c5129457-0470-44cb-b0b2-cadf5b2de4fd" alt="Descrição da imagem" width="400" height="400">
+<img src="https://github.com/user-attachments/assets/c5129457-0470-44cb-b0b2-cadf5b2de4fd" alt="Descrição da imagem" width="500" height="500">
 </p>
 
 *fonte: [ https://towardsdatascience.com/using-crisp-dm-to-grow-as-data-scientist-a07ce3fd9d56/]( https://towardsdatascience.com/using-crisp-dm-to-grow-as-data-scientist-a07ce3fd9d56/)*
@@ -113,6 +115,10 @@ Com essa metodologia, garantimos que o projeto será conduzido de forma **organi
 
 ## 📘 Etapa 1: Compreensão do Negócio (Business Understanding)
 
+Para compreender quais são as características que fazem um funcionário ficar ou dixar a empresa de Tecnologia, o deprtamento de Recursos Humanos da empresa objeto de estudio catalogou informações de 1.470 funcionários que 
+deixaram ou permaneceram na companhia no último ano. O resultado desse levantamento gerou 19 possíveis fatores para tentar explicar o comportamento do ***turnover***. Para conhecer esses fatores, verifique a tabela de metadados
+existentes na secção seguinte ou na pasta */docs/* no arquivo .xlsx *classificação_variaveis_turnover*
+
 #### ✅ Objetivo do projeto:
 - **Reduzir** o ***turnover*** e **melhorar a retenção dos funcionários** meio da análise de dados comportamentais, profissionais e demográficos dos colaboradores.
 - **Identificar** quais **fatores** mais influenciam a saída dos colaboradores.
@@ -134,17 +140,21 @@ Com essa metodologia, garantimos que o projeto será conduzido de forma **organi
 - *Existe correlação entre salário, tempo de empresa e saída voluntária?*
 - *Como o clima organizacional impacta a retenção dos talentos?*
 - *Funcionários que viajam frequentemente são mais propensos a sair?*
+- *Quais políticas/fatores da empresa deveriam mudar de forma a minimizar o turnover*
 
 ---
 
-### 📗 2. Compreensão dos Dados (Data Understanding)
+### 📗 Etapa 2: Compreensão dos Dados (Data Understanding)
 
 #### 🗃️ Fonte dos Dados
 
-Base fictícia de Recursos Humanos com atributos relacionados aos funcionários.
+Base fictícia de Recursos Humanos com atributos relacionados aos funcionários com 1470 durante um periodode tempo não especificado.
 
 #### 📊 Dicionário de Variáveis
-Abaixo está a descrição das variáveis utilizadas no projeto, com sua classificação e faixas observadas:
+
+Abaixo está a descrição das variáveis utilizadas no projeto, com sua classificação e possíveis faixas observadas:
+  
+ Tabela 1. Dicionário de Variáveis (**Metadados**)
 
 | **Variável**                  | **Descrição**                                                         |**Classificação da Variável**|**Intervalos ou faixas**|
 |:------------------------------|:----------------------------------------------------------------------|:----------------------------|:--------------------------------------------------------|
@@ -153,7 +163,7 @@ Abaixo está a descrição das variáveis utilizadas no projeto, com sua classif
 | Idade                         | Idade do funcionário                                                  | Quantitativa Discreta       | 18-59 anos                                              |
 | Frequência de Viagens         | Frequência de viagens a trabalho do funcionário                       | Qualitativa Ordinal         | Não viaja, Viaja raramente, Viaja frequentemente        |
 | Distância_do_trabalho         | Distância em Km até o trabalho                                        | Quantitativa Discreta       | 1 - 29 Km                                               |
-| Formação                      | Nível de formação                                                     | Qualitativa Ordinal         | Ensino Técnico, Ensino Médio, Mestrado, Superior, Doutorado |
+| Formação                      | Nível de formação                                                     | Qualitativa Ordinal         | Ensino Médio, Ensino Técnico, Mestrado, Superior, Doutorado |
 | E-Sat                         | Satisfação com o clima organizacional                                 | Qualitativa Ordinal         | Baixo, Médio, Alto, Muito Alto                         |
 | Gênero                        | Gênero do funcionário                                                 | Qualitativa Nominal         | H: Masculino; F: Feminino                              |
 | Estado_Civil                  | Estado civil do funcionário                                           | Qualitativa Nominal         | Solteiro, Casado, Divorciado                           |
@@ -169,7 +179,7 @@ Abaixo está a descrição das variáveis utilizadas no projeto, com sua classif
 | Anos_no_mesmo_cargo           | Tempo em anos que o funcionário atua no mesmo cargo                   | Quantitativa Discreta       | 0 - 18 anos                                             |
 | Anos_desde_a_ultima_promocao  | Tempo em anos desde a última promoção                                 | Quantitativa Discreta       | 0 - 15 anos                                             |
 | Anos_com_o_mesmo_chefe        | Tempo em anos que responde ao mesmo chefe                             | Quantitativa Discreta       | 0 - 17 anos                                             |
-> Tabela 1. Dicionário de Variáveis
+
 
 #### 🎯 Variável Alvo
 
