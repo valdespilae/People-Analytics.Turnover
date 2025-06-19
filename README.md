@@ -2,12 +2,12 @@
   <img src="https://github.com/user-attachments/assets/1e0540ec-e599-4f33-8eda-886dbe2eeccf" alt="Descrição da imagem">
 </p>
 
-# 📊Projeto de People Analytics: Redução do Turnover com CRISP-DM
+# 📊Projeto People Analytics: Redução do Turnover com CRISP-DM
  Projeto da formação "Gerando Valor com Dados" da Escola de Dados [Preditiva.IA](https://www.preditiva.ai.com)
 
 ## Índice
 - [Contextualização](Contextualização.)
-- [Benchmark de Turnover no Setor de Tecnologia no Brasil.](Benchmark-de-Turnover-no-Setor-de-Tecnologia-no-Brasil)
+   - [Benchmark de Turnover no Setor de Tecnologia no Brasil.](Benchmark-de-Turnover-no-Setor-de-Tecnologia-no-Brasil)
 - [Metodologia:  CRISP-DM](Metodologia-CRISP-DM.)
   - [Etapa 1: Compreensão do Negócio -*Business Understanding*-.](Etapa-1-Compreensão-do-Negócio-Business-Understanding)
   - [Etapa 2: Compreensão dos Dados -*Data Understanding*-.](Etapa-2-Compreensão-dos-Dados-Data-Understanding)
@@ -16,49 +16,45 @@
 
 ### O desafio do ***turnover*** nas empresas  
 
-O ***turnover*** é um dos desafios mais críticos enfrentados pelas empresas atualmente. No Brasil, a taxa de rotatividade é uma das mais altas do mundo, chegando a **56%**, refletindo mudanças profundas no mercado de trabalho. Os profissionais estão cada vez menos dispostos a permanecer por longos períodos em uma mesma companhia, buscando novas oportunidades e maior equilíbrio entre vida pessoal e profissional.  
+O ***turnover*** ou **rotatividadedos funcionários**, é um dos desafios mais críticos enfrentados pelas empresas atualmente. Segundo um levantamento publicado em **agosto de 2023** pela consultoria **Robert Half**, o Brasil lidera o ranking global de rotatividade, com uma taxa de **56%**, colocando o país entre os que mais enfrentam desafios com retenção de talentos. Esse índice elevado reflete mudanças estruturais no mercado de trabalho, impulsionadas por transformações nas expectativas dos profissionais, que estão cada vez mais atentos ao propósito, à flexibilidade e ao equilíbrio entre vida pessoal e profissional[(1)](-1).
 
-Segundo um estudo da **Evermonte**, **39% dos desligamentos no Brasil em 2023 foram voluntários**, ou seja, os próprios colaboradores decidiram sair. Esse dado reforça que fatores como **satisfação profissional, oportunidades de crescimento e ambiente organizacional** têm impacto direto na retenção de talentos.  
+Outro estudo publicado pela **Evermonte** em **julho de 2024** apontou que **39% dos desligamentos no Brasil em 2023 foram voluntários**, ou seja, motivados pela decisão dos próprios colaboradores[(2)](-2). Esse dado reforça que fatores como satisfação profissional, oportunidades de crescimento e ambiente organizacional exercem influência direta na retenção de talentos, evidenciando a necessidade de estratégias mais humanas e personalizadas por parte das empresas.
 
-Historicamente, era comum que um profissional ocupasse o mesmo cargo por anos, mas hoje, o sucesso está mais ligado à **capacidade de reinvenção e adaptação**. Empresas que não oferecem desenvolvimento e boas condições de trabalho enfrentam maiores desafios para manter seus funcionários engajados.  
+### 🔎 Benchmark de ***Turnover*** no Setor de Tecnologia no Brasil  
+Para contextualizar melhor este projeto, é essencial entender a taxa de rotatividade no setor de tecnologia e como a empresa analisada se compara ao mercado. 
+
+
+### 📊 Visão Geral  
+
+- A média de rotatividade no Brasil -área de tecnología-  ficou em **51%** entre abril de 2022 e maio de 2023, uma das mais altas do mundo[(3)](3) 
+- No setor de tecnologia, a taxa média de turnover foi de **13,2%**, a maior entre todos os setores avaliados[(4)](4).  
+- Em comparação global, é comum observar taxas entre **13% e 18% ao ano** no setor de tecnologia, podendo chegar a **25%** em startups[(5)](5).  
+
+### 📈 Comparações e Dados Históricos  
+
+° Antes da pandemia (2019), o turnover médio no setor de TI no Brasil era de **39%**, enquanto a média geral era **41%**[(6)](6).  
+° Subsetores como desenvolvimento de software apresentavam taxas menores (**33%–39%**)[(6)](6).  
+° Cargos executivos de tecnologia no Brasil apresentam turnover voluntário de **20%** e involuntário de **14%**, totalizando **34%**[(7)](7).  
+
+### 🔍 Segmentação por Subárea  
+
+- **UX e Design**: aproximadamente **23%**;  
+- **Engenheiros de Dados e Software**: entre **21% e 22%**; 
+- **Suporte técnico e áreas de operação**: **até 25%**[(8)](8). 
+
+### 🎯 Insight para o Projeto  
+
+Com base nesses dados, uma meta realista para a organização pode ser a redução da taxa de turnover para **abaixo de 15%**, posicionando-se entre os **benchmarks** mais estáveis do setor de tecnologia nacional e internacional. 
 
 ### Estratégias para minimizar o turnover  
 
-Diante desse cenário, as empresas precisam adotar estratégias inovadoras para reduzir a rotatividade. Algumas abordagens incluem:  
+Diante desse cenário, e com base às pesquesisas abordadas anteriormente, foram identificados estratégicas inovadores que as empresas precisam adotar para reduzir a rotatividade. Algumas abordagens incluem:  
 
 - **Criar um ambiente de trabalho dinâmico**, onde os funcionários sintam que estão evoluindo constantemente.  
 - **Investir em aprendizado contínuo**, incentivando o desenvolvimento profissional.  
 - **Ouvir os colaboradores**, garantindo que suas necessidades e expectativas sejam atendidas.  
 
 O ***turnover*** não é apenas uma questão de remuneração, mas sim de **propósito e engajamento**. Empresas que conseguem oferecer um ambiente estimulante e oportunidades de crescimento tendem a reter seus talentos por mais tempo.  
-
-## 🔎 Benchmark de Turnover no Setor de Tecnologia no Brasil  
-
-Para contextualizar melhor este projeto, é essencial entender a taxa de rotatividade no setor de tecnologia e como a empresa analisada se compara ao mercado.  
-
-### 📊 Visão Geral  
-
-- A média de rotatividade no Brasil ficou em **51%** entre abril de 2022 e maio de 2023, uma das mais altas do mundo.  
-- No setor de tecnologia, a taxa média de turnover foi de **13,2%**, a maior entre todos os setores avaliados.  
-- Em comparação global, é comum observar taxas entre **13% e 18% ao ano** no setor de tecnologia, podendo chegar a **25%** em startups.  
-
-### 📈 Comparações e Dados Históricos  
-
-- Antes da pandemia (2019), o turnover médio no setor de TI no Brasil era de **39%**, enquanto a média geral era **41%**.  
-- Subsetores como desenvolvimento de software apresentavam taxas menores (**33%–39%**).  
-- Cargos executivos de tecnologia no Brasil apresentam turnover voluntário de **20%** e involuntário de **14%**, totalizando **34%**.  
-
-### 🔍 Segmentação por Subárea  
-
-- **UX e Design**: aproximadamente **23%**  
-- **Engenheiros de Dados e Software**: entre **21% e 22%**  
-- **Suporte técnico e áreas de operação**: **até 25%**  
-
-### 🎯 Insight para o Projeto  
-
-Com base nesses dados, uma meta realista para a organização pode ser a redução da taxa de turnover para **abaixo de 15%**, posicionando-se entre os **benchmarks** mais estáveis do setor de tecnologia nacional e internacional.  
-
----
 
 ## Metodologia - CRISP-DM
 
@@ -115,8 +111,8 @@ Com essa metodologia, garantimos que o projeto será conduzido de forma **organi
 
 ## 📘 Etapa 1: Compreensão do Negócio (Business Understanding)
 
-Para compreender quais são as características que fazem um funcionário ficar ou dixar a empresa de Tecnologia, o deprtamento de Recursos Humanos da empresa objeto de estudio catalogou informações de 1.470 funcionários que 
-deixaram ou permaneceram na companhia no último ano. O resultado desse levantamento gerou 19 possíveis fatores para tentar explicar o comportamento do ***turnover***. Para conhecer esses fatores, verifique a tabela de metadados
+Para compreender quais são as características que fazem um funcionário ficar ou deixar a empresa de Tecnologia, o departamento de Recursos Humanos da empresa catalogou informações de **1.470 funcionários** que 
+deixaram ou permaneceram na companhia no *último ano*. O resultado desse levantamento gerou **19 possíveis fatores** para tentar explicar o comportamento do ***turnover***. Para conhecer esses fatores, verifique a tabela de metadados
 existentes na secção seguinte ou na pasta */docs/* no arquivo .xlsx *classificação_variaveis_turnover*
 
 #### ✅ Objetivo do projeto:
@@ -136,29 +132,55 @@ existentes na secção seguinte ou na pasta */docs/* no arquivo .xlsx *classific
 - Histórico do funcionário (*tempo de empresa, promoção, mudanças de cargo*).
   
 #### ✅ Perguntas estratégicas para investigação:
+- *Quais políticas/fatores da empresa deveriam mudar de forma a minimizar o turnover*
 - *O turnover é maior em algum grupo específico de funcionários?*
 - *Existe correlação entre salário, tempo de empresa e saída voluntária?*
 - *Como o clima organizacional impacta a retenção dos talentos?*
 - *Funcionários que viajam frequentemente são mais propensos a sair?*
-- *Quais políticas/fatores da empresa deveriam mudar de forma a minimizar o turnover*
 
 ---
 
-### 📗 Etapa 2: Compreensão dos Dados (Data Understanding)
+### 🔍 Etapa 2: Compreensão dos Dados (Data Understanding)
 
-#### 🗃️ Fonte dos Dados
 
-Base fictícia de Recursos Humanos com atributos relacionados aos funcionários com 1470 durante um periodode tempo não especificado.
+Após a definição clara do problema de negócio e dos objetivos estratégicos do projeto, o próximo passo consiste em explorar a base de dados fornecida pelo departamento de Recursos Humanos. Para isso, foi disponibilizado um arquivo no formato **.xlsx**, contendo informações de **1.470 funcionários** que permaneceram ou deixaram a empresa no último ano. A base contempla variáveis de diferentes naturezas — **demográficas, funcionais e comportamentais** — que foram organizadas e documentadas na tabela de **metadados**, facilitando a identificação e classificação de cada atributo. Ao todo, foram listadas **19 variáveis potencialmente associadas ao turnover**, como idade, salário, tempo na empresa, frequência de viagens, satisfação organizacional, entre outros fatores. 
 
-#### 📊 Dicionário de Variáveis
+O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuição, e a identificação de variáveis relevantes com o ***turnover*** e a detecção de outliers**. Para ello, faremos uso da **Análise Exploratória de Dados (AED)** [(9)](9) como abordgem fudamental na ciência e análeses de dados por meio da ferramenta Microsoft Excel 365®. Além disso, durante esta etapa, e antes do *AED*, é crucial verificar a qualidade dos dados, por meio do chamado *Sanity Check*, permitindo identificar valores fora de faixas plausíveis (outliers), anomalias ou registros possivelmente inconsistentes. 
+
+### 🧰 Principais Técnicas Utilizadas nesta Etapa
+
+- **Tabelas de Frequência**  
+  Construção de frequências **absolutas**, **relativas** e **acumuladas** para as variáveis qualitativas, como Gênero, Estado Civil, Formação e Frequência de Viagens.
+
+- **Visualizações Gráficas**  
+  Uso de **Box-plots**, **Histogramas** e **Gráficos de Barras ou Colunas**, para identificar padrões visuais e outliers em variáveis quantitativas como Salário, Idade e Tempo na Empresa.
+
+- **Medidas Resumo**  
+  Cálculo de estatísticas descritivas como:
+  - **Média**
+  - **Mediana**
+  - **Quartis**
+  - **Desvio Padrão**
+  - **Mínimos e máximos**
+
+- **Análise Bidimensional**  
+  Avaliação da associação entre o turnover e outras variáveis por meio de:
+  - **Correlação de Pearson** (para variáveis quantitativas)
+  - **Coeficiente de Determinação (R²)**
+  - **Information Value (IV)** para medir o poder explicativo das variáveis em relação à saída dos funcionários.
+
+Essas análises oferecem a base necessária para a próxima etapa do projeto — a preparação dos dados e construção de modelos que ajudem a identificar os fatores mais relevantes associados ao turnover.
+
+
+#### 📊 Dicionário de Dados
 
 Abaixo está a descrição das variáveis utilizadas no projeto, com sua classificação e possíveis faixas observadas:
   
- Tabela 1. Dicionário de Variáveis (**Metadados**)
+ Tabela 1. Dicionário de Dados (**Metadados**)
 
 | **Variável**                  | **Descrição**                                                         |**Classificação da Variável**|**Intervalos ou faixas**|
 |:------------------------------|:----------------------------------------------------------------------|:----------------------------|:--------------------------------------------------------|
-| ID                            | Matrícula do funcionário                                              | Qualitativa Discreta        | 1 - 1470                                                |
+| ID                            | Matrícula do funcionário                                              | Qualitativa Discreta        | 1 - 1.470                                                |
 | Funcionário_deixou_a_empresa  | Marcação se o funcionário deixou a empresa recentemente               | Qualitativa Nominal         | Sim / Não                                               |
 | Idade                         | Idade do funcionário                                                  | Quantitativa Discreta       | 18-59 anos                                              |
 | Frequência de Viagens         | Frequência de viagens a trabalho do funcionário                       | Qualitativa Ordinal         | Não viaja, Viaja raramente, Viaja frequentemente        |
@@ -185,24 +207,6 @@ Abaixo está a descrição das variáveis utilizadas no projeto, com sua classif
 
 - `Funcionário_deixou_a_empresa` — Indica se o funcionário deixou a empresa recentemente (`1`) ou não (`0`).
 
-#### 📌 Principais Variáveis Preditivas
-
-- Idade  
-- Salário  
-- Frequência de viagens a trabalho  
-- Distância até o trabalho  
-- E-Sat (satisfação organizacional)  
-- Equilíbrio de Vida  
-- Horas extras  
-- Anos no mesmo cargo  
-- Tempo desde a última promoção  
-- Tempo com o mesmo chefe  
-
-#### 🔍 Ações realizadas
-
-- Análise da estrutura da base de dados  
-- Identificação dos tipos de variáveis (numéricas e categóricas)  
-- Análise exploratória com gráficos, tabelas dinâmicas e estatísticas descritivas
 
 ---
 
@@ -262,11 +266,22 @@ Esses fatores servem como alerta para a área de Recursos Humanos priorizar aç�
 ---
 ## 📌 Referências  
 
-1. **Evermonte.** *Turnover: por que os colaboradores estão permanecendo menos tempo nas companhias?*. Disponível em: [Evermonte Headhunter](https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter/#:~:text=Cada%20vez%20mais%2C%20o%20tempo%20de%20perman%C3%AAncia%20nas,pessoa%20poderia%20ocupar%2C%20por%20anos%2C%20a%20mesma%20posi%C3%A7%C3%A3o.).  
-2. [IDC / LinkedIn — Panorama Turnover Brasil (2023)](https://br.linkedin.com/pulse/panorama-turnover-no-brasil-linkedin-news-brasil)  
-3. [Valor Econômico — Rotatividade no mercado de trabalho (2022)](https://valor.globo.com)  
-4. [CAGED / Ministério do Trabalho (2019–2023)](https://www.gov.br/trabalho-e-emprego)  
-5. [Mercer Brasil — Benchmarking executivo em TI (2023)](https://www.mercer.com.br)  
-6. [Tech Reh — Dados de rotatividade por cargo em tecnologia (2023)](https://www.techreh.com)  
-7. [Great Place to Work — Estudo de rotatividade em Startups (2022)](https://gptw.com.br)  
+[^1]: ROBERT HALF. *Brasil lidera índice de rotatividade de funcionários em todo o mundo: 56%*. Publicado em 23 ago. 2023. Disponível em: [https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html](https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html)
+
+[^2]: EVERMONTE. *Turnover: por que os colaboradores estão permanecendo menos tempo nas companhias?*. Publicado em 08 jul. 2024. Disponível em: [https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter](https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter)
+
+[^3]: MUNDO RH. *Retenção de talentos e baixa rotatividade são fundamentais para o crescimento do setor de tecnologia no Brasil*. Publicado em 16 abr. 2024. Disponível em: [https://www.mundorh.com.br/retencao-de-talentos-e-baixa-rotatividade-sao-fundamentais-para-o-crescimento-do-setor-de-tecnologia-no-brasil](https://www.mundorh.com.br/retencao-de-talentos-e-baixa-rotatividade-sao-fundamentais-para-o-crescimento-do-setor-de-tecnologia-no-brasil)
+
+[^4]:  GUPY. *Retenção de talentos de vagas com alto turnover: como fazer*. Publicado em 26 fev. 2020. Disponível em: [https://www.gupy.io/blog/retencao-de-talentos-turnover](https://www.gupy.io/blog/retencao-de-talentos-turnover)
+
+[^5]: LINKEDIN TALENT SOLUTIONS. *Global Talent Trends Report 2022*. Disponível em: [https://business.linkedin.com/talent-solutions/resources/talent-strategy/global-talent-trends-report](https://business.linkedin.com/talent-solutions/resources/talent-strategy/global-talent-trends-report)
+
+[^6]: TI INSIDE. *Setor de TI apresentava índices menores de rotatividade antes da pandemia, aponta relatório*. Publicado em 18 out. 2022. Disponível em: [https://tiinside.com.br/18/10/2022/setor-de-ti-apresentava-indices-menores-de-rotatividade-antes-da-pandemia-aponta-relatorio](https://tiinside.com.br/18/10/2022/setor-de-ti-apresentava-indices-menores-de-rotatividade-antes-da-pandemia-aponta-relatorio)
+
+[^7]: FORBES BRASIL. *Empresas mexem no C-level para adaptar-se aos novos tempos*. Publicado em 9 nov. 2022. Disponível em: [https://forbes.com.br/carreira/2022/11/empresas-mexem-no-c-level-para-adaptar-se-aos-novos-tempos](https://forbes.com.br/carreira/2022/11/empresas-mexem-no-c-level-para-adaptar-se-aos-novos-tempos)
+
+[^8]: G1 — Pós PUCPR Digital. *Turnover: o índice de rotatividade que vem impactando as empresas*. Publicado em 3 dez. 2022. Disponível em: [https://g1.globo.com/pr/parana/especial-publicitario/pos-pucpr-digital/voce-no-futuro/noticia/2022/12/03/turnover-o-indice-de-rotatividade-que-vem-impactando-as-empresas.ghtml](https://g1.globo.com/pr/parana/especial-publicitario/pos-pucpr-digital/voce-no-futuro/noticia/2022/12/03/turnover-o-indice-de-rotatividade-que-vem-impactando-as-empresas.ghtml)
+
+[^9]: ESTATÍSTICA FÁCIL. *O que é: Análise Exploratória de Dados*. Disponível em: [https://estatisticafacil.org/glossario/o-que-e-analise-exploratoria-de-dados/](https://estatisticafacil.org/glossario/o-que-e-analise-exploratoria-de-dados/)
+
  
