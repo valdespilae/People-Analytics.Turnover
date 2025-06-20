@@ -6,17 +6,17 @@
  Projeto da formação "Gerando Valor com Dados" da Escola de Dados [Preditiva.IA](https://www.preditiva.ai.com)
 
 ## Índice
-- [Contextualização](Contextualização.)
-   - [Benchmark de Turnover no Setor de Tecnologia no Brasil.](Benchmark-de-Turnover-no-Setor-de-Tecnologia-no-Brasil)
-- [Metodologia:  CRISP-DM](Metodologia-CRISP-DM.)
-  - [Etapa 1: Compreensão do Negócio -*Business Understanding*-.](Etapa-1-Compreensão-do-Negócio-Business-Understanding)
-  - [Etapa 2: Compreensão dos Dados -*Data Understanding*-.](Etapa-2-Compreensão-dos-Dados-Data-Understanding)
+- [Contextualização](#-contextualização)
+   - [Benchmark de Turnover no Setor de Tecnologia no Brasil.](#-benchmark-de-turnover-no-setor-de-tecnologia-no-brasil)
+- [Metodologia: CRISP-DM](#-metodologia-crisp-dm)
+  - [Etapa 1: Compreensão do Negócio -*Business Understanding*-.](#-etapa-1-compreensão-do-negócio-business-understanding)
+  - [Etapa 2: Compreensão dos Dados -*Data Understanding*-.](#-etapa-2-compreensão-dos-dados-data-understanding)
 
 ## 📌 Contextualização  
 
 ### O desafio do ***turnover*** nas empresas  
 
-O ***turnover*** ou **rotatividadedos funcionários**, é um dos desafios mais críticos enfrentados pelas empresas atualmente. Segundo um levantamento publicado em **agosto de 2023** pela consultoria **Robert Half**, o Brasil lidera o ranking global de rotatividade, com uma taxa de **56%**, colocando o país entre os que mais enfrentam desafios com retenção de talentos. Esse índice elevado reflete mudanças estruturais no mercado de trabalho, impulsionadas por transformações nas expectativas dos profissionais, que estão cada vez mais atentos ao propósito, à flexibilidade e ao equilíbrio entre vida pessoal e profissional[(1)](-1).
+O ***turnover*** ou **rotatividadedos funcionários**, é um dos desafios mais críticos enfrentados pelas empresas atualmente. Segundo um levantamento publicado em **agosto de 2023** pela consultoria **Robert Half**, o Brasil lidera o ranking global de rotatividade, com uma taxa de **56%**, colocando o país entre os que mais enfrentam desafios com retenção de talentos. Esse índice elevado reflete mudanças estruturais no mercado de trabalho, impulsionadas por transformações nas expectativas dos profissionais, que estão cada vez mais atentos ao propósito, à flexibilidade e ao equilíbrio entre vida pessoal e profissional [(1)](-1).
 
 Outro estudo publicado pela **Evermonte** em **julho de 2024** apontou que **39% dos desligamentos no Brasil em 2023 foram voluntários**, ou seja, motivados pela decisão dos próprios colaboradores[(2)](-2). Esse dado reforça que fatores como satisfação profissional, oportunidades de crescimento e ambiente organizacional exercem influência direta na retenção de talentos, evidenciando a necessidade de estratégias mais humanas e personalizadas por parte das empresas.
 
@@ -145,7 +145,7 @@ existentes na secção seguinte ou na pasta */docs/* no arquivo .xlsx *classific
 
 Após a definição clara do problema de negócio e dos objetivos estratégicos do projeto, o próximo passo consiste em explorar a base de dados fornecida pelo departamento de Recursos Humanos. Para isso, foi disponibilizado um arquivo no formato **.xlsx**, contendo informações de **1.470 funcionários** que permaneceram ou deixaram a empresa no último ano. A base contempla variáveis de diferentes naturezas — **demográficas, funcionais e comportamentais** — que foram organizadas e documentadas na tabela de **metadados**, facilitando a identificação e classificação de cada atributo. Ao todo, foram listadas **19 variáveis potencialmente associadas ao turnover**, como idade, salário, tempo na empresa, frequência de viagens, satisfação organizacional, entre outros fatores. 
 
-O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuição, e a identificação de variáveis relevantes com o ***turnover*** e a detecção de outliers**. Para ello, faremos uso da **Análise Exploratória de Dados (AED)** [(9)](9) como abordgem fudamental na ciência e análeses de dados por meio da ferramenta Microsoft Excel 365®. Além disso, durante esta etapa, e antes do *AED*, é crucial verificar a qualidade dos dados, por meio do chamado *Sanity Check*, permitindo identificar valores fora de faixas plausíveis (outliers), anomalias ou registros possivelmente inconsistentes. 
+O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuição, e a identificação de variáveis relevantes com o ***turnover*** e a detecção de outliers**. Para ello, faremos uso da **Análise Exploratória de Dados (AED)** [(9)](9) como abordagem fundamental na ciência e análesis de dados por meio da ferramenta *Microsoft Excel®*. Além disso, durante esta etapa, e antes do *AED*, é crucial verificar a qualidade dos dados, por meio do chamado *Sanity Check*, permitindo identificar valores fora de faixas plausíveis -*outliers*-, anomalias ou registros possivelmente inconsistentes. 
 
 ### 🧰 Principais Técnicas Utilizadas nesta Etapa
 
@@ -153,7 +153,7 @@ O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuiç
   Construção de frequências **absolutas**, **relativas** e **acumuladas** para as variáveis qualitativas, como Gênero, Estado Civil, Formação e Frequência de Viagens.
 
 - **Visualizações Gráficas**  
-  Uso de **Box-plots**, **Histogramas** e **Gráficos de Barras ou Colunas**, para identificar padrões visuais e outliers em variáveis quantitativas como Salário, Idade e Tempo na Empresa.
+  Uso de **Box-plots**, **Histogramas** e **Gráficos de Barras ou Colunas**, para identificar padrões visuais e outliers em todas as variáveis.
 
 - **Medidas Resumo**  
   Cálculo de estatísticas descritivas como:
@@ -171,7 +171,6 @@ O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuiç
 
 Essas análises oferecem a base necessária para a próxima etapa do projeto — a preparação dos dados e construção de modelos que ajudem a identificar os fatores mais relevantes associados ao turnover.
 
-
 #### 📊 Dicionário de Dados
 
 Abaixo está a descrição das variáveis utilizadas no projeto, com sua classificação e possíveis faixas observadas:
@@ -181,7 +180,7 @@ Abaixo está a descrição das variáveis utilizadas no projeto, com sua classif
 | **Variável**                  | **Descrição**                                                         |**Classificação da Variável**|**Intervalos ou faixas**|
 |:------------------------------|:----------------------------------------------------------------------|:----------------------------|:--------------------------------------------------------|
 | ID                            | Matrícula do funcionário                                              | Qualitativa Discreta        | 1 - 1.470                                                |
-| Funcionário_deixou_a_empresa  | Marcação se o funcionário deixou a empresa recentemente               | Qualitativa Nominal         | Sim / Não                                               |
+| *Funcionário_deixou_a_empresa*| Marcação se o funcionário deixou a empresa recentemente               | Qualitativa Nominal         | Sim / Não                                               |
 | Idade                         | Idade do funcionário                                                  | Quantitativa Discreta       | 18-59 anos                                              |
 | Frequência de Viagens         | Frequência de viagens a trabalho do funcionário                       | Qualitativa Ordinal         | Não viaja, Viaja raramente, Viaja frequentemente        |
 | Distância_do_trabalho         | Distância em Km até o trabalho                                        | Quantitativa Discreta       | 1 - 29 Km                                               |
@@ -202,11 +201,97 @@ Abaixo está a descrição das variáveis utilizadas no projeto, com sua classif
 | Anos_desde_a_ultima_promocao  | Tempo em anos desde a última promoção                                 | Quantitativa Discreta       | 0 - 15 anos                                             |
 | Anos_com_o_mesmo_chefe        | Tempo em anos que responde ao mesmo chefe                             | Quantitativa Discreta       | 0 - 17 anos                                             |
 
-
 #### 🎯 Variável Alvo
 
 - `Funcionário_deixou_a_empresa` — Indica se o funcionário deixou a empresa recentemente (`1`) ou não (`0`).
 
+#### Análises Univariada. Variáveis Qualitativas Nominal
+
+##### Variável - Gênero do funcionário
+
+<p align="center">
+<img src= https://github.com/user-attachments/assets/eee1ae8c-0f07-417d-8b76-c9b59b04719e
+  alt="Fig. Distribuição de gênero nos funcionário entrevistados" width="500" height="300">
+</p>
+
+🔑**Interpretações e reflexões:**
+- **Distribuição equilibrada (mas levemente concentrada)**:
+A equipe é composta por **60% de homens e 40% de mulheres**, o que mostra um certo equilíbrio, especialmente em comparação com a média de representatividade feminina no setor de tecnologia, que tende a ser mais baixa.
+- **Ponto de atenção para a diversidade**:
+Embora não haja um desequilíbrio alarmante, essa divisão pode servir como referência para **metas de inclusão e diversidade de gênero** dentro da organização, especialmente se refletir também em cargos de liderança e acesso a promoções.
+- **Base para análises comparativas**:
+Esse recorte será útil para verificar se há **diferenças significativas de turnover entre os gêneros**. Por exemplo:
+- *A proporção de mulheres que se desligaram foi superior à de homens?*
+- *O tempo médio de permanência é diferente entre os gêneros?* Infelizmente, esta questão não tem como ser abordada com as informações fornecidas pela empresa, porém, seria de suma importância contar com esses datos para futuras analises sobre o índice de *turnover* 
+- Potencial para cruzamento com salário ou promoção:
+Vale cruzar esse dado com outras variáveis como faixa salarial, número de promoções e satisfação no trabalho — é possível detectar, por exemplo, se há disparidades de gênero na remuneração ou reconhecimento.
+
+##### Variável - Estado Civil
+
+<p align="center">
+<img src= https://github.com/user-attachments/assets/003955f8-39e3-46b1-9916-b594dc1776ef
+  alt="Fig. Distribuição do Estado Civil" width="500" height="300">
+</p>
+
+🔑**Interpretações e reflexões:**
+- **Predomínio de funcionários casados**: A maior parte da força de trabalho é casada (**45,8%**), o que pode indicar maior estabilidade, mas também maior responsabilidade financeira, familiar e demanda por equilíbrio vida-trabalho.
+- **Perfil jovem-adulto em destaque:** A soma de **solteiros (32%) + divorciados (22,2%)** representa mais de **54% da amostra**, o que sugere um público majoritariamente com perfil de transição de carreira, mobilidade geográfica ou em busca de desenvolvimento profissional acelerado.
+- Possível relação com o turnover: Funcionários solteiros ou divorciados, por estarem em fases de maior flexibilidade pessoal, podem apresentar maior propensão à rotatividade. Isso será especialmente importante ao cruzar com a variável “Deixou a empresa”.
+- Atenção para políticas personalizadas: Esses dados servem como base para refletir sobre programas de retenção mais segmentados. Por exemplo, casados podem valorizar benefícios familiares ou flexibilidade de horários, enquanto solteiros podem se interessar mais por trilhas de crescimento e mobilidade interna
+
+##### Variável - Funcionário costuma fazer horas extras? Sim/Não
+
+<p align="center">
+<img src= https://github.com/user-attachments/assets/1a860244-9a10-4102-93fd-b1563b599d36
+  alt="Fig. Distribuição do Estado Civil" width="500" height="300">
+</p>
+
+🔑*Interpretações e reflexões:*
+- **A maioria dos colaboradores (71,7%) não realiza horas extras**, o que pode indicar um bom controle da carga de trabalho ou políticas eficazes de equilíbrio.
+- **Quase 1 em cada 3 colaboradores faz horas extras (28,3%)** — esse grupo merece atenção especial, pois horas extras frequentes podem estar relacionadas a:
+  - Sobrecarga de demandas em determinadas áreas;
+  - Dificuldades de dimensionamento da equipe;
+  - Potenciais gatilhos para rotatividade, principalmente se o esforço não estiver sendo compensado financeiramente ou reconhecido institucionalmente.
+- Próximo passo interessante: Cruzar essa variável com: 
+  - Turnover: Quem faz horas extras tem maior taxa de saída?
+  - Satisfação no trabalho: Há correlação negativa?
+  - Cargo ou área de atuação: As horas extras estão concentradas em setores específicos
+
+#### Análises Univariada. Variáveis Qualitativas Ordinal
+##### Variável - Frequência de Viagens
+
+<p align="center">
+<img src= https://github.com/user-attachments/assets/39319fc1-04bb-406d-9a5d-614ba56fc7f1
+ alt="Fig. Distribuição do Estado Civil" width="400" height="400">
+</p>
+
+🔑*Interpretações e reflexões:*
+- A maior parte dos colaboradores (71%) viaja raramente, sugerindo que a empresa adota um modelo com deslocamentos pontuais, talvez mais comum em funções técnicas ou administrativas.
+- Quase 19% viaja com frequência, o que pode indicar funções voltadas à área comercial, suporte externo ou cargos executivos — esses colaboradores podem estar mais expostos a fatores de estresse, desequilíbrio vida-trabalho e potencial desgaste, especialmente se não houver compensações compatíveis.
+- Apenas 10,2% não viajam nunca, o que pode incluir funções exclusivamente internas, como suporte local, administrativo, ou posições mais júnior.
+- Essa variável é forte candidata para durante a fase de Análesis bidimensional realizar uma análise de forma cruzada com:
+- Turnover: *Pessoas que viajam frequentemente deixam mais a empresa?*
+- Satisfação no trabalho: *Há correlação com baixa satisfação?*
+- Cargos: *Quem são os profissionais que mais se deslocam?*
+
+
+
+---
+
+
+
+##### Variável ***Target***: Funciónarios que deixaram a empresa
+🔑Interpretações e reflexões:
+- A taxa de turnover total de 16.1% no último ano:
+   º Dos 1.470 funcionários analisados, **237 se desligaram da empresa**, representando **16,1% do total. Esse índice está **abaixo da média nacional** e até de alguns benchmarks do setor de tecnologia[^1][^4], o que pode indicar **bons esforços atuais** em retenção — mas também **potencial para melhoria**
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/bacd97bc-af82-423e-b8e8-3b8a03fd2101" 
+  alt="Descrição da imagem" width="400" height="300">
+</p>
+
+##### Variável: Funciónarios que deixaram a empresa
+🎯Insights:
 
 ---
 
