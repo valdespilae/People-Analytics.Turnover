@@ -346,6 +346,49 @@ A variável Equilíbrio de Vida é uma peça-chave quando falamos de bem-estar, 
   - Satisfação no trabalho: *há coerência entre quem está satisfeito e quem sente equilíbrio?*
   - Turnover: *desequilíbrio está influenciando nas saídas?*
 
+#### Análises Univariada. Variáveis Quantitativa Discreta
+
+##### Variável - 🗓 Idade
+
+Esta análise por faixas etárias, o que nos ajuda a entender melhor a distribuição demográfica da força de trabalho.
+
+<div style="display: flex; justify-content: center; gap: 30px;">
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/2045dc76-a6a9-4041-9f76-6a8677533637" alt="Boxplot de Idade" width="400"/>
+    <p><strong>Figura 9:</strong> Boxplot da Faixa Etária</p>
+  </div>
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/4011794d-150e-456b-957e-85f773496f34" alt="Histograma de Idade" width="400"/>
+    <p><strong>Figura 10:</strong> Histograma da Faixa Etária</p>
+  </div>
+</div>
+
+Interpretação do Boxplot — Idade dos Colaboradores
+🧮 Estatísticas Chave (extraídas do gráfico):
+- **Mínimo:** 18 anos
+- **Q1** (1º Quartil): 30 anos
+- **Mediana:** ~36,92 anos
+- **Q3** (3º Quartil): 43 anos
+- **Máximo:** 60 anos
+  
+📌 O que esse *boxplot* revela:
+- **Distribuição equilibrada:** A mediana está relativamente centralizada entre Q1 e Q3, indicando uma distribuição simétrica e saudável.
+- **Amplitude interquartil (AIQ):** Compreendida entre 30 e 43 anos (13 anos), o que sugere uma **alta concentração de funcionários adultos jovens** — corroborando os dados por faixa etária que analisamos antes.
+- **Sem outliers visíveis:** O gráfico não mostra pontos isolados além dos limites, sugerindo que **não há idades muito distantes do padrão**, como colaboradores extremamente jovens ou idosos.
+- **Faixa etária bem distribuída entre 18 e 60 anos**, o que denota diversidade geracional dentro da empresa.
+
+🔍 Complemento à análise do boxplot
+
+- O histograma evidencia a forma da distribuição (quase normal, com leve inclinação à esquerda), enquanto o boxplot foca na mediana, dispersão e outliers.
+- Ambos juntos mostram que **a idade média gira em torno de 36–37 anos**, sem extremos anômalos.
+
+🔑*Interpretações e reflexões:*
+- **Concentração nas faixas de 28 a 42 anos**: Juntas, as faixas **28–32 (16,96%)**, **33–37 (21,36%)** e **38–42 (17,86%)** representam mais da **metade da força de trabalho (56%)**. Isso sugere um time majoritariamente **adulto jovem a meia-idade**, faixa etária associada a maior produtividade, experiência consolidada e fase de estabilidade na carreira.
+- **Baixa presença de jovens (18–27):** Apenas **9,3%** dos funcionários têm até 27 anos, o que pode indicar:
+    - Baixa taxa de entrada de recém-formados ou estagiários;
+    - Necessidade de revisar políticas de atração de jovens talentos.
+- **Faixa sênior com representação modesta:** As faixas **53–57 (7,74%)** e **58–62 (3,14%)** somam cerca de **10,9%**. Esses profissionais podem representar papéis estratégicos ou lideranças seniores — importantes para retenção do conhecimento institucional.
+- **Potencial para análise de rotatividade:** Ao cruzar com a variável “Deixou a Empresa”, poderemos identificar se **a rotatividade é mais comum entre os jovens (perfil exploratório)** ou os mais experientes (aposentadoria ou mudança de carreira).
 
 
 
