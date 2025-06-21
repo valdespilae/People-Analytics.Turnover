@@ -213,7 +213,7 @@ Abaixo está a descrição das variáveis utilizadas no projeto, com sua classif
 ##### Variável - Gênero do funcionário
 
 <div align="center">
-<img src= https://github.com/user-attachments/assets/eee1ae8c-0f07-417d-8b76-c9b59b04719e
+<img src= https://github.com/user-attachments/assets/ba4383d0-e581-47de-ae1c-14cdba43db7f
   alt="Fig. Distribuição de gênero dos funcionário entrevistados" width="500" height="300">
   <p><strong> Figura 2:</strong> Distribuição dos funcionários da empresa por genero: M(Mulheres) e H(Homens)</p>
 </div> 
@@ -227,14 +227,14 @@ Embora não haja um desequilíbrio alarmante, essa divisão pode servir como ref
 - **Base para análises comparativas**:
 Esse recorte será útil para verificar se há **diferenças significativas de turnover entre os gêneros**. Por exemplo:
 - *A proporção de mulheres que se desligaram foi superior à de homens?*
-- *O tempo médio de permanência é diferente entre os gêneros?* Infelizmente, esta questão não tem como ser abordada com as informações fornecidas pela empresa, porém, seria de suma importância contar com esses datos para futuras analises sobre o índice de *turnover* 
+- *O tempo médio de permanência é diferente entre os gêneros?* Infelizmente, esta questão não tem como ser abordada com as informações fornecidas pela empresa, porém, seria de suma importância contar com esses datos para futuras análises sobre o índice de *turnover* 
 - Potencial para cruzamento com salário ou promoção:
 Vale cruzar esse dado com outras variáveis como faixa salarial, número de promoções e satisfação no trabalho — é possível detectar, por exemplo, se há disparidades de gênero na remuneração ou reconhecimento.
 
 ##### Variável - Estado Civil
 
 <div align="center">
-<img src= https://github.com/user-attachments/assets/003955f8-39e3-46b1-9916-b594dc1776ef
+<img src= https://github.com/user-attachments/assets/812bb551-af78-4db4-908c-9a99a9ff5110
   alt="Fig. Distribuição dos funcionários por Estado Civil" width="500" height="300">
   <p><strong> Figura 3:</strong> Distribuição dos funcionários por Estado Civil.</p>
 </div> 
@@ -270,7 +270,7 @@ Vale cruzar esse dado com outras variáveis como faixa salarial, número de prom
 ##### Variável - Frequência de Viagens
 
 <div align="center">
-<img src= https://github.com/user-attachments/assets/75be9dcc-fcd3-4a6a-a353-600743195316
+<img src= https://github.com/user-attachments/assets/f740c772-e045-4e52-8f1f-0bd7082d6109
   alt="Fig. Frequência de Viagens" width="500" height="400">
   <p><strong> Figura 5:</strong> Distribuição de Funcionários por Frequência de Viagens.</p>
 </div> 
@@ -309,8 +309,8 @@ Essa variável pode ser extremamente reveladora quando cruzada com:
 ##### Variável - 🌤️ Satisfação com o Clima Organizacional
 
 <div align="center">
-<img src= https://github.com/user-attachments/assets/0977b81f-8d37-47ac-bf00-f323e20df4ce
-  alt="Satisfação com o Clima Organizacional" width="500" height="300">
+<img src= https://github.com/user-attachments/assets/4f2f0353-549b-42e9-891e-d7d01ba84e3d
+   alt="Satisfação com o Clima Organizacional" width="500" height="400">
   <p><strong> Figura 7:</strong> Satisfação com o Clima Organizacional.</p>
 </div> 
 
@@ -330,7 +330,7 @@ Esta variável é altamente relevante para prever engajamento, produtividade e r
 ##### Variável - ⚖️ Equilíbrio de Vida
 
 <div align="center">
-<img src= https://github.com/user-attachments/assets/a017e073-c5a4-42d0-b17f-5091765bc417
+<img src= https://github.com/user-attachments/assets/5c19c18b-4e1f-4941-a7cc-d49ca9868f81
   alt="Satisfação com o Clima Organizacional" width="500" height="300">
   <p><strong> Figura 8:</strong> Satisfação com o Clima Organizacional.</p>
 </div> 
@@ -390,7 +390,125 @@ Interpretação do Boxplot — Idade dos Colaboradores
 - **Faixa sênior com representação modesta:** As faixas **53–57 (7,74%)** e **58–62 (3,14%)** somam cerca de **10,9%**. Esses profissionais podem representar papéis estratégicos ou lideranças seniores — importantes para retenção do conhecimento institucional.
 - **Potencial para análise de rotatividade:** Ao cruzar com a variável “Deixou a Empresa”, poderemos identificar se **a rotatividade é mais comum entre os jovens (perfil exploratório)** ou os mais experientes (aposentadoria ou mudança de carreira).
 
+##### Variável - 📍 Distância do Trabalho
 
+A variável Distância do Trabalho nos oferece um ótimo panorama sobre mobilidade, logística e até possíveis influências no bem-estar e na rotatividade dos colaboradores
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/425ff717-b052-4243-b001-250939529b52
+  alt="Distância do Trabalho" width="500" height="300">
+  <p><strong> Figura 11:</strong> Boxplot distância do trabalho dos colaboradores.</p>
+</div> 
+
+Interpretação do Boxplot
+🎯 Elementos estatísticos do gráfico:
+- **Mínimo**: 1 km
+- **1º quartil** (Q1): 2 km
+- **Mediana**: 9,19 km
+- **3º quartil** (Q3): 14 km
+- **Máximo**: 29 km
+
+📌 O que esse *boxplot* revela:
+- **Distribuição assimétrica à direita (assimetria positiva)**:
+A maior parte dos colaboradores reside próximo ao trabalho, com valores concentrados entre **1 e 14 km**, mas há uma **cauda estendida até 29 km**, indicando alguns casos de deslocamentos mais longos.
+- **Mediana deslocada para a esquerda da caixa:**
+A mediana está mais próxima do Q1 do que do Q3, o que confirma que **mais de 50% dos funcionários vivem a menos de 9,2 km da empresa**. Excelente indicador logístico!
+- **Ausência de outliers visíveis:**
+Não há pontos fora do intervalo da caixa com bigodes, o que indica que **os deslocamentos estão bem distribuídos e dentro de uma faixa aceitável**.
+- **Amplitude interquartil (IQR):**
+A faixa central da maioria dos funcionários está entre **2 km e 14 km**, o que ajuda a delimitar uma zona de "conforto logístico" para políticas de home office parcial ou benefícios de mobilidade.
+
+🔑*Interpretações e reflexões:*
+- **Alta concentração próxima ao local de trabalho:**
+Mais de **1/3 dos colaboradores (34,2%) moram até 3 km da empresa**, o que pode sugerir:
+  - Boa localização da empresa;
+  - Preferência por contratação local;
+  - Menores custos de transporte e maior pontualidade.
+- **Distribuição decrescente com a distância:**
+À medida que a distância aumenta, o número de funcionários diminui — mostrando que a empresa **atrai menos pessoas de áreas mais distantes**, o que é esperado.
+- **Grupo entre 7 e 12 km (26% combinados)** ainda representa uma parcela relevante, possivelmente motivada por facilidade de transporte público ou compensações oferecidas.
+- **Maioria mora até 9 km da empresa (63,9%)**, o que confirma um padrão de deslocamento moderado e confortável para boa parte da força de trabalho.
+- **Distâncias acima de 18 km (faixas finais)** somam apenas cerca de **17% do total**, mas esse grupo pode ter:
+  - Desgaste com o deslocamento;
+  - Demanda por modelos híbridos ou flexíveis.
+
+🔍 Possibilidades de cruzamento:
+- Distância × Turnover: *Funcionários que moram longe saem mais?*
+- Distância × Equilíbrio de Vida ou Satisfação: *Há relação entre distância e percepção de bem-estar?*
+- Distância × Horas Extras: *Quem mora longe está ficando mais tempo no trabalho para “compensar” o deslocamento?*
+
+
+##### Variável -🧭  Quantidade de Empresas que um Funcionário Trabalhou
+
+ A variável "Quantidade de Empresas que um Funcionário Trabalhou" é uma excelente proxy para entender experiência prévia, perfil profissional e até possível propensão ao turnover. Vamos destrinchar os insights:
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/7b24819f-ea03-4e1e-8265-9498e32a8f99
+  alt="Satisfação com o Clima Organizacional" width="500" height="300">
+  <p><strong> Figura 12:</strong> Boxplot quantidade de empresas que um funcionário trabalhou.</p>
+</div> 
+
+Interpretação do Boxplot:
+🔢 Estatísticas visuais extraídas do gráfico:
+- **Mínimo**: 0 empresas
+- **Q1** (1º quartil): 1 empresa
+- **Mediana** (Q2): cerca de 2,7 empresas
+- **Q3** (3º quartil): 4 empresas
+- **Máximo**: 9 empresas
+- **Outlier identificado**: 9 empresas (isolado acima dos bigodes
+
+📌 Interpretações:
+- **Distribuição assimétrica à direita (positivamente enviesada)**:
+A mediana está mais próxima de Q1 que de Q3, e o boxplot apresenta uma cauda longa à direita, indicando que a **maioria dos funcionários trabalhou em até 4 empresas**, mas há alguns com trajetórias mais instáveis ou extensas.
+- **Concentração de históricos curtos**:
+Com Q1 em 1 e mediana abaixo de 3, isso reforça que **pelo menos 50% dos colaboradores têm uma experiência profissional mais enxuta**, o que pode indicar:
+    - Profissionais em início de carreira;
+    - Menor bagagem de mercado (mas talvez maior lealdade organizacional).
+- **Outlier interessante**:
+O valor **9 como ponto extremo isolado** pode representar perfis com alta mobilidade — seja por desejo de crescimento rápido, instabilidade de carreira, ou funções temporárias.
+
+🔑*Interpretações e reflexões:*
+- **Quase metade dos funcionários (48,8%) trabalharam em no máximo uma empresa antes da atual** — ou seja, **são profissionais com pouca experiência anterior ou que iniciaram a carreira na empresa atual**. Esse grupo tende a apresentar:
+    - Menor exposição a outras culturas organizacionais;
+    - Possivelmente mais lealdade ou dependência da empresa atual;
+    - Alto potencial para retenção, *se houver investimento em desenvolvimento.*
+- **51,2% já passaram por 2 ou mais empresas**, o que pode indicar:
+    - Profissionais **com bagagem de mercado** e diversidade de experiências;
+    - Perfil mais exploratório ou ambições de crescimento acelerado — o que pode estar correlacionado a uma **maior tendência à rotatividade**.
+- **Grupo com 6 a 9 empresas (16,7%)**: Possível sinal de mobilidade elevada ou até um histórico de trocas frequentes. Vale analisar:
+    - Se esse grupo permanece menos tempo na empresa atual;
+    - Como se comportam em termos de satisfação e equilíbrio.
+
+🔍 Sugestões para aprofundar
+Essa variável ganha ainda mais força quando combinada com:
+- Turnover → *Profissionais com múltiplos históricos saem mais rápido?*
+- Idade → *Os mais jovens são os que têm menos experiências?*
+- Formação ou Cargo → *Quem tem mais empresas no currículo ocupa posições mais estratégicas?*
+
+##### Variável - Quantidade de Ações da Empresa
+ A variável Quantidade de Ações da Empresa revela muito sobre o grau de engajamento, a credibilidade, confiança e participação dos colaboradores no negócio
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/4f1c94f1-8fe1-41aa-920d-f2a8a5d7112f
+  alt="Variável Quantidade de Ações da Empresa" width="500" height="300">
+  <p><strong> Figura 13:</strong> Gráfico com Quantidade de Ações da Empresa.</p>
+</div> 
+
+📌 Insights Estratégicos
+- **Cerca de 43% dos colaboradores não possuem ações da empresa**, o que pode indicar:
+    - Falta de interesse ou entendimento sobre o programa de participação acionária;
+    - Elegibilidade restrita ou falta de incentivo para adesão;
+    - Perfil de colaboradores mais novos, operacionais ou menos engajados com a cultura corporativa.
+- **41% possuem 1 ação**, o que mostra um nível básico de envolvimento — pode indicar que esses colaboradores participaram de iniciativas pontuais ou receberam ações em programas padronizados.
+- **Somente 16,5% possuem 2 ou mais ações**, sugerindo um grupo mais envolvido, veterano ou que aposta na empresa como plano de longo prazo — esses funcionários tendem a ter **maior alinhamento com os resultados organizacionais**, e possivelmente ocupam **posições de liderança, cargos técnicos estratégicos ou estão na empresa há mais tempo**.
+- **Distribuição decrescente** reforça a ideia de que a posse de ações está fortemente concentrada em um grupo pequeno e mais engajado.
+
+🔍 Aprofundando a Análise
+Essa variável ganha ainda mais significado se cruzada com:
+- Tempo de casa: *Quem tem mais ações está há mais tempo?*
+- Cargo/Faixa salarial: *Profissionais mais seniores tendem a ter maior participação?*
+- Turnover: *Quem possui ações sai menos da empresa?*
+- Satisfação ou Clima Organizacional: A posse de ações está associada a maior engajamento?
 
 
 ---
@@ -403,8 +521,8 @@ Interpretação do Boxplot — Idade dos Colaboradores
    º Dos 1.470 funcionários analisados, **237 se desligaram da empresa**, representando **16,1% do total**. Esse índice está **abaixo da média nacional** e até de alguns benchmarks do setor de tecnologia[^1][^4], o que pode indicar **bons esforços atuais** em retenção — mas também **potencial para melhoria**
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/bacd97bc-af82-423e-b8e8-3b8a03fd2101" 
-  alt="Descrição da imagem" width="400" height="300">
+<img src="https://github.com/user-attachments/assets/df512da5-1121-4996-aa09-b40a10d75325"
+  alt="Descrição da imagem" width="500" height="300">
 </p>
 
 ##### Variável: Funciónarios que deixaram a empresa
@@ -466,6 +584,7 @@ Esses fatores servem como alerta para a área de Recursos Humanos priorizar aç�
 
 #### 🗂️ Estrutura sugerida do repositório
 ---
+
 ## 📌 Referências  
 
 [^1]: ROBERT HALF. *Brasil lidera índice de rotatividade de funcionários em todo o mundo: 56%*. Publicado em 23 ago. 2023. Disponível em: [https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html](https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html)
