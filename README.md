@@ -66,11 +66,14 @@ A metodologia ***CRISP-DM (Cross Industry Standard Process for Data Mining)*** �
 
 Este projeto busca **entender os fatores que influenciam o turnover** e propor **estratégias para reduzir a rotatividade** dos funcionários em uma empresa de tecnologia. Como se trata de uma análise exploratória e investigativa, a CRISP-DM é a metodologia ideal, pois oferece um fluxo de trabalho lógico e sistemático para abordar o problema de forma eficiente.  
 
-<p align="center">
-<img src="https://github.com/user-attachments/assets/c5129457-0470-44cb-b0b2-cadf5b2de4fd" alt="Descrição da imagem" width="500" height="500">
-</p>
-
-*fonte: [ https://towardsdatascience.com/using-crisp-dm-to-grow-as-data-scientist-a07ce3fd9d56/]( https://towardsdatascience.com/using-crisp-dm-to-grow-as-data-scientist-a07ce3fd9d56/)*
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/c5129457-0470-44cb-b0b2-cadf5b2de4fd" alt="Box plot dos salários" width="500" height="500"/>
+  <p><strong>Figura 1:</strong> Modelo de processo CRISP-DM</p>
+  <p style="font-size: 0.9em;">
+    <em>Fonte:</em> TOWARDS DATA SCIENCE. <strong>Using CRISP-DM to Grow as a Data Scientist</strong>. Publicado em 2 abr. 2020.
+    Disponível em: <a href="https://towardsdatascience.com/using-crisp-dm-to-grow-as-data-scientist-a07ce3fd9d56" target="_blank">https://towardsdatascience.com/...</a>
+  </p>
+</div>
 
 ### 🔬 As seis fases do CRISP-DM e sua aplicação no projeto  
 
@@ -145,7 +148,7 @@ existentes na secção seguinte ou na pasta */docs/* no arquivo .xlsx *classific
 
 Após a definição clara do problema de negócio e dos objetivos estratégicos do projeto, o próximo passo consiste em explorar a base de dados fornecida pelo departamento de Recursos Humanos. Para isso, foi disponibilizado um arquivo no formato **.xlsx**, contendo informações de **1.470 funcionários** que permaneceram ou deixaram a empresa no último ano. A base contempla variáveis de diferentes naturezas — **demográficas, funcionais e comportamentais** — que foram organizadas e documentadas na tabela de **metadados**, facilitando a identificação e classificação de cada atributo. Ao todo, foram listadas **19 variáveis potencialmente associadas ao turnover**, como idade, salário, tempo na empresa, frequência de viagens, satisfação organizacional, entre outros fatores. 
 
-O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuição, e a identificação de variáveis relevantes com o ***turnover*** e a detecção de outliers**. Para ello, faremos uso da **Análise Exploratória de Dados (AED)** [(9)](9) como abordagem fundamental na ciência e análesis de dados por meio da ferramenta *Microsoft Excel®*. Além disso, durante esta etapa, e antes do *AED*, é crucial verificar a qualidade dos dados, por meio do chamado *Sanity Check*, permitindo identificar valores fora de faixas plausíveis -*outliers*-, anomalias ou registros possivelmente inconsistentes. 
+O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuição, e a identificação de variáveis relevantes com o ***turnover*** e a detecção de outliers**. Para ello, faremos uso da **Análise Exploratória de Dados (AED)** [(10)](10) como abordagem fundamental na ciência e análesis de dados por meio da ferramenta *Microsoft Excel®*. Além disso, durante esta etapa, e antes do *AED*, é crucial verificar a qualidade dos dados, por meio do chamado *Sanity Check*, permitindo identificar valores fora de faixas plausíveis -*outliers*-, anomalias ou registros possivelmente inconsistentes. 
 
 ### 🧰 Principais Técnicas Utilizadas nesta Etapa
 
@@ -209,10 +212,12 @@ Abaixo está a descrição das variáveis utilizadas no projeto, com sua classif
 
 ##### Variável - Gênero do funcionário
 
-<p align="center">
+<div align="center">
 <img src= https://github.com/user-attachments/assets/eee1ae8c-0f07-417d-8b76-c9b59b04719e
-  alt="Fig. Distribuição de gênero nos funcionário entrevistados" width="500" height="300">
-</p>
+  alt="Fig. Distribuição de gênero dos funcionário entrevistados" width="500" height="300">
+  <p><strong> Figura 2:</strong> Distribuição dos funcionários da empresa por genero: M(Mulheres) e H(Homens)</p>
+</div> 
+
 
 🔑**Interpretações e reflexões:**
 - **Distribuição equilibrada (mas levemente concentrada)**:
@@ -228,10 +233,11 @@ Vale cruzar esse dado com outras variáveis como faixa salarial, número de prom
 
 ##### Variável - Estado Civil
 
-<p align="center">
+<div align="center">
 <img src= https://github.com/user-attachments/assets/003955f8-39e3-46b1-9916-b594dc1776ef
-  alt="Fig. Distribuição do Estado Civil" width="500" height="300">
-</p>
+  alt="Fig. Distribuição dos funcionários por Estado Civil" width="500" height="300">
+  <p><strong> Figura 3:</strong> Distribuição dos funcionários por Estado Civil.</p>
+</div> 
 
 🔑**Interpretações e reflexões:**
 - **Predomínio de funcionários casados**: A maior parte da força de trabalho é casada (**45,8%**), o que pode indicar maior estabilidade, mas também maior responsabilidade financeira, familiar e demanda por equilíbrio vida-trabalho.
@@ -241,10 +247,13 @@ Vale cruzar esse dado com outras variáveis como faixa salarial, número de prom
 
 ##### Variável - Funcionário costuma fazer horas extras? Sim/Não
 
-<p align="center">
+
+<div align="center">
 <img src= https://github.com/user-attachments/assets/1a860244-9a10-4102-93fd-b1563b599d36
-  alt="Fig. Distribuição do Estado Civil" width="500" height="300">
-</p>
+  alt="Fig. Distribuição dos funcionários por Estado Civil" width="500" height="300">
+  <p><strong> Figura 4:</strong> Proporção de Funcionários que Realizam Horas Extras.</p>
+</div> 
+
 
 🔑*Interpretações e reflexões:*
 - **A maioria dos colaboradores (71,7%) não realiza horas extras**, o que pode indicar um bom controle da carga de trabalho ou políticas eficazes de equilíbrio.
@@ -260,19 +269,84 @@ Vale cruzar esse dado com outras variáveis como faixa salarial, número de prom
 #### Análises Univariada. Variáveis Qualitativas Ordinal
 ##### Variável - Frequência de Viagens
 
-<p align="center">
-<img src= https://github.com/user-attachments/assets/39319fc1-04bb-406d-9a5d-614ba56fc7f1
- alt="Fig. Distribuição do Estado Civil" width="400" height="400">
-</p>
+<div align="center">
+<img src= https://github.com/user-attachments/assets/75be9dcc-fcd3-4a6a-a353-600743195316
+  alt="Fig. Frequência de Viagens" width="500" height="400">
+  <p><strong> Figura 5:</strong> Distribuição de Funcionários por Frequência de Viagens.</p>
+</div> 
+
 
 🔑*Interpretações e reflexões:*
-- A maior parte dos colaboradores (71%) viaja raramente, sugerindo que a empresa adota um modelo com deslocamentos pontuais, talvez mais comum em funções técnicas ou administrativas.
+- A maior parte dos colaboradores (**71%**) viaja raramente, sugerindo que a empresa adota um modelo com deslocamentos pontuais, talvez mais comum em funções técnicas ou administrativas.
 - Quase 19% viaja com frequência, o que pode indicar funções voltadas à área comercial, suporte externo ou cargos executivos — esses colaboradores podem estar mais expostos a fatores de estresse, desequilíbrio vida-trabalho e potencial desgaste, especialmente se não houver compensações compatíveis.
-- Apenas 10,2% não viajam nunca, o que pode incluir funções exclusivamente internas, como suporte local, administrativo, ou posições mais júnior.
+- Apenas **10,2%** não viajam nunca, o que pode incluir funções exclusivamente internas, como suporte local, administrativo, ou posições mais júnior.
 - Essa variável é forte candidata para durante a fase de Análesis bidimensional realizar uma análise de forma cruzada com:
-- Turnover: *Pessoas que viajam frequentemente deixam mais a empresa?*
-- Satisfação no trabalho: *Há correlação com baixa satisfação?*
-- Cargos: *Quem são os profissionais que mais se deslocam?*
+  - Turnover: *Pessoas que viajam frequentemente deixam mais a empresa?*
+  - Satisfação no trabalho: *Há correlação com baixa satisfação?*
+  - Cargos: *Quem são os profissionais que mais se deslocam?*
+
+##### Variável - 🎓 Formação Acadêmica
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/5d48e22e-5712-481b-a3bd-39164a9f6d63
+  alt="Fig. Formação Acadêmica" width="500" height="300">
+  <p><strong> Figura 6:</strong> Distribuição de Funcionários por Nível de Formação Acadêmica.</p>
+</div> 
+
+🔑*Interpretações e reflexões:*
+
+- **Alta escolaridade da força de trabalho:** Cerca de **69% dos colaboradores possuem Ensino Superior ou Pós-Graduação (Mestrado/Doutorado)**. Isso sugere que a empresa opera em um contexto técnico ou altamente qualificado — possivelmente setores como tecnologia, pesquisa, engenharia ou serviços especializados.
+- **Pico em Ensino Superior:** A maior parte está concentrada no Ensino Superior **(38,9%)**, seguido de Mestrado **(27,1%)**, o que indica **forte cultura de qualificação acadêmica** e uma provável valorização de títulos na progressão de carreira.
+- **Baixa presença de Ensino Médio:** Apenas **11,6%** têm formação média, o que pode representar cargos operacionais ou de apoio com menor exigência técnica. Isso pode impactar o perfil de turnover nesses grupos (por exemplo: maior rotatividade por remuneração ou oportunidades externas).
+- Doutorado é minoria, mas relevante: Com 48 pessoas **(3,3%)**, essa faixa pode representar áreas de inovação, pesquisa ou liderança técnica. Esses profissionais tendem a ter expectativas mais elevadas de desafios, autonomia e reconhecimento.
+
+💡Potencial de Cruzamentos
+Essa variável pode ser extremamente reveladora quando cruzada com:
+- Salário Mensal: *Há proporcionalidade entre formação e remuneração?*
+- Turnover: *Profissionais com maior formação estão deixando a empresa mais ou menos?*
+- Promoção / Crescimento na empresa: *Qual o impacto da formação na trajetória interna?*
+
+##### Variável - 🌤️ Satisfação com o Clima Organizacional
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/0977b81f-8d37-47ac-bf00-f323e20df4ce
+  alt="Satisfação com o Clima Organizacional" width="500" height="300">
+  <p><strong> Figura 7:</strong> Satisfação com o Clima Organizacional.</p>
+</div> 
+
+🔑*Interpretações e reflexões:*
+Esta variável é altamente relevante para prever engajamento, produtividade e riscos de desligamento.
+- **Clima amplamente positivo:** Quase **61% dos colaboradores** relataram níveis de satisfação **"Alto"** ou **"Muito Alto"**. Isso demonstra um ambiente organizacional saudável e colaborativo — uma excelente base para retenção e desempenho.
+- **Dois polos bem definidos:** Enquanto boa parte demonstra alta satisfação, há um bloco expressivo de colaboradores (**38,8%**) com níveis **"Baixo"** ou **"Médio"**. Isso pode indicar:
+  - Segmentos da empresa com menor engajamento;
+  - Lideranças pouco eficazes;
+  - Falta de comunicação ou reconhecimento em áreas específicas.
+- **Atenção ao grupo insatisfeito:** Os **19,3% insatisfeitos** merecem análise especial — esse grupo pode ser o mais suscetível ao desligamento voluntário, absenteísmo ou baixo desempenho.
+- **Base valiosa para cruzamentos:** Essa variável pode ser cruzada com:
+  - **Turnover:** *quem sai mais: satisfeitos ou insatisfeitos?*;
+  - **Horas Extras:** *trabalhadores mais sobrecarregados tendem a estar menos satisfeitos?*;
+  - **Área/Cargo:** *quais setores têm mais colaboradores insatisfeitos?*.
+
+##### Variável - ⚖️ Equilíbrio de Vida
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/a017e073-c5a4-42d0-b17f-5091765bc417
+  alt="Satisfação com o Clima Organizacional" width="500" height="300">
+  <p><strong> Figura 8:</strong> Satisfação com o Clima Organizacional.</p>
+</div> 
+
+🔑*Interpretações e reflexões:*
+A variável Equilíbrio de Vida é uma peça-chave quando falamos de bem-estar, produtividade e retenção de talentos.
+- Ambiente positivo para equilíbrio vida-trabalho: Cerca de **71% dos colaboradores** avaliam seu equilíbrio como **“Muito bom”** ou **“Excelente”**, o que é um ótimo sinal de cultura organizacional saudável.
+- Baixo percentual de insatisfação grave: Apenas **5,4% reportam “Equilíbrio de vida ruim”**, sugerindo que a empresa pode estar gerenciando bem cargas de trabalho, horários e flexibilidade — ou que existem nichos específicos com esse desafio.
+- Grupo intermediário relevante (**23,4% “Bom”**): Embora satisfeito, esse grupo pode sinalizar oportunidades de melhoria — são pessoas que talvez estejam no limite entre a satisfação e a sobrecarga.
+- Base para cruzamentos estratégicos:
+ Essa variável pode revelar muito quando combinada com:
+  - Horas Extras: *quem tem baixo equilíbrio está fazendo mais horas?*
+  - Satisfação no trabalho: *há coerência entre quem está satisfeito e quem sente equilíbrio?*
+  - Turnover: *desequilíbrio está influenciando nas saídas?*
+
+
 
 
 
@@ -283,7 +357,7 @@ Vale cruzar esse dado com outras variáveis como faixa salarial, número de prom
 ##### Variável ***Target***: Funciónarios que deixaram a empresa
 🔑Interpretações e reflexões:
 - A taxa de turnover total de 16.1% no último ano:
-   º Dos 1.470 funcionários analisados, **237 se desligaram da empresa**, representando **16,1% do total. Esse índice está **abaixo da média nacional** e até de alguns benchmarks do setor de tecnologia[^1][^4], o que pode indicar **bons esforços atuais** em retenção — mas também **potencial para melhoria**
+   º Dos 1.470 funcionários analisados, **237 se desligaram da empresa**, representando **16,1% do total**. Esse índice está **abaixo da média nacional** e até de alguns benchmarks do setor de tecnologia[^1][^4], o que pode indicar **bons esforços atuais** em retenção — mas também **potencial para melhoria**
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/bacd97bc-af82-423e-b8e8-3b8a03fd2101" 
@@ -367,6 +441,8 @@ Esses fatores servem como alerta para a área de Recursos Humanos priorizar aç�
 
 [^8]: G1 — Pós PUCPR Digital. *Turnover: o índice de rotatividade que vem impactando as empresas*. Publicado em 3 dez. 2022. Disponível em: [https://g1.globo.com/pr/parana/especial-publicitario/pos-pucpr-digital/voce-no-futuro/noticia/2022/12/03/turnover-o-indice-de-rotatividade-que-vem-impactando-as-empresas.ghtml](https://g1.globo.com/pr/parana/especial-publicitario/pos-pucpr-digital/voce-no-futuro/noticia/2022/12/03/turnover-o-indice-de-rotatividade-que-vem-impactando-as-empresas.ghtml)
 
-[^9]: ESTATÍSTICA FÁCIL. *O que é: Análise Exploratória de Dados*. Disponível em: [https://estatisticafacil.org/glossario/o-que-e-analise-exploratoria-de-dados/](https://estatisticafacil.org/glossario/o-que-e-analise-exploratoria-de-dados/)
+[^9]: TOWARDS DATA SCIENCE. *Using CRISP-DM to Grow as a Data Scientist*. Publicado em 2 abr. 2020. Disponível em: [https://towardsdatascience.com/using-crisp-dm-to-grow-as-data-scientist-a07ce3fd9d56](https://towardsdatascience.com/using-crisp-dm-to-grow-as-data-scientist-a07ce3fd9d56)
+
+[^10]: ESTATÍSTICA FÁCIL. *O que é: Análise Exploratória de Dados*. Disponível em: [https://estatisticafacil.org/glossario/o-que-e-analise-exploratoria-de-dados/](https://estatisticafacil.org/glossario/o-que-e-analise-exploratoria-de-dados/)
 
  
