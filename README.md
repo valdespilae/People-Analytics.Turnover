@@ -3,7 +3,7 @@
 </p>
 
 # 📊Projeto People Analytics: Redução do Turnover com CRISP-DM
- Projeto da formação "Gerando Valor com Dados" da Escola de Dados [Preditiva.IA](https://www.preditiva.ai.com)
+ Projeto da formação "**Gerando Valor com Dados**" da Escola de Dados [Preditiva.IA](https://www.preditiva.ai.com)
 
 ## Índice
 - [Contextualização](#-contextualização)
@@ -148,7 +148,7 @@ existentes na secção seguinte ou na pasta */docs/* no arquivo .xlsx *classific
 
 Após a definição clara do problema de negócio e dos objetivos estratégicos do projeto, o próximo passo consiste em explorar a base de dados fornecida pelo departamento de Recursos Humanos. Para isso, foi disponibilizado um arquivo no formato **.xlsx**, contendo informações de **1.470 funcionários** que permaneceram ou deixaram a empresa no último ano. A base contempla variáveis de diferentes naturezas — **demográficas, funcionais e comportamentais** — que foram organizadas e documentadas na tabela de **metadados**, facilitando a identificação e classificação de cada atributo. Ao todo, foram listadas **19 variáveis potencialmente associadas ao turnover**, como idade, salário, tempo na empresa, frequência de viagens, satisfação organizacional, entre outros fatores. 
 
-O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuição, e a identificação de variáveis relevantes com o ***turnover*** e a detecção de outliers**. Para ello, faremos uso da **Análise Exploratória de Dados (AED)** [(10)](10) como abordagem fundamental na ciência e análesis de dados por meio da ferramenta *Microsoft Excel®*. Além disso, durante esta etapa, e antes do *AED*, é crucial verificar a qualidade dos dados, por meio do chamado *Sanity Check*, permitindo identificar valores fora de faixas plausíveis -*outliers*-, anomalias ou registros possivelmente inconsistentes. 
+O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuição, e a identificação de variáveis relevantes com o ***turnover*** e a detecção de outliers**. Para ello, faremos uso da **Análise Exploratória de Dados (AED)** [(10)](10) como abordagem fundamental na ciência e análesis de dados por meio da ferramenta *Microsoft® Excel®*. Além disso, durante esta etapa, e antes do *AED*, é crucial verificar a qualidade dos dados, por meio do chamado *Sanity Check*, permitindo identificar valores fora de faixas plausíveis -*outliers*-, anomalias ou registros possivelmente inconsistentes. 
 
 ### 🧰 Principais Técnicas Utilizadas nesta Etapa
 
@@ -491,10 +491,10 @@ Essa variável ganha ainda mais força quando combinada com:
 <div align="center">
 <img src= https://github.com/user-attachments/assets/4f1c94f1-8fe1-41aa-920d-f2a8a5d7112f
   alt="Variável Quantidade de Ações da Empresa" width="500" height="300">
-  <p><strong> Figura 13:</strong> Gráfico com Quantidade de Ações da Empresa.</p>
+  <p><strong> Figura 13:</strong> Gráfico Quantidade de Ações da Empresa que possuem os funcionários.</p>
 </div> 
 
-📌 Insights Estratégicos
+🔑*Interpretações e reflexões:*
 - **Cerca de 43% dos colaboradores não possuem ações da empresa**, o que pode indicar:
     - Falta de interesse ou entendimento sobre o programa de participação acionária;
     - Elegibilidade restrita ou falta de incentivo para adesão;
@@ -510,15 +510,81 @@ Essa variável ganha ainda mais significado se cruzada com:
 - Turnover: *Quem possui ações sai menos da empresa?*
 - Satisfação ou Clima Organizacional: A posse de ações está associada a maior engajamento?
 
+##### Variável - Tempo de Carreira (em anos)
+Excelente variável para entender a maturidade profissional da equipe, analisaro o **Tempo de Carreira em anos**, que é uma proxypodereso para avaliar asenioridade, estabilidade e potencial de desenvolvimento interno.
+
+<div style="display: flex; justify-content: center; gap: 30px;">
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/d2c6e220-5c76-4b27-8f44-f1de33ce81c3" width="400"/>
+    <p><strong>Figura 14:</strong> Boxplot Tempo de Carreira em anos</p>
+  </div>
+  <div align="center">
+    <img src="https://github.com/user-attachments/assets/b6fa15a7-77f1-48b0-adb4-b8d3cce644bc" alt="Histograma de Tempo de Carreira em anos" width="400"/>
+    <p><strong>Figura 15:</strong> Histograma do Tempo de Carreira em anos</p>
+  </div>
+</div>
+
+🔑*Interpretações e reflexões:*
+
+📊 1. TABELA *de frequência*
+- A maior parte dos colaboradores (73%) tem até **14 anos de carreira**, com pico na faixa de **5–9 anos (33,5%)**.
+- As faixas mais experientes (25+ anos) são minoria: apenas **~7% do total**.
+- A distribuição sugere uma equipe majoritariamente em **fase de consolidação de carreira** (nem muito nova, nem perto da aposentadoria).
+
+📦 2. BOXPLOT
+- **Mediana**: 10 anos
+- **Média**: 11,28 anos (ou seja, > mediana → assimetria à direita)
+- **Quartis**: Q1 ≈ 6 anos e Q3 ≈ 15 anos
+- **Outliers**: valores acima de 30 anos (30, 33, 37, 40) indicam perfis muito seniores.
+   O boxplot confirma:
+- Que a maioria está entre 6 e 15 anos de carreira;
+- Que existem **alguns poucos casos muito acima da média** (outliers), puxando a média para cima.
+
+📉 3. HISTOGRAMA
+- A cauda direita é longa (mais valores extremos positivos), o que reforça a distribuição assimétrica à direita.
+- O maior pico (classe modal) está na faixa de **5–9 anos**, seguido pela faixa **0–4**.
+- Frequência decrescente conforme o tempo de carreira aumenta.
+🧩 O histograma dá uma visão visual da **frequência por classe**, mostrando onde está a maior massa da população e reforçando a leitura do boxplot.
+
+✅ Conclusão Integrada
+
+>A distribuição do tempo de carreira da equipe é **concentrada em profissionais com até 15 anos de experiência**, com média em torno de 11 anos e uma **leve assimetria positiva**. Isso indica uma equipe **jovem-madura**, com forte potencial de crescimento, aprendizado e retenção. Os poucos colaboradores com mais de 30 anos de carreira são outliers valiosos, provavelmente ocupando funções de liderança, mentoria ou expertise técnica.
+
+
+##### Variável - Horas de Treinamento
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/80d97542-3c68-4d98-887f-e953b9cd600c
+  alt="Horas de Treinamento" width="500" height="300">
+  <p><strong> Figura 16:</strong> Gráfico Horas de Treinamento.</p>
+</div> 
+
+🔑*Interpretações e reflexões:*
+- A grande maioria dos colaboradores realizou **2 ou 3 horas de treinamento** — cerca de **70,6% da amostra**.
+- Apenas **3,7% não participaram de nenhum treinamento**, enquanto menos de **9% fizeram mais de 5 horas**.
+- Isso indica uma política de capacitação concentrada em **ações curtas e padronizadas**.
+
+Interpretação do Boxplot:
+- **Mínimo**: 0 horas
+- **Q1 (25%)**: 1 hora
+- **Mediana**: 2,8 horas
+- **Q3 (75%)**: 3 horas
+- **Máximo (sem outlier)**: 4 horas
+- **Outliers identificados**: 5 e 6 horas (valores superiores isolados)
+🧠 Insights do Boxplot:
+- **Distribuição assimétrica à direita**: maioria dos colaboradores está concentrada entre 2 e 3 horas, com poucos realizando 5–6 horas (outliers).
+- **Média > mediana** (média próxima de 2,9): confirma a assimetria positiva — algumas pessoas fizeram mais horas e puxaram a média para cima.
+- **Amplitude interquartil (IQR)**: de 1 a 3 horas — ou seja, 50% da equipe recebeu um treinamento bastante breve.
+
+✅ Conclusão Integrada
+>A análise mostra que **a política de treinamento da empresa é fortemente concentrada em ações curtas e padronizadas**, com dois terços dos funcionários recebendo de 2 a 3 horas de capacitação. O boxplot destaca **uma leve assimetria à direita**, puxada por colaboradores que receberam 5 ou 6 horas — possivelmente líderes, áreas técnicas ou grupos-alvo específicos. A baixa presença de valores extremos também sinaliza uniformidade no modelo de treinamento adotado.
 
 ---
-
-
 
 ##### Variável ***Target***: Funciónarios que deixaram a empresa
 🔑Interpretações e reflexões:
 - A taxa de turnover total de 16.1% no último ano:
-   º Dos 1.470 funcionários analisados, **237 se desligaram da empresa**, representando **16,1% do total**. Esse índice está **abaixo da média nacional** e até de alguns benchmarks do setor de tecnologia[^1][^4], o que pode indicar **bons esforços atuais** em retenção — mas também **potencial para melhoria**
+   º Dos 1.470 funcionários analisados, **237 se desligaram da empresa**, representando **16,1% do total**. Esse índice está **abaixo da média nacional** e até de alguns benchmarks do setor de tecnologia(-1)(-4), o que pode indicar **bons esforços atuais** em retenção — mas também **potencial para melhoria**
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/df512da5-1121-4996-aa09-b40a10d75325"
@@ -541,7 +607,7 @@ Essa variável ganha ainda mais significado se cruzada com:
 
 #### 🛠️ Ferramenta utilizada
 
-- **Microsoft Excel** para limpeza, visualização e análise descritiva
+- **Microsoft® Excel®** para limpeza, visualização e análise descritiva
 
 ---
 
@@ -583,28 +649,24 @@ Esses fatores servem como alerta para a área de Recursos Humanos priorizar aç�
 - Documentação estruturada com base no CRISP-DM
 
 #### 🗂️ Estrutura sugerida do repositório
----
 
 ## 📌 Referências  
-
-[^1]: ROBERT HALF. *Brasil lidera índice de rotatividade de funcionários em todo o mundo: 56%*. Publicado em 23 ago. 2023. Disponível em: [https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html](https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html)
-
-[^2]: EVERMONTE. *Turnover: por que os colaboradores estão permanecendo menos tempo nas companhias?*. Publicado em 08 jul. 2024. Disponível em: [https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter](https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter)
-
-[^3]: MUNDO RH. *Retenção de talentos e baixa rotatividade são fundamentais para o crescimento do setor de tecnologia no Brasil*. Publicado em 16 abr. 2024. Disponível em: [https://www.mundorh.com.br/retencao-de-talentos-e-baixa-rotatividade-sao-fundamentais-para-o-crescimento-do-setor-de-tecnologia-no-brasil](https://www.mundorh.com.br/retencao-de-talentos-e-baixa-rotatividade-sao-fundamentais-para-o-crescimento-do-setor-de-tecnologia-no-brasil)
-
-[^4]:  GUPY. *Retenção de talentos de vagas com alto turnover: como fazer*. Publicado em 26 fev. 2020. Disponível em: [https://www.gupy.io/blog/retencao-de-talentos-turnover](https://www.gupy.io/blog/retencao-de-talentos-turnover)
-
-[^5]: LINKEDIN TALENT SOLUTIONS. *Global Talent Trends Report 2022*. Disponível em: [https://business.linkedin.com/talent-solutions/resources/talent-strategy/global-talent-trends-report](https://business.linkedin.com/talent-solutions/resources/talent-strategy/global-talent-trends-report)
-
-[^6]: TI INSIDE. *Setor de TI apresentava índices menores de rotatividade antes da pandemia, aponta relatório*. Publicado em 18 out. 2022. Disponível em: [https://tiinside.com.br/18/10/2022/setor-de-ti-apresentava-indices-menores-de-rotatividade-antes-da-pandemia-aponta-relatorio](https://tiinside.com.br/18/10/2022/setor-de-ti-apresentava-indices-menores-de-rotatividade-antes-da-pandemia-aponta-relatorio)
-
-[^7]: FORBES BRASIL. *Empresas mexem no C-level para adaptar-se aos novos tempos*. Publicado em 9 nov. 2022. Disponível em: [https://forbes.com.br/carreira/2022/11/empresas-mexem-no-c-level-para-adaptar-se-aos-novos-tempos](https://forbes.com.br/carreira/2022/11/empresas-mexem-no-c-level-para-adaptar-se-aos-novos-tempos)
-
-[^8]: G1 — Pós PUCPR Digital. *Turnover: o índice de rotatividade que vem impactando as empresas*. Publicado em 3 dez. 2022. Disponível em: [https://g1.globo.com/pr/parana/especial-publicitario/pos-pucpr-digital/voce-no-futuro/noticia/2022/12/03/turnover-o-indice-de-rotatividade-que-vem-impactando-as-empresas.ghtml](https://g1.globo.com/pr/parana/especial-publicitario/pos-pucpr-digital/voce-no-futuro/noticia/2022/12/03/turnover-o-indice-de-rotatividade-que-vem-impactando-as-empresas.ghtml)
-
-[^9]: TOWARDS DATA SCIENCE. *Using CRISP-DM to Grow as a Data Scientist*. Publicado em 2 abr. 2020. Disponível em: [https://towardsdatascience.com/using-crisp-dm-to-grow-as-data-scientist-a07ce3fd9d56](https://towardsdatascience.com/using-crisp-dm-to-grow-as-data-scientist-a07ce3fd9d56)
-
-[^10]: ESTATÍSTICA FÁCIL. *O que é: Análise Exploratória de Dados*. Disponível em: [https://estatisticafacil.org/glossario/o-que-e-analise-exploratoria-de-dados/](https://estatisticafacil.org/glossario/o-que-e-analise-exploratoria-de-dados/)
-
- 
+  [^1]: ROBERT HALF. *Brasil lidera índice de rotatividade de funcionários em todo o mundo: 56%*. Publicado em 23 ago. 2023. Disponível em: [https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html](https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html)
+  
+  [^2]: EVERMONTE. *Turnover: por que os colaboradores estão permanecendo menos tempo nas companhias?*. Publicado em 08 jul. 2024. Disponível em: [https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter](https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter)
+  
+  [^3]: MUNDO RH. *Retenção de talentos e baixa rotatividade são fundamentais para o crescimento do setor de tecnologia no Brasil*. Publicado em 16 abr. 2024. Disponível em: [https://www.mundorh.com.br/retencao-de-talentos-e-baixa-rotatividade-sao-fundamentais-para-o-crescimento-do-setor-de-tecnologia-no-brasil](https://www.mundorh.com.br/retencao-de-talentos-e-baixa-rotatividade-sao-fundamentais-para-o-crescimento-do-setor-de-tecnologia-no-brasil)
+  
+  [^4]:  GUPY. *Retenção de talentos de vagas com alto turnover: como fazer*. Publicado em 26 fev. 2020. Disponível em: [https://www.gupy.io/blog/retencao-de-talentos-turnover](https://www.gupy.io/blog/retencao-de-talentos-turnover)
+  
+  [^5]: LINKEDIN TALENT SOLUTIONS. *Global Talent Trends Report 2022*. Disponível em: [https://business.linkedin.com/talent-solutions/resources/talent-strategy/global-talent-trends-report](https://business.linkedin.com/talent-solutions/resources/talent-strategy/global-talent-trends-report)
+  
+  [^6]: TI INSIDE. *Setor de TI apresentava índices menores de rotatividade antes da pandemia, aponta relatório*. Publicado em 18 out. 2022. Disponível em: [https://tiinside.com.br/18/10/2022/setor-de-ti-apresentava-indices-menores-de-rotatividade-antes-da-pandemia-aponta-relatorio](https://tiinside.com.br/18/10/2022/setor-de-ti-apresentava-indices-menores-de-rotatividade-antes-da-pandemia-aponta-relatorio)
+  
+  [^7]: FORBES BRASIL. *Empresas mexem no C-level para adaptar-se aos novos tempos*. Publicado em 9 nov. 2022. Disponível em: [https://forbes.com.br/carreira/2022/11/empresas-mexem-no-c-level-para-adaptar-se-aos-novos-tempos](https://forbes.com.br/carreira/2022/11/empresas-mexem-no-c-level-para-adaptar-se-aos-novos-tempos)
+  
+  [^8]: G1 — Pós PUCPR Digital. *Turnover: o índice de rotatividade que vem impactando as empresas*. Publicado em 3 dez. 2022. Disponível em: [https://g1.globo.com/pr/parana/especial-publicitario/pos-pucpr-digital/voce-no-futuro/noticia/2022/12/03/turnover-o-indice-de-rotatividade-que-vem-impactando-as-empresas.ghtml](https://g1.globo.com/pr/parana/especial-publicitario/pos-pucpr-digital/voce-no-futuro/noticia/2022/12/03/turnover-o-indice-de-rotatividade-que-vem-impactando-as-empresas.ghtml)
+  
+  [^9]: TOWARDS DATA SCIENCE. *Using CRISP-DM to Grow as a Data Scientist*. Publicado em 2 abr. 2020. Disponível em: [https://towardsdatascience.com/using-crisp-dm-to-grow-as-data-scientist-a07ce3fd9d56](https://towardsdatascience.com/using-crisp-dm-to-grow-as-data-scientist-a07ce3fd9d56)
+  
+  [^10]: ESTATÍSTICA FÁCIL. *O que é: Análise Exploratória de Dados*. Disponível em: [https://estatisticafacil.org/glossario/o-que-e-analise-exploratoria-de-dados/](https://estatisticafacil.org/glossario/o-que-e-analise-exploratoria-de-dados/)
