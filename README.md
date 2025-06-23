@@ -556,7 +556,7 @@ Excelente variável para entender a maturidade profissional da equipe, analisaro
 <div align="center">
 <img src= https://github.com/user-attachments/assets/80d97542-3c68-4d98-887f-e953b9cd600c
   alt="Horas de Treinamento" width="500" height="300">
-  <p><strong> Figura 16:</strong> Gráfico Horas de Treinamento.</p>
+  <p><strong> Figura 16:</strong> Boxplot Horas de Treinamento dos funcionários.</p>
 </div> 
 
 🔑*Interpretações e reflexões:*
@@ -578,6 +578,73 @@ Interpretação do Boxplot:
 
 ✅ Conclusão Integrada
 >A análise mostra que **a política de treinamento da empresa é fortemente concentrada em ações curtas e padronizadas**, com dois terços dos funcionários recebendo de 2 a 3 horas de capacitação. O boxplot destaca **uma leve assimetria à direita**, puxada por colaboradores que receberam 5 ou 6 horas — possivelmente líderes, áreas técnicas ou grupos-alvo específicos. A baixa presença de valores extremos também sinaliza uniformidade no modelo de treinamento adotado.
+
+##### Variável - Tempo de Empresa (em Anos)
+
+Com a análises desta variváel conseguimos ter uma leitura muito rica da permanência dos funcionários ao logo dos anos.
+
+Análises da Composição da Tabela de frequência:
+
+🔹 Mais de 52% dos colaboradores têm até 5 anos de casa — alta proporção de profissionais “jovens” na organização.
+🔹 Apenas 4,5% têm mais de 20 anos de casa, mostrando uma base sênior pequena.
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/d1a73e53-e1e9-4b79-bfab-fb7c967ccb8d
+  alt="Horas de Treinamento" width="500" height="300">
+  <p><strong> Figura 17:</strong> Boxplot Tempo de Empresa - em anos - dos colaboradores.</p>
+</div> 
+
+📦 2. Análise do Boxplot
+- **Mínimo**: 0 anos
+- **Q1**: ~3 anos
+- **Mediana**: 7,01 anos
+- **Q3**: ~9 anos
+- **Máximo** (sem outliers): 18 anos
+- **Outliers identificados**: de 19 a 40 anos de empresa
+🔍 A cauda longa para a direita indica assimetria positiva, com poucos profissionais que ficaram décadas e puxam a média para cima.
+O corpo da caixa entre 3 e 9 anos reforça que a maioria está estabilizada, mas ainda em fase de meia permanência.
+
+🔗 Integração entre Boxplot e Tabela
+| Perspectiva              | Tabela                          | Boxplot                                 |
+|--------------------------|---------------------------------|------------------------------------------|
+| Colaboradores novatos    | 23,3% até 2 anos                | Início do bigode inferior                |
+| Coração da distribuição  | 3–9 anos = 46,2%                | Entre Q1 e Q3                            |
+| Alta permanência (senior)| <10% com 15+ anos               | Outliers extremos identificados          |
+
+
+🔑*Interpretações e reflexões:*
+- A empresa tem uma composição predominantemente **júnior a intermediária em tempo de casa** — o que é comum em organizações em crescimento ou com rotatividade natural moderada.
+- A mediana acima de 7 anos mostra que, apesar da entrada constante de novos funcionários, **boa parte permanece tempo suficiente para gerar experiência e cultura organizacional**.
+- Os outliers com mais de 20 anos representam **capital histórico e institucional** — valem atenção em políticas de reconhecimento e sucessão.
+
+##### Variável - Anos  no mesmo Cargo
+Esta variável é um reflexo da estagnação, evolução de carreira e possíveis riscos de desmotivação dos funcionários do time.
+
+Análises da Composição da Tabela de frequência:
+🔹 **55% dos colaboradores estão há no máximo 3 anos no mesmo cargo**.
+🔹 **Apenas 7% estão há 10 anos ou mais**, indicando baixa estagnação prolongada
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/ced76f95-0dec-462d-a265-22ca3f3f3150
+  alt="Horas de Treinamento" width="500" height="300">
+  <p><strong> Figura 17:</strong> Boxplot Anos no mesmo cargo.</p>
+</div> 
+
+Boxplot — Anos no Mesmo Cargo
+Estatísticas visuais extraídas:
+- **Mínimo**: 0 anos
+- **Q1 (25%)**: 2 anos
+- **Mediana**: 4,23 anos
+- **Q3 (75%)**: 7 anos
+- **Máximo** (sem outliers): 14 anos
+- Outliers identificados: 15, 16, 17, 18 ano
+
+
+🔑*Interpretações e reflexões:*
+- **Estrutura dinâmica de movimentação interna**: A maioria dos colaboradores ainda está em períodos iniciais ou intermediários no mesmo cargo — o que indica alta mobilidade interna, seja por promoções ou movimentações laterais.
+- **Mediana moderada (4,23 anos)**: O tempo típico em um cargo é razoável, sem indicar nem rotatividade excessiva nem estagnação.
+- **Ponto de atenção estratégico**: Os poucos outliers (acima de 15 anos no mesmo cargo) merecem atenção — **podem representar perfis altamente especializados** ou **estagnados**, com riscos de **desmotivação, baixa inovação** ou perda de capital humano por aposentadoria.
+
 
 ---
 
