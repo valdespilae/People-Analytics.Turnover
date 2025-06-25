@@ -585,8 +585,8 @@ Com a análises desta variváel conseguimos ter uma leitura muito rica da perman
 
 Análises da Composição da Tabela de frequência:
 
-🔹 Mais de 52% dos colaboradores têm até 5 anos de casa — alta proporção de profissionais “jovens” na organização.
-🔹 Apenas 4,5% têm mais de 20 anos de casa, mostrando uma base sênior pequena.
+- Mais de 52% dos colaboradores têm até 5 anos de casa — alta proporção de profissionais “jovens” na organização.
+- Apenas 4,5% têm mais de 20 anos de casa, mostrando uma base sênior pequena.
 
 <div align="center">
 <img src= https://github.com/user-attachments/assets/d1a73e53-e1e9-4b79-bfab-fb7c967ccb8d
@@ -621,13 +621,13 @@ O corpo da caixa entre 3 e 9 anos reforça que a maioria está estabilizada, mas
 Esta variável é um reflexo da estagnação, evolução de carreira e possíveis riscos de desmotivação dos funcionários do time.
 
 Análises da Composição da Tabela de frequência:
-🔹 **55% dos colaboradores estão há no máximo 3 anos no mesmo cargo**.
-🔹 **Apenas 7% estão há 10 anos ou mais**, indicando baixa estagnação prolongada
+- **55% dos colaboradores estão há no máximo 3 anos no mesmo cargo**.
+- **Apenas 7% estão há 10 anos ou mais**, indicando baixa estagnação prolongada.
 
 <div align="center">
-<img src= https://github.com/user-attachments/assets/ced76f95-0dec-462d-a265-22ca3f3f3150
+<img src= https://github.com/user-attachments/assets/86b257d3-9ef6-4dde-bd24-bc7c92f75390
   alt="Horas de Treinamento" width="500" height="300">
-  <p><strong> Figura 17:</strong> Boxplot Anos no mesmo cargo.</p>
+  <p><strong> Figura 18:</strong> Boxplot Anos no mesmo cargo.</p>
 </div> 
 
 Boxplot — Anos no Mesmo Cargo
@@ -645,6 +645,43 @@ Estatísticas visuais extraídas:
 - **Mediana moderada (4,23 anos)**: O tempo típico em um cargo é razoável, sem indicar nem rotatividade excessiva nem estagnação.
 - **Ponto de atenção estratégico**: Os poucos outliers (acima de 15 anos no mesmo cargo) merecem atenção — **podem representar perfis altamente especializados** ou **estagnados**, com riscos de **desmotivação, baixa inovação** ou perda de capital humano por aposentadoria.
 
+##### Variável - Anos desde a última promoção.
+
+Esta variável é uma excelente métrica para entender ritmo de crescimento interno, política de reconhecimento e possíveis gargalos de progressão de carreira.
+
+
+Análises da Composição da Tabela de frequência:
+- 78,2% foram promovidos nos últimos 3 anos, o que indica uma política forte de mobilidade interna ou crescimento organizacional.
+- Apenas 7,3% estão há mais de 7 anos sem promoção, o que pode representar estagnação ou perfis muito seniores.
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/a8f807c7-6b98-4d3a-84a1-189e69581a73
+  alt="Horas de Treinamento" width="500" height="300">
+  <p><strong> Figura 19:</strong> Boxplot Anos desde a última promoção.</p>
+</div> 
+
+Boxplot — Anos desde a Última Promoção
+Estatísticas visuais extraídas:
+- **Mínimo**: 0 anos
+- **Q1 (25%)**: 0 anos
+- **Mediana (Q2)**: ~2,19 anos
+- **Q3 (75%)**: 3 anos
+- **Máximo** (sem outliers): 7 anos
+- **Outliers**: 8, 9, 10, 11, 12, 13, 14 e 15 anos.
+
+  
+🔑*Interpretações e reflexões:*
+- Distribuição fortemente assimétrica à direita: A maioria dos colaboradores foi promovida recentemente, enquanto há uma cauda longa com poucos profissionais sem promoção há muitos anos — capturados como outliers.
+- Mediana de ~2,2 anos confirma um ciclo médio de promoção relativamente rápido.
+- Os outliers (8 a 15 anos) são casos isolados que merecem atenção:
+- São perfis possivelmente estagnados;
+- Ou ocupam cargos de topo com menos oportunidades de progressão.
+
+✅ Conclusão Integrada
+>A análise mostra que a empresa apresenta uma dinâmica de promoção recente robusta, com mais de 3 em cada 4 funcionários promovidos nos últimos 3 anos. O boxplot reforça essa concentração no início da distribuição e destaca uma minoria com longos períodos sem ascensão, que pode representar riscos de desengajamento ou baixa mobilidade em posições superiores.
+
+
+
 
 ---
 
@@ -654,8 +691,8 @@ Estatísticas visuais extraídas:
    º Dos 1.470 funcionários analisados, **237 se desligaram da empresa**, representando **16,1% do total**. Esse índice está **abaixo da média nacional** e até de alguns benchmarks do setor de tecnologia(-1)(-4), o que pode indicar **bons esforços atuais** em retenção — mas também **potencial para melhoria**
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/df512da5-1121-4996-aa09-b40a10d75325"
-  alt="Descrição da imagem" width="500" height="300">
+<img src= https://github.com/user-attachments/assets/d32b5fbe-8f07-4b6d-810a-2178e5761b71
+ alt="Descrição da imagem" width="500" height="300">
 </p>
 
 ##### Variável: Funciónarios que deixaram a empresa
