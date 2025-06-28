@@ -11,14 +11,18 @@
 - [Metodologia: CRISP-DM](#-metodologia-crisp-dm)
   - [Etapa 1: Compreensão do Negócio -*Business Understanding*-.](#-etapa-1-compreensão-do-negócio-business-understanding)
   - [Etapa 2: Compreensão dos Dados -*Data Understanding*-.](#-etapa-2-compreensão-dos-dados-data-understanding)
+     - [Análises Univariada. Variáveis Qualitativas Nominal](#-análises-univariada.-variáveis-qualitativas-nominal)
+     - [Análises Univariada. Variáveis Qualitativas Ordinal](#-análises-univariada.-variáveis-qualitativas-ordinal)
+     - [Análises Univariada. Variáveis Quantitativa Discreta](#-análises-univariada.-variáveis-quantitativa-discreta)
+     - [Análises Univariada. Variáveis Quantitativa Contínua](#análises-univariada.-variáveis-quantitativa-contínua)
 
 ## 📌 Contextualização  
 
 ### O desafio do ***turnover*** nas empresas  
 
-O ***turnover*** ou **rotatividadedos funcionários**, é um dos desafios mais críticos enfrentados pelas empresas atualmente. Segundo um levantamento publicado em **agosto de 2023** pela consultoria **Robert Half**, o Brasil lidera o ranking global de rotatividade, com uma taxa de **56%**, colocando o país entre os que mais enfrentam desafios com retenção de talentos. Esse índice elevado reflete mudanças estruturais no mercado de trabalho, impulsionadas por transformações nas expectativas dos profissionais, que estão cada vez mais atentos ao propósito, à flexibilidade e ao equilíbrio entre vida pessoal e profissional [(1)](-1).
+O ***turnover*** ou **rotatividadedos funcionários**, é um dos desafios mais críticos enfrentados pelas empresas atualmente. Segundo um levantamento publicado em **agosto de 2023** pela consultoria **Robert Half**, o Brasil lidera o ranking global de rotatividade, com uma taxa de **56%**, colocando o país entre os que mais enfrentam desafios com retenção de talentos. Esse índice elevado reflete mudanças estruturais no mercado de trabalho, impulsionadas por transformações nas expectativas dos profissionais, que estão cada vez mais atentos ao propósito, à flexibilidade e ao equilíbrio entre vida pessoal e profissional [^1].
 
-Outro estudo publicado pela **Evermonte** em **julho de 2024** apontou que **39% dos desligamentos no Brasil em 2023 foram voluntários**, ou seja, motivados pela decisão dos próprios colaboradores[(2)](-2). Esse dado reforça que fatores como satisfação profissional, oportunidades de crescimento e ambiente organizacional exercem influência direta na retenção de talentos, evidenciando a necessidade de estratégias mais humanas e personalizadas por parte das empresas.
+Outro estudo publicado pela **Evermonte** em **julho de 2024** apontou que **39% dos desligamentos no Brasil em 2023 foram voluntários**, ou seja, motivados pela decisão dos próprios colaboradores[^2]. Esse dado reforça que fatores como satisfação profissional, oportunidades de crescimento e ambiente organizacional exercem influência direta na retenção de talentos, evidenciando a necessidade de estratégias mais humanas e personalizadas por parte das empresas.
 
 ### 🔎 Benchmark de ***Turnover*** no Setor de Tecnologia no Brasil  
 Para contextualizar melhor este projeto, é essencial entender a taxa de rotatividade no setor de tecnologia e como a empresa analisada se compara ao mercado. 
@@ -26,21 +30,21 @@ Para contextualizar melhor este projeto, é essencial entender a taxa de rotativ
 
 ### 📊 Visão Geral  
 
-- A média de rotatividade no Brasil -área de tecnología-  ficou em **51%** entre abril de 2022 e maio de 2023, uma das mais altas do mundo[(3)](3) 
-- No setor de tecnologia, a taxa média de turnover foi de **13,2%**, a maior entre todos os setores avaliados[(4)](4).  
-- Em comparação global, é comum observar taxas entre **13% e 18% ao ano** no setor de tecnologia, podendo chegar a **25%** em startups[(5)](5).  
+- A média de rotatividade no Brasil -área de tecnología-  ficou em **51%** entre abril de 2022 e maio de 2023, uma das mais altas do mundo[^3] 
+- No setor de tecnologia, a taxa média de turnover foi de **13,2%**, a maior entre todos os setores avaliados[^4].  
+- Em comparação global, é comum observar taxas entre **13% e 18% ao ano** no setor de tecnologia, podendo chegar a **25%** em startups[^5].  
 
 ### 📈 Comparações e Dados Históricos  
 
-° Antes da pandemia (2019), o turnover médio no setor de TI no Brasil era de **39%**, enquanto a média geral era **41%**[(6)](6).  
-° Subsetores como desenvolvimento de software apresentavam taxas menores (**33%–39%**)[(6)](6).  
-° Cargos executivos de tecnologia no Brasil apresentam turnover voluntário de **20%** e involuntário de **14%**, totalizando **34%**[(7)](7).  
+° Antes da pandemia (2019), o turnover médio no setor de TI no Brasil era de **39%**, enquanto a média geral era **41%**[^6].  
+° Subsetores como desenvolvimento de software apresentavam taxas menores (**33%–39%**)[^6].  
+° Cargos executivos de tecnologia no Brasil apresentam turnover voluntário de **20%** e involuntário de **14%**, totalizando **34%**[^7].  
 
 ### 🔍 Segmentação por Subárea  
 
 - **UX e Design**: aproximadamente **23%**;  
 - **Engenheiros de Dados e Software**: entre **21% e 22%**; 
-- **Suporte técnico e áreas de operação**: **até 25%**[(8)](8). 
+- **Suporte técnico e áreas de operação**: **até 25%**[^8]. 
 
 ### 🎯 Insight para o Projeto  
 
@@ -148,7 +152,7 @@ existentes na secção seguinte ou na pasta */docs/* no arquivo .xlsx *classific
 
 Após a definição clara do problema de negócio e dos objetivos estratégicos do projeto, o próximo passo consiste em explorar a base de dados fornecida pelo departamento de Recursos Humanos. Para isso, foi disponibilizado um arquivo no formato **.xlsx**, contendo informações de **1.470 funcionários** que permaneceram ou deixaram a empresa no último ano. A base contempla variáveis de diferentes naturezas — **demográficas, funcionais e comportamentais** — que foram organizadas e documentadas na tabela de **metadados**, facilitando a identificação e classificação de cada atributo. Ao todo, foram listadas **19 variáveis potencialmente associadas ao turnover**, como idade, salário, tempo na empresa, frequência de viagens, satisfação organizacional, entre outros fatores. 
 
-O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuição, e a identificação de variáveis relevantes com o ***turnover*** e a detecção de outliers**. Para ello, faremos uso da **Análise Exploratória de Dados (AED)** [(10)](10) como abordagem fundamental na ciência e análesis de dados por meio da ferramenta *Microsoft® Excel®*. Além disso, durante esta etapa, e antes do *AED*, é crucial verificar a qualidade dos dados, por meio do chamado *Sanity Check*, permitindo identificar valores fora de faixas plausíveis -*outliers*-, anomalias ou registros possivelmente inconsistentes. 
+O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuição, e a identificação de variáveis relevantes com o ***turnover*** e a detecção de outliers**. Para ello, faremos uso da **Análise Exploratória de Dados (AED)** [^10] como abordagem fundamental na ciência e análesis de dados por meio da ferramenta *Microsoft® Excel®*. Além disso, durante esta etapa, e antes do *AED*, é crucial verificar a qualidade dos dados, por meio do chamado *Sanity Check*, permitindo identificar valores fora de faixas plausíveis -*outliers*-, anomalias ou registros possivelmente inconsistentes. 
 
 ### 🧰 Principais Técnicas Utilizadas nesta Etapa
 
@@ -218,7 +222,6 @@ Abaixo está a descrição das variáveis utilizadas no projeto, com sua classif
   <p><strong> Figura 2:</strong> Distribuição dos funcionários da empresa por genero: M(Mulheres) e H(Homens)</p>
 </div> 
 
-
 🔑**Interpretações e reflexões:**
 - **Distribuição equilibrada (mas levemente concentrada)**:
 A equipe é composta por **60% de homens e 40% de mulheres**, o que mostra um certo equilíbrio, especialmente em comparação com a média de representatividade feminina no setor de tecnologia, que tende a ser mais baixa.
@@ -247,13 +250,11 @@ Vale cruzar esse dado com outras variáveis como faixa salarial, número de prom
 
 ##### Variável - Funcionário costuma fazer horas extras? Sim/Não
 
-
 <div align="center">
-<img src= https://github.com/user-attachments/assets/1a860244-9a10-4102-93fd-b1563b599d36
+<img src= https://github.com/user-attachments/assets/a30c18ce-bb82-4364-af46-e6d343c7192e
   alt="Fig. Distribuição dos funcionários por Estado Civil" width="500" height="300">
   <p><strong> Figura 4:</strong> Proporção de Funcionários que Realizam Horas Extras.</p>
 </div> 
-
 
 🔑*Interpretações e reflexões:*
 - **A maioria dos colaboradores (71,7%) não realiza horas extras**, o que pode indicar um bom controle da carga de trabalho ou políticas eficazes de equilíbrio.
@@ -265,6 +266,26 @@ Vale cruzar esse dado com outras variáveis como faixa salarial, número de prom
   - Turnover: Quem faz horas extras tem maior taxa de saída?
   - Satisfação no trabalho: Há correlação negativa?
   - Cargo ou área de atuação: As horas extras estão concentradas em setores específicos
+    
+##### Variável ***Target***: Funciónarios que deixaram a empresa
+A variável-alvo (ou target) na análise de turnover, pois representa o comportamento que estamos tentando compreender e, se possível, prever.
+
+<p align="center">
+<img src= https://github.com/user-attachments/assets/d32b5fbe-8f07-4b6d-810a-2178e5761b71
+ alt="Descrição da imagem" width="500" height="300">
+</p>
+
+🔑Interpretações e reflexões:
+- Turnover total de 16,1%:
+Dos 1.470 funcionários analisados, **237 se desligaram da empresa**, representando **16,1% do total**. Esse índice está **abaixo da média nacional** e até de alguns benchmarks do setor de tecnologia[^1][^4], o que pode indicar **bons esforços atuais em retenção** — mas também potencial para melhoria.
+- **Desequilíbrio entre as classes (classe desbalanceada)**:
+O dado mostra que a maioria dos funcionários **permaneceu na empresa (83,9%)**, o que sugere que o conjunto está **desbalanceado**. Esse é um ponto crítico especialmente se futuramente for construída uma classificação preditiva, já que modelos podem tender a “aprender” mais sobre a classe majoritária e ignorar os desligamentos. Técnicas como oversampling ou stratified split serão importantes.
+- Base de comparação para as demais análises:
+Agora que temos a proporção entre quem saiu e quem ficou, podemos usá-la para:
+  - Avaliar se determinadas faixas etárias, salários, cargos ou departamentos têm uma proporção de saída maior do que os 16,1% globais;
+  - Realizar testes estatísticos (ex: testes de proporção ou chi-quadrado) para saber se essas diferenças são significativas;
+  - Identificar fatores de risco mais relevantes para o desligamento
+
 
 #### Análises Univariada. Variáveis Qualitativas Ordinal
 ##### Variável - Frequência de Viagens
@@ -526,12 +547,12 @@ Excelente variável para entender a maturidade profissional da equipe, analisaro
 
 🔑*Interpretações e reflexões:*
 
-📊 1. TABELA *de frequência*
+📊 TABELA *de frequência*
 - A maior parte dos colaboradores (73%) tem até **14 anos de carreira**, com pico na faixa de **5–9 anos (33,5%)**.
 - As faixas mais experientes (25+ anos) são minoria: apenas **~7% do total**.
 - A distribuição sugere uma equipe majoritariamente em **fase de consolidação de carreira** (nem muito nova, nem perto da aposentadoria).
 
-📦 2. BOXPLOT
+📦 BOXPLOT
 - **Mediana**: 10 anos
 - **Média**: 11,28 anos (ou seja, > mediana → assimetria à direita)
 - **Quartis**: Q1 ≈ 6 anos e Q3 ≈ 15 anos
@@ -540,7 +561,7 @@ Excelente variável para entender a maturidade profissional da equipe, analisaro
 - Que a maioria está entre 6 e 15 anos de carreira;
 - Que existem **alguns poucos casos muito acima da média** (outliers), puxando a média para cima.
 
-📉 3. HISTOGRAMA
+📉  HISTOGRAMA
 - A cauda direita é longa (mais valores extremos positivos), o que reforça a distribuição assimétrica à direita.
 - O maior pico (classe modal) está na faixa de **5–9 anos**, seguido pela faixa **0–4**.
 - Frequência decrescente conforme o tempo de carreira aumenta.
@@ -549,7 +570,6 @@ Excelente variável para entender a maturidade profissional da equipe, analisaro
 ✅ Conclusão Integrada
 
 >A distribuição do tempo de carreira da equipe é **concentrada em profissionais com até 15 anos de experiência**, com média em torno de 11 anos e uma **leve assimetria positiva**. Isso indica uma equipe **jovem-madura**, com forte potencial de crescimento, aprendizado e retenção. Os poucos colaboradores com mais de 30 anos de carreira são outliers valiosos, provavelmente ocupando funções de liderança, mentoria ou expertise técnica.
-
 
 ##### Variável - Horas de Treinamento
 
@@ -594,7 +614,7 @@ Análises da Composição da Tabela de frequência:
   <p><strong> Figura 17:</strong> Boxplot Tempo de Empresa - em anos - dos colaboradores.</p>
 </div> 
 
-📦 2. Análise do Boxplot
+📦 Análise do Boxplot
 - **Mínimo**: 0 anos
 - **Q1**: ~3 anos
 - **Mediana**: 7,01 anos
@@ -626,7 +646,7 @@ Análises da Composição da Tabela de frequência:
 
 <div align="center">
 <img src= https://github.com/user-attachments/assets/86b257d3-9ef6-4dde-bd24-bc7c92f75390
-  alt="Horas de Treinamento" width="500" height="300">
+  alt="Anos no mesmo cargo" width="500" height="300">
   <p><strong> Figura 18:</strong> Boxplot Anos no mesmo cargo.</p>
 </div> 
 
@@ -639,7 +659,6 @@ Estatísticas visuais extraídas:
 - **Máximo** (sem outliers): 14 anos
 - Outliers identificados: 15, 16, 17, 18 ano
 
-
 🔑*Interpretações e reflexões:*
 - **Estrutura dinâmica de movimentação interna**: A maioria dos colaboradores ainda está em períodos iniciais ou intermediários no mesmo cargo — o que indica alta mobilidade interna, seja por promoções ou movimentações laterais.
 - **Mediana moderada (4,23 anos)**: O tempo típico em um cargo é razoável, sem indicar nem rotatividade excessiva nem estagnação.
@@ -649,14 +668,13 @@ Estatísticas visuais extraídas:
 
 Esta variável é uma excelente métrica para entender ritmo de crescimento interno, política de reconhecimento e possíveis gargalos de progressão de carreira.
 
-
 Análises da Composição da Tabela de frequência:
 - 78,2% foram promovidos nos últimos 3 anos, o que indica uma política forte de mobilidade interna ou crescimento organizacional.
 - Apenas 7,3% estão há mais de 7 anos sem promoção, o que pode representar estagnação ou perfis muito seniores.
 
 <div align="center">
 <img src= https://github.com/user-attachments/assets/a8f807c7-6b98-4d3a-84a1-189e69581a73
-  alt="Horas de Treinamento" width="500" height="300">
+  alt="Anos desde a última promoção" width="500" height="300">
   <p><strong> Figura 19:</strong> Boxplot Anos desde a última promoção.</p>
 </div> 
 
@@ -668,7 +686,6 @@ Estatísticas visuais extraídas:
 - **Q3 (75%)**: 3 anos
 - **Máximo** (sem outliers): 7 anos
 - **Outliers**: 8, 9, 10, 11, 12, 13, 14 e 15 anos.
-
   
 🔑*Interpretações e reflexões:*
 - Distribuição fortemente assimétrica à direita: A maioria dos colaboradores foi promovida recentemente, enquanto há uma cauda longa com poucos profissionais sem promoção há muitos anos — capturados como outliers.
@@ -680,24 +697,177 @@ Estatísticas visuais extraídas:
 ✅ Conclusão Integrada
 >A análise mostra que a empresa apresenta uma dinâmica de promoção recente robusta, com mais de 3 em cada 4 funcionários promovidos nos últimos 3 anos. O boxplot reforça essa concentração no início da distribuição e destaca uma minoria com longos períodos sem ascensão, que pode representar riscos de desengajamento ou baixa mobilidade em posições superiores.
 
+##### Variável - Anos com o mesmo chefe
+
+A variável anos com o mesmo chefe oferece uma leitura muito valiosa sobre **continuidade de lideraça, estabilidade gerencial** e possíveis impactos na cultura e satisfação organizacional.
+Com análises da tabela de frequência dos dados podemos checar que:
+-  **Mais da metade dos colaboradores (56,1%) está há até 3 anos com o mesmo líder**.
+-  Apenas **6,8%** estão há mais de 10 anos com a mesma liderança
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/d46b8bee-bb3d-4962-ae2e-c91ee9dcbf26
+  alt="Anos com o mesmo chefe width="500" height="300">
+  <p><strong> Figura 20</strong> Boxplot Anos com o mesmo chefe.</p>
+</div>
+
+**Boxplot — Anos com o Mesmo Chef**
+Estatísticas visuais observadas:
+- **Mínimo**: 0 anos
+- **Q1 (25%)**: 2 anos
+- **Mediana**: 4,12 anos
+- **Q3 (75%)**: 7 anos
+- **Máximo** (sem outliers): 14 anos
+- **Outliers**: 15, 16, 17 anos de liderança contínua
+
+O boxplot mostra distribuição **assimétrica à direita**, com a maioria concentrada nos primeiros anos de relacionamento com o chefe, e poucos casos extremos com tempo de convivência bastante longo.
+
+🔗 Integração — Frequência + Boxplot
+| Ponto de Análise                | Evidência na Tabela                  | Representação no Boxplot                  |
+|---------------------------------|--------------------------------------|-------------------------------------------|
+| Rotatividade / cargos recentes  | 56,1% estão com chefes há ≤ 3 anos   | Bigode inferior e metade inferior da caixa |
+| Tempo típico com liderança      | Mediana ≈ 4,12 anos                  | Centro da caixa (Q2)                      |
+| Relacionamentos longevos raros  | 6,8% têm mais de 10 anos com líder   | Outliers (15–17 anos)                     |
+
+
+🔑*Interpretações e reflexões:*
+-  Lideranças relativamente recentes predominam — mais da metade dos colaboradores teve mudança de gestor nos últimos 3 anos. Isso pode indicar:
+    - Reestruturações frequentes;
+    - Promoções internas e movimentações de liderança;
+    - Ou rotatividade de gestores.
+-  Mediana em torno de 4 anos mostra que a relação com o gestor direto tende a durar, mas ainda assim renova-se ao longo do tempo.
+-  Outliers com 15 a 17 anos com o mesmo líder são perfis raros e podem sinalizar:
+    - Equipes muito estáveis;
+    - Culturas de longo prazo;
+  - Ou riscos de estagnação e resistência à mudança.
+
+
+#### Análises Univariada. Variáveis Quantitativa Contínua
+
+##### Variável - Salário Mensal dos Funcionários
+
+Considerando as análises da tabela de frequência salarial e do boxplot de salários para tirar conclusões relevantes sobre a distribuição da remuneração mensal na organização temos que:
+- Os salários concentram-se entre **R$ 1.600 e R$ 5.599**, com destaque para as faixas **R$ 1.600–3.599** (31,5% da amostra).
+- A faixa mais alta (> R$ 10.600) representa **16,9%**, sugerindo um **grupo de alta remuneração ou cargos estratégicos**.
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/9a7b8ddc-9e71-4782-a685-91219ecda2e9
+  alt="Salário Mensal dos Funcionários width="500" height="400">
+  <p><strong> Figura 21</strong> Boxplot Salário Mensal dos Funcionários.</p>
+</div>
+
+**Boxplot — Distribuição Salarial **
+Estatísticas visuais observadas:
+- **Mínimo**: R$ 1.009,00
+- **Q1 (25%)**: R$ 2.910,50
+- **Mediana**: R$ 4.919,00
+- **Q3 (75%)**: R$ 8.380,25
+- **Média**: R$ 6.502,93
+- **Máximo** (normal): R$ 18.555,00
+- **Outliers**: Salários acima de 18 mil
+
+O intervalo interquartil (Q1–Q3) vai de R$ 2.910,50 a R$ 8.380,25, ou seja, 50% da empresa está dentro dessa faixa.
+
+ 🔗 Integração — Tabela + Boxplot
+
+| Ponto de Análise              | Evidência da Tabela                        | Complemento do Boxplot                                 |
+|------------------------------|--------------------------------------------|---------------------------------------------------------|
+| Concentração salarial         | 57% ganham entre R$ 1.600 e R$ 5.599       | Mediana = R$ 4.919 confirma foco intermediário          |
+| Dispersão e desigualdade      | 17% ganham mais de R$ 10.600               | Média (R$ 6.502) > Mediana (assimetria à direita)       |
+| Presença de salários extremos | Pequeno grupo de elite salarial            | Outliers acima de R$ 18 mil evidenciam disparidade      |
+ 
+🔑*Interpretações e reflexões:*
+- **Distribuição assimétrica à direita (positiva)**: A média é puxada para cima por um grupo de funcionários com salários bastante elevados — o que **eleva o valor médio** sem alterar a mediana.
+- **Alta desigualdade interna**: Há forte variação salarial dentro da empresa, com **boa parte da força de trabalho na base e um grupo seleto no topo**. Isso pode ter reflexos em clima, engajamento e percepção de justiça interna.
+- **Faixa intermediária sólida**: O grosso da remuneração está na faixa entre R$ 3 mil e R$ 5,5 mil — base estável que pode ser alvo de políticas de reconhecimento e progressão.
+
+
+##### Variável - Percentual de Aumento Salarial (2018–2019)
+
+Integrando as análises da tabela de frequência do porcento de aumento salaria (2018-2019) com o boxplot, que revela os padrões de reajuste salarial da empresa — importantíssimo para avaliar justiça interna, reconhecimento e competitividade de mercado.
+- Cerca de 56% dos funcionários tiveram aumento entre 11% e 14%
+- Apenas 4,6% receberam aumentos mais expressivos (23–25%
+
+
+<div align="center">
+<img src= https://github.com/user-attachments/assets/9a7b8ddc-9e71-4782-a685-91219ecda2e9
+  alt="Percentual de Aumento Salarial (2018–2019) width="500" height="400">
+  <p><strong> Figura 22</strong> Boxplot Percentual de Aumento Salarial (2018–2019).</p>
+</div>
+
+**Boxplot — % de Aumento de Salário**
+Estatísticas visuais observadas:
+
+- **Mínimo**: 11%
+- **Q1 (25%)**: 12%
+- **Mediana**: 15,21%
+- **Q3 (75%)**: 18%
+- **Média**: R$ 6.502,93
+- **Máximo** (normal):  25%
+
+🧩 O intervalo interquartil vai de 12% a 18%, concentrando metade dos reajustes nesse intervalo.
+
+🔗 Integração — Tabela × Boxplot
+| Ponto de Análise | Evidência na Tabela | Complemento do Boxplot | 
+| Aumentos modestos comuns | 55,7% com reajustes entre 11% e 14% | Q1 = 12% confirma concentração à esquerda | 
+| Mediana estratégica | Faixa modal entre 13–14% | Mediana = 15,2% mostra ligeira assimetria | 
+| Reajustes generosos (topo) | Apenas 12% acima de 20% | Máximo = 25% sem outliers visíveis | 
+
+🔑*Interpretações e reflexões:*
+ -  **Distribuição levemente assimétrica à direita** — a média é um pouco maior que a mediana devido a um pequeno grupo com aumentos mais elevados (23–25%).
+ -  **Política de aumento moderada e padronizada**: Mais da metade dos colaboradores recebeu reajustes similares (entre 11–14%), o que pode refletir critérios objetivos e políticas salariais uniformes.
+ -  **Baixa dispersão salarial no aumento anual**: O boxplot mostra que quase todos os reajustes ficaram abaixo de 25%, e não há outliers extremos — reforçando coerência na política de meritocracia ou reajuste coletivo.
 
 
 
----
+## Matriz Geral — Perfil de Todos os Funcionários (22 Variáveis)
 
-##### Variável ***Target***: Funciónarios que deixaram a empresa
-🔑Interpretações e reflexões:
-- A taxa de turnover total de 16.1% no último ano:
-   º Dos 1.470 funcionários analisados, **237 se desligaram da empresa**, representando **16,1% do total**. Esse índice está **abaixo da média nacional** e até de alguns benchmarks do setor de tecnologia(-1)(-4), o que pode indicar **bons esforços atuais** em retenção — mas também **potencial para melhoria**
+| Tema                           | Variável                            | Insight Principal                                                                                 |
+|--------------------------------|-------------------------------------|----------------------------------------------------------------------------------------------------|
+| Perfil Demográfico             | Idade                               | Adultos de 28–42 anos predominam → força de trabalho madura e ativa.                              |
+|                                | Gênero                              | 60% homens, 40% mulheres → distribuição levemente masculina.                                       |
+|                                | Estado Civil                        | 46% casados → tendência à busca por estabilidade.                                                  |
+|                                | Tempo de Carreira                   | 73% com até 14 anos → perfil em consolidação.                                                     |
+|                                | Quantidade de Empresas              | 49% com 0–1 empresa → grande proporção em início de jornada.                                      |
+| Trajetória na Empresa          | Tempo de Empresa                    | Mediana = 7 anos → boa retenção média.                                                            |
+|                                | Tempo no Mesmo Cargo                | 55% até 3 anos → alta mobilidade funcional.                                                       |
+|                                | Tempo com o Mesmo Chefe             | Mediana ≈ 4 anos → equilíbrio entre continuidade e renovação.                                     |
+|                                | Tempo desde Última Promoção         | 64% promovidos nos últimos 2 anos → forte mobilidade interna.                                    |
+| Qualificação & Técnico         | Formação Acadêmica                  | 69% com nível superior ou mais → equipe bem qualificada.                                          |
+|                                | Qtde de Ações da Empresa            | 43% não possuem ações → engajamento financeiro concentrado.                                       |
+|                                | Horas de Treinamento                | 71% com 2 ou 3h → política de capacitação padronizada e superficial.                              |
+| Remuneração & Benefícios       | Salário Mensal                      | Mediana = R$ 4.919; média = R$ 6.502 → alta disparidade salarial.                                 |
+|                                | % Aumento Salarial (2018–2019)      | 56% entre 11–14% → política salarial padronizada.                                                 |
+| Clima & Engajamento            | E-Satisfação (Clima Organizacional) | 61% com satisfação alta/muito alta → clima positivo.                                              |
+|                                | Equilíbrio Vida-Trabalho            | 95% com percepção de equilíbrio → ambiente saudável.                                              |
+|                                | Faz Horas Extras                    | 28% fazem → potencial sobrecarga em parte da força de trabalho.                                   |
+|                                | Frequência de Viagens               | 71% viajam raramente → baixa exposição a deslocamentos.                                           |
+| Mobilidade                     | Distância até o Trabalho            | 64% moram até 9km → logística favorável.                                                          |
+| Rotatividade                   | Turnover (Deixou a empresa?)        | 16,1% saíram → nível moderado; fatores de evasão devem ser investigados.                         |
 
-<p align="center">
-<img src= https://github.com/user-attachments/assets/d32b5fbe-8f07-4b6d-810a-2178e5761b71
- alt="Descrição da imagem" width="500" height="300">
-</p>
 
-##### Variável: Funciónarios que deixaram a empresa
-🎯Insights:
+ Matriz Focada — Perfil dos que Saíram da Empresa (Ordenada por Impacto Estratégico)
 
+| Variável                          | Insight Focado nos que Saíram                                                                 |
+|-----------------------------------|-----------------------------------------------------------------------------------------------|
+| Turnover (Target)                | 16,1% saíram → índice gerenciável, mas estratégico monitorar quem compõe esse grupo.         |
+| Tempo de Empresa                 | Maioria dos que saem está até o 3º ano → risco de perda precoce de talentos.                 |
+| Promoção Recente                 | Quem está há mais tempo sem promoção tende a sair mais → potencial desmotivação.             |
+| E-Satisfação (Clima)             | Maioria dos desligados tem satisfação média ou baixa → clima é um forte fator explicativo.   |
+| Salário                          | Desligamentos mais frequentes em faixas até R$ 4.000 → possível insatisfação com remuneração.|
+| Distância do Trabalho            | Colaboradores distantes (>10km) saem mais → deslocamento pode ser fator de estresse.        |
+| Formação Acadêmica               | Profissionais com menor escolaridade tendem a sair mais → menor vínculo organizacional.     |
+| Tempo no Mesmo Cargo             | Períodos prolongados sem mobilidade aumentam chance de evasão.                              |
+| Equilíbrio de Vida               | Colaboradores com percepção “ruim/bom” saem mais que os com “muito bom/excelente”.          |
+| Faz Horas Extras                 | Aqueles que fazem frequentemente saem mais → indicador de sobrecarga.                       |
+| Anos com o Mesmo Chefe           | Relações longas com lideranças estáveis tendem a reter mais.                                |
+| Qtde de Empresas Anteriores      | Quem já teve várias experiências sai mais → maior propensão natural ao turnover.             |
+| % Aumento Salarial               | Ausência de reajustes diferenciados pode reduzir engajamento entre os top performers.        |
+| Horas de Treinamento             | Quem recebe menos treinamento tende a sair mais → falta de investimento percebido.           |
+| Idade                            | Jovens de até 30 anos são maioria entre os que saem → rotatividade natural da faixa etária. |
+| Gênero                           | Leve tendência maior de saída entre mulheres → investigar clima, oportunidades e gestão.     |
+| Estado Civil                     | Solteiros apresentam maior índice de evasão → possível maior flexibilidade para mudar.       |
+| Frequência de Viagens            | Viagens frequentes estão associadas a maior evasão em alguns casos → investigar desgaste.    |
+| Ações da Empresa                 | Quem não possui ações tende a sair mais → falta de vínculo de longo prazo.                  |
 ---
 
 ### 📙 3. Preparação dos Dados (Data Preparation)
