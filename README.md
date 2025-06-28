@@ -785,11 +785,11 @@ O intervalo interquartil (Q1–Q3) vai de R$ 2.910,50 a R$ 8.380,25, ou seja, 50
 
 Integrando as análises da tabela de frequência do porcento de aumento salaria (2018-2019) com o boxplot, que revela os padrões de reajuste salarial da empresa — importantíssimo para avaliar justiça interna, reconhecimento e competitividade de mercado.
 - Cerca de 56% dos funcionários tiveram aumento entre 11% e 14%
-- Apenas 4,6% receberam aumentos mais expressivos (23–25%
+- Apenas 4,6% receberam aumentos mais expressivos (23–25%)
 
 
 <div align="center">
-<img src= https://github.com/user-attachments/assets/9a7b8ddc-9e71-4782-a685-91219ecda2e9
+<img src= https://github.com/user-attachments/assets/9d1ed09e-fc67-485b-bd7b-6a4fdbb3eaae
   alt="Percentual de Aumento Salarial (2018–2019) width="500" height="400">
   <p><strong> Figura 22</strong> Boxplot Percentual de Aumento Salarial (2018–2019).</p>
 </div>
