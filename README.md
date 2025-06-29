@@ -899,9 +899,9 @@ Nosso problema é do tipo **bidimensional supervisionado**, pois temos uma **var
 <div align="center">
 <img src= https://github.com/user-attachments/assets/a87c6338-843a-4d1d-9fcd-c2176b3a86dc
   alt="Framework de Análise de Dado width="600" height="400">
-  <p><strong> Figura 23 </strong> Framework de Análise de Dados by Preditiva.ia .</p>
+  <p><strong> Figura 23 </strong> Framework de Análise de Dados by Preditiva.ia.</p>
 </div>
-> *Futuras versões do projeto podem aplicar regressão logística, árvore de decisão ou Random Forest.*
+>*Futuras versões do projeto podem aplicar regressão logística, árvore de decisão ou Random Forest.*
 
 #### 📊 Análise de Associação com a Variável Alvo
 
