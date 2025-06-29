@@ -794,7 +794,7 @@ Integrando as análises da tabela de frequência do porcento de aumento salaria 
 - Apenas 4,6% receberam aumentos mais expressivos (23–25%)
 
 <div align="center">
-<img src= https://github.com/user-attachments/assets/9d1ed09e-fc67-485b-bd7b-6a4fdbb3eaae
+<img src= "https://github.com/user-attachments/assets/9d1ed09e-fc67-485b-bd7b-6a4fdbb3eaae"
   alt="Percentual de Aumento Salarial (2018–2019) width="500" height="300">
   <p><strong> Figura 22</strong> Boxplot Percentual de Aumento Salarial (2018–2019).</p>
 </div>
@@ -823,7 +823,7 @@ Estatísticas visuais observadas:
  -  **Política de aumento moderada e padronizada**: Mais da metade dos colaboradores recebeu reajustes similares (entre 11–14%), o que pode refletir critérios objetivos e políticas salariais uniformes.
  -  **Baixa dispersão salarial no aumento anual**: O boxplot mostra que quase todos os reajustes ficaram abaixo de 25%, e não há outliers extremos — reforçando coerência na política de meritocracia ou reajuste coletivo.
 
-## Tabela  Matriz Geral — Perfil de Todos os Funcionários (20 Variáveis)
+#### Tabela 3:  Matriz Geral — Perfil de Todos os Funcionários (20 Variáveis)
 
 | Tema                           | Variável                            | Insight Principal                                                                                  |
 |--------------------------------|-------------------------------------|----------------------------------------------------------------------------------------------------|
@@ -849,7 +849,7 @@ Estatísticas visuais observadas:
 
 Com base aos resultados anteriores podemos construir o **perfil-padrão dos funcionários com maior prospeção a sair da empresa** e, logo depois algumas **recomendações práticas para reteção segmentada** com focos pontos críticos identificados
 
-Tabela X: Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
+Tabela 4: Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
 
 | Dimensão                    | Característica com maior tendência de saída                                      |
 |-----------------------------|----------------------------------------------------------------------------------|
@@ -869,50 +869,87 @@ Tabela X: Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
 
 ### 📙 3. Preparação dos Dados (Data Preparation)
 
-#### 🧹 Etapas da preparação
+Nesta etapa da metodologia CRISP-DM, o objetivo é transformar os dados brutos em um formato apropriado para análise, garantindo qualidade, consistência e relevância.
 
-- Padronização dos nomes das colunas  
-- Conversão de variáveis categóricas e numéricas  
-- Tratamento de dados ausentes  
-- Criação de variáveis derivadas (ex: anos desde última promoção)  
+#### 🧠 Estratégia de Preparação
 
-#### 🛠️ Ferramenta utilizada
+Durante a preparação, aplicamos as seguintes práticas:
 
-- **Microsoft® Excel®** para limpeza, visualização e análise descritiva
-
+- Validação e remoção de duplicidades e registros inconsistentes
+- Tratamento de valores ausentes
+- Conversão de variáveis categóricas em formato adequado para análise
+- Agrupamento de variáveis em faixas (binning) quando necessário
+- Padronização de escalas e formatos
 ---
 
 ### 📘 4. Modelagem (Modeling)
-
-
 Neste projeto inicial, não foi utilizada modelagem estatística preditiva. O foco esteve em análises descritivas e exploratórias:
+- Análise de associação entre variáveis categóricas e turnover
+- Aplicação de técnicas estatísticas para entender o pode de separação entre as variáveis: ***Information Value***
+- Avaliação da relação entre turnover e fatores internos da empresa.
+  
+#### 🔍 Tipo de Problema
 
-- Matriz de correlação para variáveis numéricas  
-- Análise de associação entre variáveis categóricas e turnover  
-- Gráficos e tabelas para identificar padrões visuais.
-
+Nosso problema é do tipo **bidimensional supervisionado**, pois temos uma **variável alvo (target)** – neste caso, `Funcionário_deixou_a_empresa` – e queremos entender **quais fatores explicam melhor esse comportamento**.
 
 <div align="center">
-<img src= (https://github.com/user-attachments/assets/a87c6338-843a-4d1d-9fcd-c2176b3a86dc
-  alt="Percentual de Aumento Salarial (2018–2019) width="500" height="300">
+<img src= https://github.com/user-attachments/assets/a87c6338-843a-4d1d-9fcd-c2176b3a86dc
+  alt="Framework de Análise de Dado width="600" height="400">
   <p><strong> Figura 23 </strong> Framework de Análise de Dados by Preditiva.ia .</p>
 </div>
-  
-
-
-
-
-
-
 > *Futuras versões do projeto podem aplicar regressão logística, árvore de decisão ou Random Forest.*
+
+#### 📊 Análise de Associação com a Variável Alvo
+
+Como o foco é entender **quais variáveis influenciam a decisão do funcionário de sair da empresa**, aplicamos técnicas de **medidas de associação**, com destaque para o método **Information Value (IV)**.
+
+#### 📌 O que é o Information Value?
+
+O Information Value é uma métrica que indica **o poder preditivo de uma variável categórica ou binned (agrupada) em relação a uma variável alvo binária**. Quanto maior o IV, mais forte é a associação.
+Se uma variável tem poder forte, isso significa que uma ou mais categorias da variável tem um alto ou baixo nível de turnover, sendo útil estudá-la com mais profundidade.
+
+| Valor de IV         | Interpretação                |
+|---------------------|------------------------------|
+| < 0.02              | Pouco ou nenhum valor preditivo |
+| 0.02 - 0.1          | Valor fraco                  |
+| 0.1 - 0.3           | Valor médio                  |
+| 0.3 - 0.5           | Valor forte                  |
+| > 0.5               | Valor suspeito (pode ser overfitting) |
+
+---
+
+## 🏆 Ranking de Variáveis por Information Value
+
+Abaixo está o ranking das variáveis mais associadas com o turnover, com base nos valores de Information Value calculados:
+
+| Variável                   | Information Value | Nível de Associação |
+|----------------------------|-------------------|---------------------|
+| Salário                    | 0.430             | Forte               |
+| Faz_hora_extras?           | 0.400             | Forte               |
+| Qte_ações_da_empresa       | 0.319             | Forte               |
+| Tempo_de_empresa           | 0.317             | Forte               |
+| Idade                      | 0.314             | Forte               |
+| Anos_com_o_mesmo_chefe     | 0.263             | Médio               |
+| Anos_no_mesmo_cargo        | 0.252             | Médio               |
+| Estado_Civil               | 0.219             | Médio               |
+| Frequência de Viagens      | 0.121             | Médio               |
+
+
+> IV permitiu identificar os principais grupos grupos de riscos e as vairáveis com um alto poder separação ao turnover
+
+Esta análise permite focar nos fatores mais relevantes para a saída dos colaboradores, direcionando as próximas etapas do projeto:
+
+- **Modelagem preditiva com as variáveis de maior IV**
+- **Proposição de plano de ação para retenção baseado nos fatores de maior impacto**
 
 ---
 
 ### 📕 5. Avaliação (Evaluation)
 
-#### 📈 Resultados observados
+#### Interpretação dos resultados obtidos na modelagem.  
+#### Comparação com benchmarks do setor para validar insights.  
 
-- Maiores taxas de saída em funcionários com:
+  - Maiores taxas de saída em funcionários com:
   - Baixa nota de equilíbrio de vida  
   - Baixa satisfação organizacional  
   - Longo tempo sem promoção  
@@ -926,14 +963,13 @@ Esses fatores servem como alerta para a área de Recursos Humanos priorizar aç�
 ---
 
 ### 📓 6. Implantação (Deployment)
-
+  
 #### 📤 Entregáveis
 
-- Dashboard em Excel com filtros e indicadores de turnover  
-- Relatório com principais insights e recomendações para o RH  
-- Documentação estruturada com base no CRISP-DM
+- Recomendação de políticas para reduzir o turnover.  
+- Definição de métricas para acompanhamento da retenção dos funcionários.  
 
-#### 🗂️ Estrutura sugerida do repositório
+
 
 ## 📌 Referências  
   [^1]: ROBERT HALF. *Brasil lidera índice de rotatividade de funcionários em todo o mundo: 56%*. Publicado em 23 ago. 2023. Disponível em: [https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html](https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html)
