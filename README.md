@@ -560,7 +560,7 @@ Excelente variável para entender a maturidade profissional da equipe, analisaro
 - As faixas mais experientes (25+ anos) são minoria: apenas **~7% do total**.
 - A distribuição sugere uma equipe majoritariamente em **fase de consolidação de carreira** (nem muito nova, nem perto da aposentadoria).
 
-📦 BOXPLOT
+Boxplot
 - **Mediana**: 10 anos
 - **Média**: 11,28 anos (ou seja, > mediana → assimetria à direita)
 - **Quartis**: Q1 ≈ 6 anos e Q3 ≈ 15 anos
@@ -569,11 +569,11 @@ Excelente variável para entender a maturidade profissional da equipe, analisaro
 - Que a maioria está entre 6 e 15 anos de carreira;
 - Que existem **alguns poucos casos muito acima da média** (outliers), puxando a média para cima.
 
-📉  HISTOGRAMA
+ Histograma
 - A cauda direita é longa (mais valores extremos positivos), o que reforça a distribuição assimétrica à direita.
 - O maior pico (classe modal) está na faixa de **5–9 anos**, seguido pela faixa **0–4**.
 - Frequência decrescente conforme o tempo de carreira aumenta.
-🧩 O histograma dá uma visão visual da **frequência por classe**, mostrando onde está a maior massa da população e reforçando a leitura do boxplot.
+-  O histograma dá uma visão visual da **frequência por classe**, mostrando onde está a maior massa da população e reforçando a leitura do boxplot.
 
 ✅ Conclusão Integrada
 
@@ -623,7 +623,7 @@ Análises da Composição da Tabela de frequência:
   <p><strong> Figura 17:</strong> Boxplot Tempo de Empresa - em anos - dos colaboradores.</p>
 </div> 
 
-📦 Análise do Boxplot
+Análise do Boxplot
 - **Mínimo**: 0 anos
 - **Q1**: ~3 anos
 - **Mediana**: 5 anos
@@ -631,7 +631,8 @@ Análises da Composição da Tabela de frequência:
 - **Q3**: ~9 anos
 - **Máximo** (sem outliers): 18 anos
 - **Outliers identificados**: de 19 a 40 anos de empresa
-🔍 A cauda longa para a direita indica assimetria positiva, com poucos profissionais que ficaram décadas e puxam a média para cima.
+  
+A cauda longa para a direita indica assimetria positiva, com poucos profissionais que ficaram décadas e puxam a média para cima.
 O corpo da caixa entre 3 e 9 anos reforça que a maioria está estabilizada, mas ainda em fase de meia permanência.
 
 Tabela 2: Integração entre Boxplot e Tabela
@@ -767,7 +768,7 @@ Considerando as análises da tabela de frequência salarial e do boxplot de sal�
   <p><strong> Figura 21:</strong> Boxplot Salário Mensal dos Funcionários.</p>
 </div>
 
-**Boxplot — Distribuição Salarial **
+**Boxplot — Distribuição Salarial**
 Estatísticas visuais observadas:
 - **Mínimo**: R$ 1.009,00
 - **Q1 (25%)**: R$ 2.910,50
@@ -813,7 +814,7 @@ Estatísticas visuais observadas:
 - **Q3 (75%)**: 18%
 - **Máximo** (normal):  25%
 
-🧩 O intervalo interquartil vai de 12% a 18%, concentrando metade dos reajustes nesse intervalo.
+O intervalo interquartil vai de 12% a 18%, concentrando metade dos reajustes nesse intervalo.
 
 Tabla 5: Integração — Tabela × Boxplot
 | Ponto de Análise | Evidência na Tabela | Complemento do Boxplot | 
