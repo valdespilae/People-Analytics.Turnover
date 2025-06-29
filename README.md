@@ -15,10 +15,10 @@
      - [Análises Univariada. Variáveis Qualitativas Ordinal](#-análises-univariada.-variáveis-qualitativas-ordinal)
      - [Análises Univariada. Variáveis Quantitativa Discreta](#-análises-univariada.-variáveis-quantitativa-discreta)
      - [Análises Univariada. Variáveis Quantitativa Contínua](#análises-univariada.-variáveis-quantitativa-contínua)
-   - [Etapa 3. Preparação dos Dados (Data Preparation](#-etapa-3-preparação-dos-dados-data-preparation)
-   - [Etapa 4. Modelagem (Modeling)](#-etapa-4-modelagem-Modeling)
-   - [Etapa 5. Avaliação (Evaluation)](#-etapa-5-avaliação-evaluation)
-   - [Etapa 6. Implantação (Deployment)](#-etapa-6-implantação-deployment)
+   - [Etapa 3: Preparação dos Dados (Data Preparation](#-etapa-3-preparação-dos-dados-data-preparation)
+   - [Etapa 4: Modelagem (Modeling)](#-etapa-4-modelagem-Modeling)
+   - [Etapa 5: Avaliação (Evaluation)](#-etapa-5-avaliação-evaluation)
+   - [Etapa 6: Implantação (Deployment)](#-etapa-6-implantação-deployment)
  - [Referências](#Referências)
 
 ## 📌 Contextualização  
@@ -870,7 +870,7 @@ Tabela 7: Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
 
 ---
 
-### 📙 Etapa 3. Preparação dos Dados (Data Preparation)
+### 📙 Etapa 3: Preparação dos Dados (Data Preparation)
 
 Nesta etapa da metodologia CRISP-DM, o objetivo é transformar os dados brutos em um formato apropriado para análise, garantindo qualidade, consistência e relevância.
 
@@ -885,7 +885,7 @@ Durante a preparação, aplicamos as seguintes práticas:
 - Padronização de escalas e formatos
 ---
 
-### 📘Etapa 4. Modelagem (Modeling)
+### 📘Etapa 4: Modelagem (Modeling)
 Neste projeto inicial, não foi utilizada modelagem estatística preditiva. O foco esteve em análises descritivas e exploratórias:
 - Análise de associação entre variáveis categóricas e turnover
 - Aplicação de técnicas estatísticas para entender o pode de separação entre as variáveis: ***Information Value***
@@ -947,7 +947,7 @@ Esta análise permite focar nos fatores mais relevantes para a saída dos colabo
 
 ---
 
-### 📕 Etapa 5. Avaliação (Evaluation)
+### 📕 Etapa 5: Avaliação (Evaluation)
 
 #### Interpretação dos resultados obtidos na modelagem.  
 #### Comparação com benchmarks do setor para validar insights.  
@@ -965,7 +965,7 @@ Esses fatores servem como alerta para a área de Recursos Humanos priorizar aç�
 
 ---
 
-### 📓 Etapa 6. Implantação (Deployment)
+### 📓 Etapa 6: Implantação (Deployment)
 
 #### 📤 Entregáveis
 
@@ -973,7 +973,7 @@ Esses fatores servem como alerta para a área de Recursos Humanos priorizar aç�
 - Definição de métricas para acompanhamento da retenção dos funcionários.  
 
 
-## 📌 Referências  
+## 📌 Referências: 
   [^1]: ROBERT HALF. *Brasil lidera índice de rotatividade de funcionários em todo o mundo: 56%*. Publicado em 23 ago. 2023. Disponível em: [https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html](https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html)
   
   [^2]: EVERMONTE. *Turnover: por que os colaboradores estão permanecendo menos tempo nas companhias?*. Publicado em 08 jul. 2024. Disponível em: [https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter](https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter)
