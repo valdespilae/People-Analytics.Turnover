@@ -15,6 +15,11 @@
      - [Análises Univariada. Variáveis Qualitativas Ordinal](#-análises-univariada.-variáveis-qualitativas-ordinal)
      - [Análises Univariada. Variáveis Quantitativa Discreta](#-análises-univariada.-variáveis-quantitativa-discreta)
      - [Análises Univariada. Variáveis Quantitativa Contínua](#análises-univariada.-variáveis-quantitativa-contínua)
+   - [Etapa 3. Preparação dos Dados (Data Preparation](#-etapa-3-preparação-dos-dados-data-preparation)
+   - [Etapa 4. Modelagem (Modeling)](#-etapa-4-modelagem-Modeling)
+   - [Etapa 5. Avaliação (Evaluation)](#-etapa-5-avaliação-evaluation)
+   - [Etapa 6. Implantação (Deployment)](#-etapa-6-implantação-deployment)
+ - [Referências](#Referências)
 
 ## 📌 Contextualização  
 
@@ -629,7 +634,7 @@ Análises da Composição da Tabela de frequência:
 🔍 A cauda longa para a direita indica assimetria positiva, com poucos profissionais que ficaram décadas e puxam a média para cima.
 O corpo da caixa entre 3 e 9 anos reforça que a maioria está estabilizada, mas ainda em fase de meia permanência.
 
-🔗 Integração entre Boxplot e Tabela
+Tabela 2: Integração entre Boxplot e Tabela
 | Perspectiva              | Tabela                          | Boxplot                                 |
 |--------------------------|---------------------------------|------------------------------------------|
 | Colaboradores novatos    | 23,3% até 2 anos                | Início do bigode inferior                |
@@ -714,7 +719,7 @@ Com análises da tabela de frequência dos dados podemos checar que:
 <div align="center">
 <img src= https://github.com/user-attachments/assets/d46b8bee-bb3d-4962-ae2e-c91ee9dcbf26
   alt="Anos com o mesmo chefe width="500" height="300">
-  <p><strong> Figura 20</strong> Boxplot Anos com o mesmo chefe.</p>
+  <p><strong> Figura 20:</strong> Boxplot Anos com o mesmo chefe.</p>
 </div>
 
 **Boxplot — Anos com o Mesmo Chef**
@@ -729,7 +734,7 @@ Estatísticas visuais observadas:
 
 O boxplot mostra distribuição **assimétrica à direita**, com a maioria concentrada nos primeiros anos de relacionamento com o chefe, e poucos casos extremos com tempo de convivência bastante longo.
 
-🔗 Integração — Frequência + Boxplot
+Tabla 3: Integração — Frequência + Boxplot
 | Ponto de Análise                | Evidência na Tabela                  | Representação no Boxplot                  |
 |---------------------------------|--------------------------------------|-------------------------------------------|
 | Rotatividade / cargos recentes  | 56,1% estão com chefes há ≤ 3 anos   | Bigode inferior e metade inferior da caixa |
@@ -759,7 +764,7 @@ Considerando as análises da tabela de frequência salarial e do boxplot de sal�
 <div align="center">
 <img src= https://github.com/user-attachments/assets/df83200e-8cf9-47a7-bdd2-d99378e05d1d
   alt="Salário Mensal dos Funcionários width="400" height="600">
-  <p><strong> Figura 21</strong> Boxplot Salário Mensal dos Funcionários.</p>
+  <p><strong> Figura 21:</strong> Boxplot Salário Mensal dos Funcionários.</p>
 </div>
 
 **Boxplot — Distribuição Salarial **
@@ -774,8 +779,7 @@ Estatísticas visuais observadas:
 
 O intervalo interquartil (Q1–Q3) vai de R$ 2.910,50 a R$ 8.380,25, ou seja, 50% da empresa está dentro dessa faixa.
 
- 🔗 Integração — Tabela + Boxplot
-
+ Tabla 4: Integração — Tabela + Boxplot
 | Ponto de Análise              | Evidência da Tabela                        | Complemento do Boxplot                                 |
 |-------------------------------|--------------------------------------------|--------------------------------------------------------|
 | Concentração salarial         | 57% ganham entre R$ 1.600 e R$ 5.599       | Mediana = R$ 4.919 confirma foco intermediário         |
@@ -796,7 +800,7 @@ Integrando as análises da tabela de frequência do porcento de aumento salaria 
 <div align="center">
 <img src= "https://github.com/user-attachments/assets/9d1ed09e-fc67-485b-bd7b-6a4fdbb3eaae"
   alt="Percentual de Aumento Salarial (2018–2019) width="500" height="300">
-  <p><strong> Figura 22</strong> Boxplot Percentual de Aumento Salarial (2018–2019).</p>
+  <p><strong> Figura 22:</strong> Boxplot Percentual de Aumento Salarial (2018–2019).</p>
 </div>
 
 **Boxplot — % de Aumento de Salário**
@@ -811,7 +815,7 @@ Estatísticas visuais observadas:
 
 🧩 O intervalo interquartil vai de 12% a 18%, concentrando metade dos reajustes nesse intervalo.
 
-🔗 Integração — Tabela × Boxplot
+Tabla 5: Integração — Tabela × Boxplot
 | Ponto de Análise | Evidência na Tabela | Complemento do Boxplot | 
 |------------------|---------------------|------------------------|
 | Aumentos modestos comuns | 55,7% com reajustes entre 11% e 14% | Q1 = 12% confirma concentração à esquerda | 
@@ -823,7 +827,7 @@ Estatísticas visuais observadas:
  -  **Política de aumento moderada e padronizada**: Mais da metade dos colaboradores recebeu reajustes similares (entre 11–14%), o que pode refletir critérios objetivos e políticas salariais uniformes.
  -  **Baixa dispersão salarial no aumento anual**: O boxplot mostra que quase todos os reajustes ficaram abaixo de 25%, e não há outliers extremos — reforçando coerência na política de meritocracia ou reajuste coletivo.
 
-#### Tabela 3:  Matriz Geral — Perfil de Todos os Funcionários (20 Variáveis)
+#### Tabela 6:  Matriz Geral — Perfil de Todos os Funcionários (20 Variáveis)
 
 | Tema                           | Variável                            | Insight Principal                                                                                  |
 |--------------------------------|-------------------------------------|----------------------------------------------------------------------------------------------------|
@@ -849,8 +853,7 @@ Estatísticas visuais observadas:
 
 Com base aos resultados anteriores podemos construir o **perfil-padrão dos funcionários com maior prospeção a sair da empresa** e, logo depois algumas **recomendações práticas para reteção segmentada** com focos pontos críticos identificados
 
-Tabela 4: Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
-
+Tabela 7: Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
 | Dimensão                    | Característica com maior tendência de saída                                      |
 |-----------------------------|----------------------------------------------------------------------------------|
 | Idade                       | Entre 28 e 37 anos (45% dos desligados)                                          |
@@ -867,7 +870,7 @@ Tabela 4: Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
 
 ---
 
-### 📙 3. Preparação dos Dados (Data Preparation)
+### 📙 Etapa 3. Preparação dos Dados (Data Preparation)
 
 Nesta etapa da metodologia CRISP-DM, o objetivo é transformar os dados brutos em um formato apropriado para análise, garantindo qualidade, consistência e relevância.
 
@@ -882,7 +885,7 @@ Durante a preparação, aplicamos as seguintes práticas:
 - Padronização de escalas e formatos
 ---
 
-### 📘 4. Modelagem (Modeling)
+### 📘Etapa 4. Modelagem (Modeling)
 Neste projeto inicial, não foi utilizada modelagem estatística preditiva. O foco esteve em análises descritivas e exploratórias:
 - Análise de associação entre variáveis categóricas e turnover
 - Aplicação de técnicas estatísticas para entender o pode de separação entre as variáveis: ***Information Value***
@@ -944,7 +947,7 @@ Esta análise permite focar nos fatores mais relevantes para a saída dos colabo
 
 ---
 
-### 📕 5. Avaliação (Evaluation)
+### 📕 Etapa 5. Avaliação (Evaluation)
 
 #### Interpretação dos resultados obtidos na modelagem.  
 #### Comparação com benchmarks do setor para validar insights.  
@@ -962,13 +965,12 @@ Esses fatores servem como alerta para a área de Recursos Humanos priorizar aç�
 
 ---
 
-### 📓 6. Implantação (Deployment)
-  
+### 📓 Etapa 6. Implantação (Deployment)
+
 #### 📤 Entregáveis
 
 - Recomendação de políticas para reduzir o turnover.  
 - Definição de métricas para acompanhamento da retenção dos funcionários.  
-
 
 
 ## 📌 Referências  
