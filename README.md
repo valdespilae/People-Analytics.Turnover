@@ -9,21 +9,21 @@
 - [Contextualização](#Contextualização)
    - [Benchmark de Turnover no Setor de Tecnologia no Brasil.](#Benchmark-de-Turnover-no-Setor-de-Tecnologia-no-Brasil)
 - [Metodologia CRISP DM](#Metodologia-CRISP-DM)
-  - [Etapa 1: Compreensão do Negócio](#Etapa-1:-Compreensão-do-Negócio)
-  - [Etapa 2: Compreensão dos Dados](#Etapa-2:-Compreensão-dos-Dados)
+  - [Etapa 1: Compreensão do Negócio](#Etapa-1-Compreensão-do-Negócio)
+  - [Etapa 2: Compreensão dos Dados](#Etapa-2-Compreensão-dos-Dados)
      - [Variáveis Qualitativas Nominal](#Variáveis-Qualitativas-Nominal)
      - [Variáveis Qualitativas Ordinal](#Variáveis-qualitativas-Ordinal)
      - [Variáveis Quantitativa Discreta](#Variáveis-Quantitativa-Discreta)
      - [Variáveis Quantitativa Contínua](#Variáveis-Quantitativa-Continua)
-     - [Matriz Geral. Perfil de Todos os Funcionários](#Matriz-Geral—.Perfil-de-Todos-os-Funcionários)
-     - [Perfil Padrão de Funcionário com Alta Propensão ao Turnover](#Perfil-Padrão-de-Funcionário-com-Alta-Propensão-ao-Turnover)
+     - [Perfil de Todos os Funcionários](#Perfil-de-Todos-os-Funcionários)
+     - [Perfil Padrão do Funcionário com Alta Propensão ao Turnover](#Perfil-Padrão-do-Funcionário-com-Alta-Propensão-ao-Turnover)
    - [Etapa 3: Preparação dos Dados](#Etapa-3-Preparação-dos-Dados)
    - [Etapa 4: Modelagem ou Análises](#Etapa-4-Modelagem-ou-Análises)
    - [Etapa 5: Avaliação](#Etapa-5-Avaliação)
       - [Interpretação dos resultados obtidos apartir do cálculo do IV](#Interpretação-dos-resultados-obtidos-apartir-do-cálculo-do-iv)
       - [Comparação com benchmarks do setor para validar insights](#Comparação-com-benchmarks-do-setor-para-validar-insights)
    - [Etapa 6 Implantação](#Etapa-6-Implantação)
-      - [Plano de Ação: Redução de Turnover com base em variáveis críticas](#Plano-de-Ação:–Redução-de-Turnover-com-base-em-variáveis-críticas)
+      - [Plano de Ação: Redução de Turnover com base em variáveis críticas](#Plano-de-Ação–Redução-de-Turnover-com-base-em-variáveis-críticas)
       - [Métricas para Acompanhamento da Retenção de Funcionários](#Métricas-para-Acompanhamento-da-Retenção-de-Funcionários)
  - [Referências](#Referências)
 
@@ -827,7 +827,7 @@ Tabla 5: Integração — Tabela × Boxplot
 #### - Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
 Com base aos resultados anteriores podemos construir o **perfil-padrão dos funcionários com maior prospeção a sair da empresa** e, logo depois algumas **recomendações práticas para reteção segmentada** com focos pontos críticos identificados
 
- Tabela 7: Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
+ Tabela 7: Perfil-Padrão do Funcionário com Alta Propensão ao Turnover
 | Dimensão                    | Característica com maior tendência de saída                                      |
 |-----------------------------|----------------------------------------------------------------------------------|
 | Idade                       | Entre 28 e 37 anos (45% dos desligados)                                          |
