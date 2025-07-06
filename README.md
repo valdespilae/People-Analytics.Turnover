@@ -737,7 +737,7 @@ Considerando as análises da tabela de frequência salarial e do boxplot de sal�
 - A faixa mais alta (> R$ 10.600) representa **16,9%**, sugerindo um **grupo de alta remuneração ou cargos estratégicos**.
 
 <div align="center">
-<img src= https://github.com/user-attachments/assets/a84a5000-f066-4006-8a6a-798e952a7255
+<img src= https://github.com/user-attachments/assets/cd11f36d-4811-48eb-9f78-fb8eec9efad1
   alt="Salário Mensal dos Funcionários width="200" height="400">
   <p><strong> Figura 21:</strong> Boxplot Salário Mensal dos Funcionários.</p>
 </div>
