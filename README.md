@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1e0540ec-e599-4f33-8eda-886dbe2eeccf" alt="Descrição da imagem">
+  <img src="https://github.com/user-attachments/assets/1e0540ec-e599-4f33-8eda-886dbe2eeccf" alt="Imagem de portada">
 </p>
 
 # Projeto People Analytics: Redução do Turnover com CRISP-DM
@@ -8,14 +8,14 @@
 ## Índice
 - [Contextualização](#Contextualização)
    - [Benchmark de Turnover no Setor de Tecnologia no Brasil.](#Benchmark-de-Turnover-no-Setor-de-Tecnologia-no-Brasil)
-- [Metodologia: CRISP-DM](#Metodologia:-CRISP---DM)
+- [Metodologia: CRISP-DM](#Metodologia:-CRISP-DM)
   - [Etapa 1: Compreensão do Negócio -*Business Understanding*-](#Etapa-1:-Compreensão-do-Negócio-*Business-Understanding*-)
   - [Etapa 2: Compreensão dos Dados -*Data Understanding*-](#Etapa-2:-Compreensão-dos-Dados-*Data-Understanding*)
      - [Análises Univariada. Variáveis Qualitativas Nominal](#Análises-Univariada.-Variáveis-Qualitativas-Nominal)
      - [Análises Univariada. Variáveis Qualitativas Ordinal](#Análises-Univariada.-Variáveis-Qualitativas-Ordinal)
      - [Análises Univariada. Variáveis Quantitativa Discreta](#Análises-Univariada.-Variáveis-Quantitativa-Discreta)
      - [Análises Univariada. Variáveis Quantitativa Contínua](#Análises-Univariada.-Variáveis-Quantitativa-Contínua)
-     - [Matriz Geral — Perfil de Todos os Funcionários](#Matriz-Geral—Perfil-de-Todos-os-Funcionários)
+     - [Matriz Geral. Perfil de Todos os Funcionários](#Matriz-Geral—.Perfil-de-Todos-os-Funcionários)
      - [Perfil-Padrão de Funcionário com Alta Propensão ao Turnover](#Perfil-Padrão-de-Funcionário-com-Alta-Propensão-ao-Turnover)
    - [Etapa 3: Preparação dos Dados (Data Preparation](#Etapa-3:-Preparação-dos-Dados-(Data-Preparation)
    - [Etapa 4: Modelagem (Modeling)](#Etapa-4:-Modelagem-(Modeling))
