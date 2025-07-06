@@ -20,10 +20,10 @@
    - [Etapa 3: Preparação dos Dados (Data Preparation](#Etapa-3:-Preparação-dos-Dados-(Data-Preparation))
    - [Etapa 4: Modelagem ou Análises](#Etapa-4:-Modelagem-ou-Análises])
    - [Etapa 5: Avaliação](#Etapa-5:-Avaliação)
-      - [Interpretação dos resultados obtidos aprtir do cálculo do *Information Value*](#Interpretação-dos-resultados-obtidos-aprtir-do-cálculo-do-*Information-Value*)
+      - [Interpretação dos resultados obtidos aprtir do cálculo do Information Value](#Interpretação-dos-resultados-obtidos-aprtir-do-cálculo-do-Information-Value)
       - [Comparação com benchmarks do setor para validar insights](#Comparação-com-benchmarks-do-setor-para-validar-insights)
-   - [Etapa 6: Implantação (Deployment)](#Etapa-6:-Implantação-(Deployment))
-      - [Plano de Ação – Redução de Turnover com base em variáveis críticas](#Plano-de-Ação–Redução-de-Turnover-com-base-em-variáveis-críticas)
+   - [Etapa 6: Implantação](#Etapa-6:-Implantação)
+      - [Plano de Ação: Redução de Turnover com base em variáveis críticas](#Plano-de-Ação:–Redução-de-Turnover-com-base-em-variáveis-críticas)
       - [Métricas para Acompanhamento da Retenção de Funcionários](#Métricas-para-Acompanhamento-da-Retenção-de-Funcionários)
  - [Referências](#Referências)
 
