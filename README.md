@@ -23,8 +23,8 @@
       - [Interpretação dos resultados obtidos aprtir do cálculo do *Information Value*](#-interpretação-dos-resultadosobtidos-aprtir-do-cálculo-do-*Information-Value*)
       - [Comparação com benchmarks do setor para validar insights](#-Comparação-com-benchmarks-do-setor-para-alidar-insights])
    - [Etapa 6: Implantação (Deployment)](#-etapa-6-implantação-deployment)
-      - [Plano de Ação – Redução de Turnover com base em variáveis críticas](#-plano-de-acao–reducao-de-turnover-com-base-em-variaveis-críticas)
-      - [Métricas para Acompanhamento da Retenção de Funcionários](#-metricas-para-acompanhamento-da-retencao-de-funcionários)
+      - [Plano de Ação – Redução de Turnover com base em variáveis críticas](#plano-de-acao–reducao-de-turnover-com-base-em-variaveis-críticas)
+      - [Métricas para Acompanhamento da Retenção de Funcionários](#metricas-para-acompanhamento-da-retencao-de-funcionários)
  - [Referências](#Referências)
 
 ##  Contextualização  
