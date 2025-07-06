@@ -23,7 +23,7 @@
       - [Interpretação dos resultados obtidos apartir do cálculo do IV](#Interpretação-dos-resultados-obtidos-apartir-do-cálculo-do-IV)
       - [Comparação com benchmarks do setor para validar insights](#Comparação-com-benchmarks-do-setor-para-validar-insights)
    - [Etapa 6: Implantação](#Etapa-6-Implantação)
-      - [Plano de Ação: Redução de Turnover com base em variáveis críticas](#Plano-de-Ação–Redução-de-Turnover-com-base-em-variáveis-críticas)
+      - [Plano de Ação: Redução de Turnover com base em variáveis críticas](#Plano-de-Ação-Redução-de-Turnover-com-base-em-variáveis-críticas)
       - [Métricas para Acompanhamento da Retenção de Funcionários](#Métricas-para-Acompanhamento-da-Retenção-de-Funcionários)
  - [Referências](#Referências)
 
@@ -862,7 +862,7 @@ Durante a preparação, aplicamos as seguintes práticas:
 
 ### Etapa 4: Modelagem ou Análises
 
-Nesta fase inicial do projeto, optamos por não aplicar modelagem estatística preditiva. O foco esteve em análises descritivas e exploratórias, com o objetivo de compreender os fatores associados ao turnover de funcionários.
+Nesta fase do projeto, optamos por não aplicar modelagem estatística preditiva. O foco esteve em análises descritivas e exploratórias, com o objetivo de compreender os fatores associados ao turnover de funcionários.
 
 ####  Tipo de Problema
 
@@ -980,7 +980,10 @@ Investir em retenção de talentos jovens e recém-contratados.
 
 ###  Etapa 6: Implantação
 
-#### Tabela 10: Plano de Ação – Redução de Turnover com base em variáveis críticas
+
+####  Plano de Ação: Redução de Turnover com base em variáveis críticas
+
+Tabela 10: Plano de Ação: Redução de Turnover com base em variáveis críticas
 
 | Prioridade | O que fazer?                                 | Por que?                                                                 | Quem?                              | Como fazer?                                                                                                                                         | Custo Estimado                                      | Horizonte de Tempo     |
 |------------|-----------------------------------------------|-------------------------------------------------------------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|------------------------|
