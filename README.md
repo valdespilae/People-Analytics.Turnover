@@ -8,14 +8,14 @@
 ## Índice
 - [Contextualização](#Contextualização)
    - [Benchmark de Turnover no Setor de Tecnologia no Brasil.](#Benchmark-de-Turnover-no-Setor-de-Tecnologia-no-Brasil)
-- [Metodologia CRISP—DM](#Metodologia-CRISP-—DM)
+- [Metodologia CRISP—DM](#Metodologia-CRISP-—-DM)
   - [Etapa 1: Compreensão do Negócio](#Etapa-1-Compreensão-do-Negócio)
   - [Etapa 2: Compreensão dos Dados](#Etapa-2-Compreensão-dos-Dados)
      - [Análises Univariada. Variáveis Qualitativas Nominal](#Análises-Univariada-Variáveis-Qualitativas-Nominal)
      - [Análises Univariada. Variáveis Qualitativas Ordinal](#Análises-Univariada-Variáveis-Qualitativas-Ordinal)
      - [Análises Univariada. Variáveis Quantitativa Discreta](#Análises-Univariada-Variáveis-Quantitativa-Discreta)
      - [Análises Univariada. Variáveis Quantitativa Contínua](#Análises-Univariada-Variáveis-Quantitativa-Contínua)
-     - [Matriz Geral — Perfil de Todos os Funcionários](#Matriz-Geral-—-Perfil-de-Todos-os-Funcionários)
+     - [Perfil de Todos os Funcionários](#Perfil-de-Todos-os-Funcionários)
      - [Perfil Padrão de Funcionário com Alta Propensão ao Turnover](#Perfil-Padrão-de-Funcionário-com-Alta-Propensão-ao-Turnover)
    - [Etapa 3: Preparação dos Dados](#Etapa-3-Preparação-dos-Dados)
    - [Etapa 4: Modelagem ou Análises](#Etapa-4-Modelagem-ou-Análises)
@@ -73,7 +73,7 @@ Diante desse cenário, e com base às pesquesisas abordadas anteriormente, foram
 
 O ***turnover*** não é apenas uma questão de remuneração, mas sim de **propósito e engajamento**. Empresas que conseguem oferecer um ambiente estimulante e oportunidades de crescimento tendem a reter seus talentos por mais tempo.  
 
-## Metodologia CRISP-DM
+## Metodologia CRISP—DM
 
 ###  O que é CRISP-DM?  
 
@@ -803,7 +803,9 @@ Tabla 5: Integração — Tabela × Boxplot
  -  **Baixa dispersão salarial no aumento anual**: O boxplot mostra que quase todos os reajustes ficaram abaixo de 25%, e não há outliers extremos — reforçando coerência na política de meritocracia ou reajuste coletivo.
 
 
-#### Tabela 6:  Matriz Geral — Perfil de Todos os Funcionários (20 Variáveis)
+#### Perfil de Todos os Funcionários
+
+Tabela 6:  Matriz Geral — Perfil de Todos os Funcionários (20 Variáveis)
 
 | Tema                           | Variável                            | Insight Principal                                                                                  |
 |--------------------------------|-------------------------------------|----------------------------------------------------------------------------------------------------|
@@ -829,7 +831,6 @@ Tabla 5: Integração — Tabela × Boxplot
 
 #### - Perfil Padrão de Funcionário com Alta Propensão ao Turnover
 Com base aos resultados anteriores podemos construir o **perfil-padrão dos funcionários com maior prospeção a sair da empresa** e, logo depois algumas **recomendações práticas para reteção segmentada** com focos pontos críticos identificados
-
 
  Tabela 7: Perfil-Padrão do Funcionário com Alta Propensão ao Turnover
 | Dimensão                    | Característica com maior tendência de saída                                      |
