@@ -17,10 +17,10 @@
      - [Análises Univariada. Variáveis Quantitativa Contínua](#Análises-Univariada.-Variáveis-Quantitativa-Contínua)
      - [Matriz Geral. Perfil de Todos os Funcionários](#Matriz-Geral—.Perfil-de-Todos-os-Funcionários)
      - [Perfil Padrão de Funcionário com Alta Propensão ao Turnover](#Perfil-Padrão-de-Funcionário-com-Alta-Propensão-ao-Turnover)
-   - [Etapa 3: Preparação dos Dados (Data Preparation](#Etapa-3:-Preparação-dos-Dados-(Data-Preparation))
+   - [Etapa 3: Preparação dos Dados(#Etapa-3:-Preparação-dos-Dados)
    - [Etapa 4: Modelagem ou Análises](#Etapa-4:-Modelagem-ou-Análises])
    - [Etapa 5: Avaliação](#Etapa-5:-Avaliação)
-      - [Interpretação dos resultados obtidos aprtir do cálculo do Information Value](#Interpretação-dos-resultados-obtidos-aprtir-do-cálculo-do-Information-Value)
+      - [Interpretação dos resultados obtidos aprtir do cálculo do IV](#Interpretação-dos-resultados-obtidos-aprtir-do-cálculo-do-IV)
       - [Comparação com benchmarks do setor para validar insights](#Comparação-com-benchmarks-do-setor-para-validar-insights)
    - [Etapa 6: Implantação](#Etapa-6:-Implantação)
       - [Plano de Ação: Redução de Turnover com base em variáveis críticas](#Plano-de-Ação:–Redução-de-Turnover-com-base-em-variáveis-críticas)
@@ -844,7 +844,7 @@ Com base aos resultados anteriores podemos construir o **perfil-padrão dos func
 
 ---
 
-###  Etapa 3: Preparação dos Dados (Data Preparation)
+###  Etapa 3: Preparação dos Dados
 
 Nesta etapa da metodologia CRISP-DM, o objetivo é transformar os dados brutos em um formato apropriado para análise, garantindo qualidade, consistência e relevância.
 
@@ -859,7 +859,7 @@ Durante a preparação, aplicamos as seguintes práticas:
 - Padronização de escalas e formatos
 ---
 
-### Etapa 4: Modelagem (Modeling)
+### Etapa 4: Modelagem
 
 Nesta fase inicial do projeto, optamos por não aplicar modelagem estatística preditiva. O foco esteve em análises descritivas e exploratórias, com o objetivo de compreender os fatores associados ao turnover de funcionários.
 
@@ -926,8 +926,7 @@ Esta análise permite focar nos fatores mais relevantes para a saída dos colabo
 - **Modelagem preditiva com as variáveis de maior IV**
 - **Proposição de plano de ação para retenção baseado nos fatores de maior impacto**
 
-###  Etapa 5: Avaliação (Evaluation)
-
+###  Etapa 5: Avaliação
 #### Interpretação dos resultados obtidos aprtir do cálculo do *Information Value*.  
 
  Salário
@@ -978,7 +977,7 @@ Investir em retenção de talentos jovens e recém-contratados.
 
 ---
 
-###  Etapa 6: Implantação (Deployment)
+###  Etapa 6: Implantação
 
 #### Tabela 10: Plano de Ação – Redução de Turnover com base em variáveis críticas
 
