@@ -2,7 +2,7 @@
   <img src="https://github.com/user-attachments/assets/1e0540ec-e599-4f33-8eda-886dbe2eeccf" alt="Descrição da imagem">
 </p>
 
-# 📊Projeto People Analytics: Redução do Turnover com CRISP-DM
+# Projeto People Analytics: Redução do Turnover com CRISP-DM
  Projeto da formação "**Gerando Valor com Dados**" da Escola de Dados [Preditiva.IA](https://www.preditiva.ai.com)
 
 ## Índice
@@ -21,7 +21,7 @@
    - [Etapa 6: Implantação (Deployment)](#-etapa-6-implantação-deployment)
  - [Referências](#Referências)
 
-## 📌 Contextualização  
+##  Contextualização  
 
 ### O desafio do ***turnover*** nas empresas  
 
@@ -29,31 +29,31 @@ O ***turnover*** ou **rotatividadedos funcionários**, é um dos desafios mais c
 
 Outro estudo publicado pela **Evermonte** em **julho de 2024** apontou que **39% dos desligamentos no Brasil em 2023 foram voluntários**, ou seja, motivados pela decisão dos próprios colaboradores[^2]. Esse dado reforça que fatores como satisfação profissional, oportunidades de crescimento e ambiente organizacional exercem influência direta na retenção de talentos, evidenciando a necessidade de estratégias mais humanas e personalizadas por parte das empresas.
 
-### 🔎 Benchmark de ***Turnover*** no Setor de Tecnologia no Brasil  
+### Benchmark de ***Turnover*** no Setor de Tecnologia no Brasil  
 Para contextualizar melhor este projeto, é essencial entender a taxa de rotatividade no setor de tecnologia e como a empresa analisada se compara ao mercado. 
 
 
-### 📊 Visão Geral  
+###  Visão Geral  
 
 - A média de rotatividade no Brasil -área de tecnología-  ficou em **51%** entre abril de 2022 e maio de 2023, uma das mais altas do mundo[^3] 
 - No setor de tecnologia, a taxa média de turnover foi de **13,2%**, a maior entre todos os setores avaliados[^4].  
 - Em comparação global, é comum observar taxas entre **13% e 18% ao ano** no setor de tecnologia, podendo chegar a **25%** em startups[^5].  
 
-### 📈 Comparações e Dados Históricos  
+###  Comparações e Dados Históricos  
 
 ° Antes da pandemia (2019), o turnover médio no setor de TI no Brasil era de **39%**, enquanto a média geral era **41%**[^6].  
 ° Subsetores como desenvolvimento de software apresentavam taxas menores (**33%–39%**)[^6].  
 ° Cargos executivos de tecnologia no Brasil apresentam turnover voluntário de **20%** e involuntário de **14%**, totalizando **34%**[^7].  
 
-### 🔍 Segmentação por Subárea  
+###  Segmentação por Subárea  
 
 - **UX e Design**: aproximadamente **23%** [^8];  
 - **Engenheiros de Dados e Software**: entre **21% e 22%** [^8]; 
 - **Suporte técnico e áreas de operação**: **até 25%**[^8]. 
 
-### 🎯 Insight para o Projeto  
+### Insight para o Projeto  
 
-Com base nesses dados, uma meta realista para a organização é redução da taxa de turnover para **abaixo de 15%**, posicionando-se entre os **benchmarks** mais estáveis do setor de tecnologia nacional e internacional e determinar quais políticas/fatores deveriam mudar de fomra a minmizar o turnover
+Com base nesses dados, uma meta realista para a organização é redução da taxa de turnover **abaixo de 15%**, posicionando-se entre os **benchmarks** mais estáveis do setor de tecnologia nacional e internacional e determinar quais políticas/fatores deveriam mudar de forma a minmizar o turnover
 
 ### Estratégias para minimizar o turnover  
 
@@ -67,11 +67,11 @@ O ***turnover*** não é apenas uma questão de remuneração, mas sim de **prop
 
 ## Metodologia - CRISP-DM
 
-### 🔎 O que é CRISP-DM?  
+###  O que é CRISP-DM?  
 
 A metodologia ***CRISP-DM (Cross Industry Standard Process for Data Mining)*** é um modelo padrão amplamente utilizado para projetos de **Data Science** e **Machine Learning**. Criada nos anos 1990, essa abordagem orienta o processo de análise de dados em **seis fases estruturadas**, garantindo que cada etapa seja bem definida e alinhada aos objetivos do negócio.  
 
-### 🚀 Por que utilizar CRISP-DM neste projeto?  
+###  Por que utilizar CRISP-DM neste projeto?  
 
 Este projeto busca **entender os fatores que influenciam o turnover** e propor **estratégias para reduzir a rotatividade** dos funcionários em uma empresa de tecnologia. Como se trata de uma análise exploratória e investigativa, a CRISP-DM é a metodologia ideal, pois oferece um fluxo de trabalho lógico e sistemático para abordar o problema de forma eficiente.  
 
@@ -84,7 +84,7 @@ Este projeto busca **entender os fatores que influenciam o turnover** e propor *
   </p>
 </div>
 
-### 🔬 As seis fases do CRISP-DM e sua aplicação no projeto  
+###  As seis fases do CRISP-DM e sua aplicação no projeto  
 
 1. **Compreensão do Negócio**  
    - Definição do problema: Quais fatores influenciam a saída dos funcionários?  
@@ -110,40 +110,40 @@ Este projeto busca **entender os fatores que influenciam o turnover** e propor *
    - Recomendação de políticas para reduzir o turnover.  
    - Definição de métricas para acompanhamento da retenção dos funcionários.  
 
-### 📈 Benefícios da CRISP-DM para este estudo  
+### Benefícios da CRISP-DM para este estudo  
 
-✔ **Estruturação clara do processo de análise**  
-✔ **Maior confiabilidade nos resultados obtidos**  
-✔ **Facilidade na comunicação dos insights ao RH e gestores**  
-✔ **Melhor alinhamento entre dados e tomada de decisão**  
+ **Estruturação clara do processo de análise**  
+ **Maior confiabilidade nos resultados obtidos**  
+ **Facilidade na comunicação dos insights ao RH e gestores**  
+ **Melhor alinhamento entre dados e tomada de decisão**  
 
 Com essa metodologia, garantimos que o projeto será conduzido de forma **organizada, eficiente e baseada em evidências**, trazendo insights valiosos para reduzir o turnover na empresa de tecnologia.  
 
 ## Metodologia - CRISP-DM. Framework de Análise de Dados. 
 
-## 📘 Etapa 1: Compreensão do Negócio (Business Understanding)
+### Etapa 1: Compreensão do Negócio (Business Understanding)
 
 Para compreender quais são as características que fazem um funcionário ficar ou deixar a empresa de Tecnologia, o departamento de Recursos Humanos da empresa catalogou informações de **1.470 funcionários** que 
 deixaram ou permaneceram na companhia no *último ano*. O resultado desse levantamento gerou **19 possíveis fatores** para tentar explicar o comportamento do ***turnover***. Para conhecer esses fatores, verifique a tabela de metadados
 existentes na secção seguinte ou na pasta */docs/* no arquivo .xlsx *classificação_variaveis_turnover*
 
-#### ✅ Objetivo do projeto:
+####  Objetivo do projeto:
 - **Reduzir** o ***turnover*** e **melhorar a retenção dos funcionários** meio da análise de dados comportamentais, profissionais e demográficos dos colaboradores.
 - **Identificar** quais **fatores** mais influenciam a saída dos colaboradores.
 - **Criar um plano de ação** *5W2H* baseado nos insights obtidos, propondo estratégias para minimizar a rotatividade.
 
-#### ✅ Impacto do turnover:
+####  Impacto do turnover:
 - Custos elevados com recrutamento e treinamento.
 - Perda de produtividade e conhecimento institucional.
 - Impacto na cultura e no clima organizacional.
 
-#### ✅ Variáveis que podem explicar o turnover:
+####  Variáveis que podem explicar o turnover:
 - Dados demográficos (*idade, gênero, estado civil*).
 - Características do trabalho (*salário, equilíbrio entre vida pessoal e profissional*).
 - Ambiente corporativo (*satisfação organizacional, relação com o chefe*).
 - Histórico do funcionário (*tempo de empresa, promoção, mudanças de cargo*).
   
-#### ✅ Perguntas estratégicas para investigação:
+####  Perguntas estratégicas para investigação:
 - *Quais políticas/fatores da empresa deveriam mudar de forma a minimizar o turnover*
 - *O turnover é maior em algum grupo específico de funcionários?*
 - *Existe correlação entre salário, tempo de empresa e saída voluntária?*
@@ -152,14 +152,13 @@ existentes na secção seguinte ou na pasta */docs/* no arquivo .xlsx *classific
 
 ---
 
-### 🔍 Etapa 2: Compreensão dos Dados (Data Understanding)
-
+###  Etapa 2: Compreensão dos Dados (Data Understanding)
 
 Após a definição clara do problema de negócio e dos objetivos estratégicos do projeto, o próximo passo consiste em explorar a base de dados fornecida pelo departamento de Recursos Humanos. Para isso, foi disponibilizado um arquivo no formato **.xlsx**, contendo informações de **1.470 funcionários** que permaneceram ou deixaram a empresa no último ano. A base contempla variáveis de diferentes naturezas — **demográficas, funcionais e comportamentais** — que foram organizadas e documentadas na tabela de **metadados**, facilitando a identificação e classificação de cada atributo. Ao todo, foram listadas **19 variáveis potencialmente associadas ao turnover**, como idade, salário, tempo na empresa, frequência de viagens, satisfação organizacional, entre outros fatores. 
 
 O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuição, e a identificação de variáveis relevantes com o ***turnover*** e a detecção de outliers**. Para ello, faremos uso da **Análise Exploratória de Dados (AED)** [^10] como abordagem fundamental na ciência e análesis de dados por meio da ferramenta *Microsoft® Excel®*. Além disso, durante esta etapa, e antes do *AED*, é crucial verificar a qualidade dos dados, por meio do chamado *Sanity Check*, permitindo identificar valores fora de faixas plausíveis -*outliers*-, anomalias ou registros possivelmente inconsistentes. 
 
-### 🧰 Principais Técnicas Utilizadas nesta Etapa
+###  Principais Técnicas Utilizadas nesta Etapa
 
 - **Tabelas de Frequência**  
   Construção de frequências **absolutas**, **relativas** e **acumuladas** para as variáveis qualitativas, como Gênero, Estado Civil, Formação e Frequência de Viagens.
@@ -175,15 +174,9 @@ O objetivo para esta etapa é **a compreensão de cada variavel, sua distribuiç
   - **Desvio Padrão**
   - **Mínimos e máximos**
 
-- **Análise Bidimensional**  
-  Avaliação da associação entre o turnover e outras variáveis por meio de:
-  - **Correlação de Pearson** (para variáveis quantitativas)
-  - **Coeficiente de Determinação (R²)**
-  - **Information Value (IV)** para medir o poder explicativo das variáveis em relação à saída dos funcionários.
-
 Essas análises oferecem a base necessária para a próxima etapa do projeto — a preparação dos dados e construção de modelos que ajudem a identificar os fatores mais relevantes associados ao turnover.
 
-#### 📊 Dicionário de Dados
+####  Dicionário de Dados
 
 Abaixo está a descrição das variáveis utilizadas no projeto, com sua classificação e possíveis faixas observadas:
   
@@ -213,7 +206,7 @@ Abaixo está a descrição das variáveis utilizadas no projeto, com sua classif
 | Anos_desde_a_ultima_promocao  | Tempo em anos desde a última promoção                                 | Quantitativa Discreta       | 0 - 15 anos                                             |
 | Anos_com_o_mesmo_chefe        | Tempo em anos que responde ao mesmo chefe                             | Quantitativa Discreta       | 0 - 17 anos                                             |
 
-#### 🎯 Variável Alvo
+####  Variável Alvo
 
 - `Funcionário_deixou_a_empresa` — Indica se o funcionário deixou a empresa recentemente (`1`) ou não (`0`).
 
@@ -227,7 +220,7 @@ Abaixo está a descrição das variáveis utilizadas no projeto, com sua classif
   <p><strong> Figura 2:</strong> Distribuição dos funcionários da empresa por genero: M(Mulheres) e H(Homens)</p>
 </div> 
 
-🔑**Interpretações e reflexões:**
+**Interpretações e reflexões:**
 - **Distribuição equilibrada (mas levemente concentrada)**:
 A equipe é composta por **60% de homens e 40% de mulheres**, o que mostra um certo equilíbrio, especialmente em comparação com a média de representatividade feminina no setor de tecnologia, que tende a ser mais baixa.
 - **Ponto de atenção para a diversidade**:
@@ -247,7 +240,7 @@ Vale cruzar esse dado com outras variáveis como faixa salarial, número de prom
   <p><strong> Figura 3:</strong> Distribuição dos funcionários por Estado Civil.</p>
 </div> 
 
-🔑**Interpretações e reflexões:**
+**Interpretações e reflexões:**
 - **Predomínio de funcionários casados**: A maior parte da força de trabalho é casada (**45,8%**), o que pode indicar maior estabilidade, mas também maior responsabilidade financeira, familiar e demanda por equilíbrio vida-trabalho.
 - **Perfil jovem-adulto em destaque:** A soma de **solteiros (32%) + divorciados (22,2%)** representa mais de **54% da amostra**, o que sugere um público majoritariamente com perfil de transição de carreira, mobilidade geográfica ou em busca de desenvolvimento profissional acelerado.
 - Possível relação com o turnover: Funcionários solteiros ou divorciados, por estarem em fases de maior flexibilidade pessoal, podem apresentar maior propensão à rotatividade. Isso será especialmente importante ao cruzar com a variável “Deixou a empresa”.
@@ -261,7 +254,7 @@ Vale cruzar esse dado com outras variáveis como faixa salarial, número de prom
   <p><strong> Figura 4:</strong> Proporção de Funcionários que Realizam Horas Extras.</p>
 </div> 
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 - **A maioria dos colaboradores (71,7%) não realiza horas extras**, o que pode indicar um bom controle da carga de trabalho ou políticas eficazes de equilíbrio.
 - **Quase 1 em cada 3 colaboradores faz horas extras (28,3%)** — esse grupo merece atenção especial, pois horas extras frequentes podem estar relacionadas a:
   - Sobrecarga de demandas em determinadas áreas;
@@ -280,7 +273,7 @@ A variável-alvo (ou target) na análise de turnover, pois representa o comporta
  alt="Descrição da imagem" width="500" height="300">
 </p>
 
-🔑Interpretações e reflexões:
+Interpretações e reflexões:
 - Turnover total de 16,1%:
 Dos 1.470 funcionários analisados, **237 se desligaram da empresa**, representando **16,1% do total**. Esse índice está **abaixo da média nacional** e até de alguns benchmarks do setor de tecnologia[^1][^4], o que pode indicar **bons esforços atuais em retenção** — mas também potencial para melhoria.
 - **Desequilíbrio entre as classes (classe desbalanceada)**:
@@ -302,37 +295,32 @@ Agora que temos a proporção entre quem saiu e quem ficou, podemos usá-la para
 </div> 
 
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 - A maior parte dos colaboradores (**71%**) viaja raramente, sugerindo que a empresa adota um modelo com deslocamentos pontuais, talvez mais comum em funções técnicas ou administrativas.
 - Quase 19% viaja com frequência, o que pode indicar funções voltadas à área comercial, suporte externo ou cargos executivos — esses colaboradores podem estar mais expostos a fatores de estresse, desequilíbrio vida-trabalho e potencial desgaste, especialmente se não houver compensações compatíveis.
 - Apenas **10,2%** não viajam nunca, o que pode incluir funções exclusivamente internas, como suporte local, administrativo, ou posições mais júnior.
-- Essa variável é forte candidata para durante a fase de Análesis bidimensional realizar uma análise de forma cruzada com:
-  - Turnover: *Pessoas que viajam frequentemente deixam mais a empresa?*
-  - Satisfação no trabalho: *Há correlação com baixa satisfação?*
-  - Cargos: *Quem são os profissionais que mais se deslocam?*
 
-##### Variável - 🎓 Formação Acadêmica
-
+##### Variável - Formação Acadêmica
 <div align="center">
 <img src= https://github.com/user-attachments/assets/5d48e22e-5712-481b-a3bd-39164a9f6d63
   alt="Fig. Formação Acadêmica" width="500" height="300">
   <p><strong> Figura 6:</strong> Distribuição de Funcionários por Nível de Formação Acadêmica.</p>
 </div> 
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 
 - **Alta escolaridade da força de trabalho:** Cerca de **69% dos colaboradores possuem Ensino Superior ou Pós-Graduação (Mestrado/Doutorado)**. Isso sugere que a empresa opera em um contexto técnico ou altamente qualificado — possivelmente setores como tecnologia, pesquisa, engenharia ou serviços especializados.
 - **Pico em Ensino Superior:** A maior parte está concentrada no Ensino Superior **(38,9%)**, seguido de Mestrado **(27,1%)**, o que indica **forte cultura de qualificação acadêmica** e uma provável valorização de títulos na progressão de carreira.
 - **Baixa presença de Ensino Médio:** Apenas **11,6%** têm formação média, o que pode representar cargos operacionais ou de apoio com menor exigência técnica. Isso pode impactar o perfil de turnover nesses grupos (por exemplo: maior rotatividade por remuneração ou oportunidades externas).
 - Doutorado é minoria, mas relevante: Com 48 pessoas **(3,3%)**, essa faixa pode representar áreas de inovação, pesquisa ou liderança técnica. Esses profissionais tendem a ter expectativas mais elevadas de desafios, autonomia e reconhecimento.
 
-💡Potencial de Cruzamentos
+Potencial de Cruzamentos
 Essa variável pode ser extremamente reveladora quando cruzada com:
 - Salário Mensal: *Há proporcionalidade entre formação e remuneração?*
 - Turnover: *Profissionais com maior formação estão deixando a empresa mais ou menos?*
 - Promoção / Crescimento na empresa: *Qual o impacto da formação na trajetória interna?*
 
-##### Variável - 🌤️ Satisfação com o Clima Organizacional
+##### Variável - Satisfação com o Clima Organizacional
 
 <div align="center">
 <img src= https://github.com/user-attachments/assets/4f2f0353-549b-42e9-891e-d7d01ba84e3d
@@ -340,7 +328,7 @@ Essa variável pode ser extremamente reveladora quando cruzada com:
   <p><strong> Figura 7:</strong> Satisfação com o Clima Organizacional.</p>
 </div> 
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 Esta variável é altamente relevante para prever engajamento, produtividade e riscos de desligamento.
 - **Clima amplamente positivo:** Quase **61% dos colaboradores** relataram níveis de satisfação **"Alto"** ou **"Muito Alto"**. Isso demonstra um ambiente organizacional saudável e colaborativo — uma excelente base para retenção e desempenho.
 - **Dois polos bem definidos:** Enquanto boa parte demonstra alta satisfação, há um bloco expressivo de colaboradores (**38,8%**) com níveis **"Baixo"** ou **"Médio"**. Isso pode indicar:
@@ -348,12 +336,9 @@ Esta variável é altamente relevante para prever engajamento, produtividade e r
   - Lideranças pouco eficazes;
   - Falta de comunicação ou reconhecimento em áreas específicas.
 - **Atenção ao grupo insatisfeito:** Os **19,3% insatisfeitos** merecem análise especial — esse grupo pode ser o mais suscetível ao desligamento voluntário, absenteísmo ou baixo desempenho.
-- **Base valiosa para cruzamentos:** Essa variável pode ser cruzada com:
-  - **Turnover:** *quem sai mais: satisfeitos ou insatisfeitos?*;
-  - **Horas Extras:** *trabalhadores mais sobrecarregados tendem a estar menos satisfeitos?*;
-  - **Área/Cargo:** *quais setores têm mais colaboradores insatisfeitos?*.
 
-##### Variável - ⚖️ Equilíbrio de Vida
+
+##### Variável -  Equilíbrio de Vida
 
 <div align="center">
 <img src= https://github.com/user-attachments/assets/5c19c18b-4e1f-4941-a7cc-d49ca9868f81
@@ -361,7 +346,7 @@ Esta variável é altamente relevante para prever engajamento, produtividade e r
   <p><strong> Figura 8:</strong> Satisfação com o Clima Organizacional.</p>
 </div> 
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 A variável Equilíbrio de Vida é uma peça-chave quando falamos de bem-estar, produtividade e retenção de talentos.
 - Ambiente positivo para equilíbrio vida-trabalho: Cerca de **71% dos colaboradores** avaliam seu equilíbrio como **“Muito bom”** ou **“Excelente”**, o que é um ótimo sinal de cultura organizacional saudável.
 - Baixo percentual de insatisfação grave: Apenas **5,4% reportam “Equilíbrio de vida ruim”**, sugerindo que a empresa pode estar gerenciando bem cargas de trabalho, horários e flexibilidade — ou que existem nichos específicos com esse desafio.
@@ -374,7 +359,7 @@ A variável Equilíbrio de Vida é uma peça-chave quando falamos de bem-estar, 
 
 #### Análises Univariada. Variáveis Quantitativa Discreta
 
-##### Variável - 🗓 Idade
+##### Variável - Idade
 
 Esta análise por faixas etárias, o que nos ajuda a entender melhor a distribuição demográfica da força de trabalho.
 
@@ -390,7 +375,7 @@ Esta análise por faixas etárias, o que nos ajuda a entender melhor a distribui
 </div>
 
 Interpretação do Boxplot — Idade dos Colaboradores
-🧮 Estatísticas Chave (extraídas do gráfico):
+ Estatísticas Chave (extraídas do gráfico):
 - **Mínimo:** 18 anos
 - **Q1** (1º Quartil): 30 anos
 - **Mediana**: 36 anos
@@ -398,18 +383,18 @@ Interpretação do Boxplot — Idade dos Colaboradores
 - **Q3** (3º Quartil): 43 anos
 - **Máximo:** 60 anos
   
-📌 O que esse *boxplot* revela:
+ O que esse *boxplot* revela:
 - **Distribuição equilibrada:** A mediana está relativamente centralizada entre Q1 e Q3, indicando uma distribuição simétrica e saudável.
 - **Amplitude interquartil (AIQ):** Compreendida entre 30 e 43 anos (13 anos), o que sugere uma **alta concentração de funcionários adultos jovens** — corroborando os dados por faixa etária que analisamos antes.
 - **Sem outliers visíveis:** O gráfico não mostra pontos isolados além dos limites, sugerindo que **não há idades muito distantes do padrão**, como colaboradores extremamente jovens ou idosos.
 - **Faixa etária bem distribuída entre 18 e 60 anos**, o que denota diversidade geracional dentro da empresa.
 
-🔍 Complemento à análise do boxplot
+ Complemento à análise do boxplot
 
 - O histograma evidencia a forma da distribuição (quase normal, com leve inclinação à esquerda), enquanto o boxplot foca na mediana, dispersão e outliers.
 - Ambos juntos mostram que **a idade média gira em torno de 36–37 anos**, sem extremos anômalos.
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 - **Concentração nas faixas de 28 a 42 anos**: Juntas, as faixas **28–32 (16,96%)**, **33–37 (21,36%)** e **38–42 (17,86%)** representam mais da **metade da força de trabalho (56%)**. Isso sugere um time majoritariamente **adulto jovem a meia-idade**, faixa etária associada a maior produtividade, experiência consolidada e fase de estabilidade na carreira.
 - **Baixa presença de jovens (18–27):** Apenas **9,3%** dos funcionários têm até 27 anos, o que pode indicar:
     - Baixa taxa de entrada de recém-formados ou estagiários;
@@ -417,7 +402,7 @@ Interpretação do Boxplot — Idade dos Colaboradores
 - **Faixa sênior com representação modesta:** As faixas **53–57 (7,74%)** e **58–62 (3,14%)** somam cerca de **10,9%**. Esses profissionais podem representar papéis estratégicos ou lideranças seniores — importantes para retenção do conhecimento institucional.
 - **Potencial para análise de rotatividade:** Ao cruzar com a variável “Deixou a Empresa”, poderemos identificar se **a rotatividade é mais comum entre os jovens (perfil exploratório)** ou os mais experientes (aposentadoria ou mudança de carreira).
 
-##### Variável - 📍 Distância do Trabalho
+##### Variável - Distância do Trabalho
 
 A variável Distância do Trabalho nos oferece um ótimo panorama sobre mobilidade, logística e até possíveis influências no bem-estar e na rotatividade dos colaboradores
 
@@ -428,7 +413,7 @@ A variável Distância do Trabalho nos oferece um ótimo panorama sobre mobilida
 </div> 
 
 Interpretação do Boxplot
-🎯 Elementos estatísticos do gráfico:
+ Elementos estatísticos do gráfico:
 - **Mínimo**: 1 km
 - **1º quartil** (Q1): 2 km
 - **Mediana**: 7 KM
@@ -436,7 +421,7 @@ Interpretação do Boxplot
 - **3º quartil** (Q3): 14 km
 - **Máximo**: 29 km
 
-📌 O que esse *boxplot* revela:
+ O que esse *boxplot* revela:
 - **Distribuição assimétrica à direita (assimetria positiva)**:
 A maior parte dos colaboradores reside próximo ao trabalho, com valores concentrados entre **1 e 14 km** -*~75% dos funcionários*-, mas há uma **cauda estendida até 29 km**, indicando alguns casos de deslocamentos mais longos.
 - **Mediana deslocada para a esquerda da caixa:**
@@ -446,7 +431,7 @@ Não há pontos fora do intervalo da caixa com bigodes, o que indica que **os de
 - **Amplitude interquartil (IQR):**
 A faixa central da maioria dos funcionários está entre **2 km e 14 km**, o que ajuda a delimitar uma zona de "conforto logístico" para políticas de home office parcial ou benefícios de mobilidade.
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 - **Alta concentração próxima ao local de trabalho:**
 Mais de **1/3 dos colaboradores (34,2%) moram até 3 km da empresa**, o que pode sugerir:
   - Boa localização da empresa;
@@ -460,13 +445,7 @@ Mais de **1/3 dos colaboradores (34,2%) moram até 3 km da empresa**, o que pode
   - Desgaste com o deslocamento;
   - Demanda por modelos híbridos ou flexíveis.
 
-🔍 Possibilidades de cruzamento:
-- Distância × Turnover: *Funcionários que moram longe saem mais?*
-- Distância × Equilíbrio de Vida ou Satisfação: *Há relação entre distância e percepção de bem-estar?*
-- Distância × Horas Extras: *Quem mora longe está ficando mais tempo no trabalho para “compensar” o deslocamento?*
-
-
-##### Variável -🧭  Quantidade de Empresas que um Funcionário Trabalhou
+##### Variável -  Quantidade de Empresas que um Funcionário Trabalhou
 
  A variável "Quantidade de Empresas que um Funcionário Trabalhou" é uma excelente proxy para entender experiência prévia, perfil profissional e até possível propensão ao turnover. Vamos destrinchar os insights:
 
@@ -477,7 +456,7 @@ Mais de **1/3 dos colaboradores (34,2%) moram até 3 km da empresa**, o que pode
 </div> 
 
 Interpretação do Boxplot:
-🔢 Estatísticas visuais extraídas do gráfico:
+ Estatísticas visuais extraídas do gráfico:
 - **Mínimo**: 0 empresas
 - **Q1** (1º quartil): 1 empresa
 - **Mediana** (Q2): 2 empresas
@@ -486,7 +465,7 @@ Interpretação do Boxplot:
 - **Máximo**: 9 empresas
 - **Outlier identificado**: 9 empresas (isolado acima dos bigodes
 
-📌 Interpretações:
+ Interpretações:
 - **Distribuição assimétrica à direita (positivamente enviesada)**:
 A mediana está mais próxima de Q1 que de Q3, e o boxplot apresenta uma cauda longa à direita, indicando que a **maioria dos funcionários trabalhou em até 4 empresas**, mas há alguns com trajetórias mais instáveis ou extensas.
 - **Concentração de históricos curtos**:
@@ -496,7 +475,7 @@ Com Q1 em 1 e mediana em 2, isso reforça que **pelo menos 50% dos colaboradores
 - **Outlier interessante**:
 O valor **9 como ponto extremo isolado** pode representar perfis com alta mobilidade — seja por desejo de crescimento rápido, instabilidade de carreira, ou funções temporárias.
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 - **Quase metade dos funcionários (48,8%) trabalharam em no máximo uma empresa antes da atual** — ou seja, **são profissionais com pouca experiência anterior ou que iniciaram a carreira na empresa atual**. Esse grupo tende a apresentar:
     - Menor exposição a outras culturas organizacionais;
     - Possivelmente mais lealdade ou dependência da empresa atual;
@@ -508,12 +487,6 @@ O valor **9 como ponto extremo isolado** pode representar perfis com alta mobili
     - Se esse grupo permanece menos tempo na empresa atual;
     - Como se comportam em termos de satisfação e equilíbrio.
 
-🔍 Sugestões para aprofundar
-Essa variável ganha ainda mais força quando combinada com:
-- Turnover → *Profissionais com múltiplos históricos saem mais rápido?*
-- Idade → *Os mais jovens são os que têm menos experiências?*
-- Formação ou Cargo → *Quem tem mais empresas no currículo ocupa posições mais estratégicas?*
-
 ##### Variável - Quantidade de Ações da Empresa
  A variável Quantidade de Ações da Empresa revela muito sobre o grau de engajamento, a credibilidade, confiança e participação dos colaboradores no negócio
 
@@ -523,7 +496,7 @@ Essa variável ganha ainda mais força quando combinada com:
   <p><strong> Figura 13:</strong> Gráfico Quantidade de Ações da Empresa que possuem os funcionários.</p>
 </div> 
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 - **Cerca de 43% dos colaboradores não possuem ações da empresa**, o que pode indicar:
     - Falta de interesse ou entendimento sobre o programa de participação acionária;
     - Elegibilidade restrita ou falta de incentivo para adesão;
@@ -531,13 +504,6 @@ Essa variável ganha ainda mais força quando combinada com:
 - **41% possuem 1 ação**, o que mostra um nível básico de envolvimento — pode indicar que esses colaboradores participaram de iniciativas pontuais ou receberam ações em programas padronizados.
 - **Somente 16,5% possuem 2 ou mais ações**, sugerindo um grupo mais envolvido, veterano ou que aposta na empresa como plano de longo prazo — esses funcionários tendem a ter **maior alinhamento com os resultados organizacionais**, e possivelmente ocupam **posições de liderança, cargos técnicos estratégicos ou estão na empresa há mais tempo**.
 - **Distribuição decrescente** reforça a ideia de que a posse de ações está fortemente concentrada em um grupo pequeno e mais engajado.
-
-🔍 Aprofundando a Análise
-Essa variável ganha ainda mais significado se cruzada com:
-- Tempo de casa: *Quem tem mais ações está há mais tempo?*
-- Cargo/Faixa salarial: *Profissionais mais seniores tendem a ter maior participação?*
-- Turnover: *Quem possui ações sai menos da empresa?*
-- Satisfação ou Clima Organizacional: A posse de ações está associada a maior engajamento?
 
 ##### Variável - Tempo de Carreira (em anos)
 Excelente variável para entender a maturidade profissional da equipe, analisaro o **Tempo de Carreira em anos**, que é uma proxypodereso para avaliar asenioridade, estabilidade e potencial de desenvolvimento interno.
@@ -553,9 +519,9 @@ Excelente variável para entender a maturidade profissional da equipe, analisaro
   </div>
 </div>
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 
-📊 TABELA *de frequência*
+ TABELA *de frequência*
 - A maior parte dos colaboradores (73%) tem até **14 anos de carreira**, com pico na faixa de **5–9 anos (33,5%)**.
 - As faixas mais experientes (25+ anos) são minoria: apenas **~7% do total**.
 - A distribuição sugere uma equipe majoritariamente em **fase de consolidação de carreira** (nem muito nova, nem perto da aposentadoria).
@@ -573,9 +539,9 @@ Boxplot
 - A cauda direita é longa (mais valores extremos positivos), o que reforça a distribuição assimétrica à direita.
 - O maior pico (classe modal) está na faixa de **5–9 anos**, seguido pela faixa **0–4**.
 - Frequência decrescente conforme o tempo de carreira aumenta.
--  O histograma dá uma visão visual da **frequência por classe**, mostrando onde está a maior massa da população e reforçando a leitura do boxplot.
+- O histograma dá uma visão visual da **frequência por classe**, mostrando onde está a maior massa da população e reforçando a leitura do boxplot.
 
-✅ Conclusão Integrada
+Conclusão Integrada
 
 >A distribuição do tempo de carreira da equipe é **concentrada em profissionais com até 15 anos de experiência**, com média em torno de 11 anos e uma **leve assimetria positiva**. Isso indica uma equipe **jovem-madura**, com forte potencial de crescimento, aprendizado e retenção. Os poucos colaboradores com mais de 30 anos de carreira são outliers valiosos, provavelmente ocupando funções de liderança, mentoria ou expertise técnica.
 
@@ -587,7 +553,7 @@ Boxplot
   <p><strong> Figura 16:</strong> Boxplot Horas de Treinamento dos funcionários.</p>
 </div> 
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 - A grande maioria dos colaboradores realizou **2 ou 3 horas de treinamento** — cerca de **70,6% da amostra**.
 - Apenas **3,7% não participaram de nenhum treinamento**, enquanto menos de **9% fizeram mais de 5 horas**.
 - Isso indica uma política de capacitação concentrada em **ações curtas e padronizadas**.
@@ -600,12 +566,13 @@ Interpretação do Boxplot:
 - **Q3 (75%)**: 3 horas
 - **Máximo (sem outlier)**: 4 horas
 - **Outliers identificados**: 5 e 6 horas (valores superiores isolados)
-🧠 Insights do Boxplot:
+
+   Insights do Boxplot:
 - **Distribuição assimétrica à direita**: maioria dos colaboradores está concentrada entre 2 e 3 horas, com poucos realizando 5–6 horas (outliers).
 - **Média > mediana** (média próxima de 2,8): confirma a assimetria positiva — algumas pessoas fizeram mais horas e puxaram a média para cima.
 - **Amplitude interquartil (IQR)**: de 1 a 3 horas — ou seja, 50% da equipe recebeu um treinamento bastante breve.
 
-✅ Conclusão Integrada
+ Conclusão Integrada
 >A análise mostra que **a política de treinamento da empresa é fortemente concentrada em ações curtas e padronizadas**, com dois terços dos funcionários recebendo de 2 a 3 horas de capacitação. O boxplot destaca **uma leve assimetria à direita**, puxada por colaboradores que receberam 5 ou 6 horas — possivelmente líderes, áreas técnicas ou grupos-alvo específicos. A baixa presença de valores extremos também sinaliza uniformidade no modelo de treinamento adotado.
 
 ##### Variável - Tempo de Empresa (em Anos)
@@ -643,7 +610,7 @@ Tabela 2: Integração entre Boxplot e Tabela
 | Alta permanência (senior)| <10% com 15+ anos               | Outliers extremos identificados          |
 
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 - A empresa tem uma composição predominantemente **júnior a intermediária em tempo de casa** — o que é comum em organizações em crescimento ou com rotatividade natural moderada.
 - A mediana em 5 anos mostra que, apesar da entrada constante de novos funcionários, **boa parte permanece tempo suficiente para gerar experiência e cultura organizacional**.
 - Os outliers com mais de 20 anos representam **capital histórico e institucional** — valem atenção em políticas de reconhecimento e sucessão.
@@ -671,7 +638,7 @@ Estatísticas visuais extraídas:
 - **Máximo** (sem outliers): 14 anos
 - Outliers identificados: 15, 16, 17, 18 ano
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 - **Estrutura dinâmica de movimentação interna**: A maioria dos colaboradores ainda está em períodos iniciais ou intermediários no mesmo cargo — o que indica alta mobilidade interna, seja por promoções ou movimentações laterais.
 - **Mediana moderada (3 anos)**: O tempo típico em um cargo é razoável, sem indicar nem rotatividade excessiva nem estagnação.
 - **Ponto de atenção estratégico**: Os poucos outliers (acima de 15 anos no mesmo cargo) merecem atenção — **podem representar perfis altamente especializados** ou **estagnados**, com riscos de **desmotivação, baixa inovação** ou perda de capital humano por aposentadoria.
@@ -700,14 +667,14 @@ Estatísticas visuais extraídas:
 - **Máximo** (sem outliers): 7 anos
 - **Outliers**: 8, 9, 10, 11, 12, 13, 14 e 15 anos.
   
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 - Distribuição fortemente assimétrica à direita: A maioria dos colaboradores foi promovida recentemente, enquanto há uma cauda longa com poucos profissionais sem promoção há muitos anos — capturados como outliers.
 - Mediana de 1 ano confirma um ciclo médio de promoção relativamente rápido -*1 de cada 2 funcionários foram promovido no último ano*
 - Os outliers (8 a 15 anos) são casos isolados que merecem atenção:
 - São perfis possivelmente estagnados;
 - Ou ocupam cargos de topo com menos oportunidades de progressão.
 
-✅ Conclusão Integrada
+ Conclusão Integrada
 >A análise mostra que a empresa apresenta uma dinâmica de promoção recente robusta, com mais de 3 em cada 4 funcionários promovidos nos últimos 3 anos. O boxplot reforça essa concentração no início da distribuição e destaca uma minoria com longos períodos sem ascensão, que pode representar riscos de desengajamento ou baixa mobilidade em posições superiores.
 
 ##### Variável - Anos com o mesmo chefe
@@ -718,8 +685,8 @@ Com análises da tabela de frequência dos dados podemos checar que:
 -  Apenas **6,8%** estão há mais de 10 anos com a mesma liderança
 
 <div align="center">
-<img src= https://github.com/user-attachments/assets/d46b8bee-bb3d-4962-ae2e-c91ee9dcbf26
-  alt="Anos com o mesmo chefe width="500" height="300">
+<img src= https://github.com/user-attachments/assets/7f57496a-9d82-4817-afcc-51da26987f46
+  alt="Anos com o mesmo chefe width="400" height="200">
   <p><strong> Figura 20:</strong> Boxplot Anos com o mesmo chefe.</p>
 </div>
 
@@ -742,8 +709,7 @@ Tabla 3: Integração — Frequência + Boxplot
 | Tempo típico com liderança      | Mediana ≈ 3 anos                     | Centro da caixa (Q2)                      |
 | Relacionamentos longevos raros  | 6,8% têm mais de 10 anos com líder   | Outliers (15–17 anos)                     |
 
-
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 -  Lideranças relativamente recentes predominam — metade dos colaboradores teve mudança de gestor nos últimos 3 anos. Isso pode indicar:
     - Reestruturações frequentes;
     - Promoções internas e movimentações de liderança;
@@ -763,8 +729,8 @@ Considerando as análises da tabela de frequência salarial e do boxplot de sal�
 - A faixa mais alta (> R$ 10.600) representa **16,9%**, sugerindo um **grupo de alta remuneração ou cargos estratégicos**.
 
 <div align="center">
-<img src= https://github.com/user-attachments/assets/df83200e-8cf9-47a7-bdd2-d99378e05d1d
-  alt="Salário Mensal dos Funcionários width="400" height="600">
+<img src= https://github.com/user-attachments/assets/15a1b297-3fc5-4844-9b74-5bf720b876ed
+  alt="Salário Mensal dos Funcionários width="200" height="400">
   <p><strong> Figura 21:</strong> Boxplot Salário Mensal dos Funcionários.</p>
 </div>
 
@@ -787,7 +753,7 @@ O intervalo interquartil (Q1–Q3) vai de R$ 2.910,50 a R$ 8.380,25, ou seja, 50
 | Dispersão e desigualdade      | 17% ganham mais de R$ 10.600               | Média (R$ 6.502) > Mediana (assimetria à direita)      |
 | Presença de salários extremos | Pequeno grupo de elite salarial            | Outliers acima de R$ 18 mil evidenciam disparidade     |
  
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
 - **Distribuição assimétrica à direita (positiva)**: A média é puxada para cima por um grupo de funcionários com salários bastante elevados — o que **eleva o valor médio** sem alterar a mediana.
 - **Alta desigualdade interna**: Há forte variação salarial dentro da empresa, com **boa parte da força de trabalho na base e um grupo seleto no topo**. Isso pode ter reflexos em clima, engajamento e percepção de justiça interna.
 - **Faixa intermediária sólida**: O grosso da remuneração está na faixa entre R$ 3 mil e R$ 5,5 mil — base estável que pode ser alvo de políticas de reconhecimento e progressão.
@@ -823,7 +789,7 @@ Tabla 5: Integração — Tabela × Boxplot
 | Mediana estratégica | Faixa modal entre 13–14% | Mediana = 14% mostra ligeira assimetria à direita | 
 | Reajustes generosos (topo) | Apenas 12% acima de 20% | Máximo = 25% sem outliers visíveis | 
 
-🔑*Interpretações e reflexões:*
+*Interpretações e reflexões:*
  -  **Distribuição levemente assimétrica à direita** — a média é um pouco maior que a mediana devido a um pequeno grupo com aumentos mais elevados (23–25%).
  -  **Política de aumento moderada e padronizada**: Mais da metade dos colaboradores recebeu reajustes similares (entre 11–14%), o que pode refletir critérios objetivos e políticas salariais uniformes.
  -  **Baixa dispersão salarial no aumento anual**: O boxplot mostra que quase todos os reajustes ficaram abaixo de 25%, e não há outliers extremos — reforçando coerência na política de meritocracia ou reajuste coletivo.
@@ -871,11 +837,11 @@ Tabela 7: Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
 
 ---
 
-### 📙 Etapa 3: Preparação dos Dados (Data Preparation)
+###  Etapa 3: Preparação dos Dados (Data Preparation)
 
 Nesta etapa da metodologia CRISP-DM, o objetivo é transformar os dados brutos em um formato apropriado para análise, garantindo qualidade, consistência e relevância.
 
-#### 🧠 Estratégia de Preparação
+####  Estratégia de Preparação
 
 Durante a preparação, aplicamos as seguintes práticas:
 
@@ -886,31 +852,39 @@ Durante a preparação, aplicamos as seguintes práticas:
 - Padronização de escalas e formatos
 ---
 
-### 📘Etapa 4: Modelagem (Modeling)
-Neste projeto inicial, não foi utilizada modelagem estatística preditiva. O foco esteve em análises descritivas e exploratórias:
-- Análise de associação entre variáveis categóricas e turnover
-- Aplicação de técnicas estatísticas para entender o pode de separação entre as variáveis: ***Information Value***
-- Avaliação da relação entre turnover e fatores internos da empresa.
-  
-#### 🔍 Tipo de Problema
+### Etapa 4: Modelagem (Modeling)
 
-Nosso problema é do tipo **bidimensional supervisionado**, pois temos uma **variável alvo (target)** – neste caso, `Funcionário_deixou_a_empresa` – e queremos entender **quais fatores explicam melhor esse comportamento**.
+Nesta fase inicial do projeto, optamos por não aplicar modelagem estatística preditiva. O foco esteve em análises descritivas e exploratórias, com o objetivo de compreender os fatores associados ao turnover de funcionários.
+
+####  Tipo de Problema
+
+Trata-se de um problema de **classificação binária**, onde a variável alvo é `Funcionário_deixou_a_empresa` (sim/não). Buscamos identificar os fatores que mais influenciam essa decisão.
+
+####  Abordagens Utilizadas
+
+- Análise de associação entre variáveis categóricas e turnover.
+- Aplicação do **Information Value (IV)** para medir o poder de separação das variáveis em relação à variável alvo.
+- Avaliação da relação entre turnover e fatores internos da empresa, como tempo de casa, departamento e nível de satisfação.
+
+> Variáveis com IV > 0.3 foram consideradas como fortes candidatas para futuras modelagens preditivas.
 
 <div align="center">
 <img src= https://github.com/user-attachments/assets/a87c6338-843a-4d1d-9fcd-c2176b3a86dc
   alt="Framework de Análise de Dado width="600" height="400">
   <p><strong> Figura 23 </strong> Framework de Análise de Dados by Preditiva.ia.</p>
 </div>
->*Futuras versões do projeto podem aplicar regressão logística, árvore de decisão ou Random Forest.*
 
-#### 📊 Análise de Associação com a Variável Alvo
+
+####  Análise de Associação com a Variável Alvo
 
 Como o foco é entender **quais variáveis influenciam a decisão do funcionário de sair da empresa**, aplicamos técnicas de **medidas de associação**, com destaque para o método **Information Value (IV)**.
 
-#### 📌 O que é o Information Value?
+####  O que é o Information Value?
 
 O Information Value é uma métrica que indica **o poder preditivo de uma variável categórica ou binned (agrupada) em relação a uma variável alvo binária**. Quanto maior o IV, mais forte é a associação.
 Se uma variável tem poder forte, isso significa que uma ou mais categorias da variável tem um alto ou baixo nível de turnover, sendo útil estudá-la com mais profundidade.
+
+Tabela 8:  Valore de *information Value* e sua interpretação
 
 | Valor de IV         | Interpretação                |
 |---------------------|------------------------------|
@@ -920,11 +894,11 @@ Se uma variável tem poder forte, isso significa que uma ou mais categorias da v
 | 0.3 - 0.5           | Valor forte                  |
 | > 0.5               | Valor suspeito (pode ser overfitting) |
 
----
+####  Ranking de Variáveis por Information Value
 
-## 🏆 Ranking de Variáveis por Information Value
+Abaixo está o ranking das principais variáveis associadas com o turnover, com base nos valores de *Information Value* calculados:
 
-Abaixo está o ranking das variáveis mais associadas com o turnover, com base nos valores de Information Value calculados:
+Tabela 9:  Variáveis mais signficativas da base conforme o valor de *Information value*
 
 | Variável                   | Information Value | Nível de Associação |
 |----------------------------|-------------------|---------------------|
@@ -946,35 +920,119 @@ Esta análise permite focar nos fatores mais relevantes para a saída dos colabo
 - **Modelagem preditiva com as variáveis de maior IV**
 - **Proposição de plano de ação para retenção baseado nos fatores de maior impacto**
 
----
-
-### 📕 Etapa 5: Avaliação (Evaluation)
+###  Etapa 5: Avaliação (Evaluation)
 
 #### Interpretação dos resultados obtidos na modelagem.  
+
+ Salário
+  - Funcionários com salário baixo têm uma maior taxa de saída.
+  - Isso sugere que políticas de remuneração podem ser um fator crítico de retenção.
+    
+Horas Extras
+  - Colaboradores que fazem horas extras tendem a sair mais da empresa.
+  - Pode indicar sobrecarga de trabalho ou baixa satisfação.
+    
+Quantidade de Ações da Empresa
+  - Funcionários com menos ações tendem a sair mais.
+  - Isso pode indicar que incentivos de participação acionária ajudam na retenção.
+    
+Tempo de Empresa
+  - Funcionários com menos tempo de casa têm maior propensão a sair.
+  - Estratégias de **onboarding e engajamento nos primeiros anos** podem ser eficazes.
+    
+Idade
+  - A taxa de turnover é **mais alta entre os mais jovens**.
+  - Pode refletir **busca por crescimento rápido** ou **menor estabilidade profissional**.
+    
+
 #### Comparação com benchmarks do setor para validar insights.  
 
-  - Maiores taxas de saída em funcionários com:
-  - Baixa nota de equilíbrio de vida  
-  - Baixa satisfação organizacional  
-  - Longo tempo sem promoção  
-  - Muitas horas extras  
-  - Poucas horas de treinamento  
+Como base as top 5 das variáveis por índice de IV podemos concluir que:
 
-#### 🧠 Conclusão
+1. Turnover sob controle, mas com margem para melhoria
+ - A taxa de 16,1% está **dentro da faixa aceitável para empresas de tecnologia**, mas **acima da média ideal (13%)**.
+ - Isso indica que **ações preventivas são recomendadas**, especialmente em áreas com maior risco (ex: salários baixos, sobrecarga, jovens talentos).
 
-Esses fatores servem como alerta para a área de Recursos Humanos priorizar ações preventivas e programas de retenção.
+2. Validação dos fatores de risco
+ - Os fatores identificados no seu projeto (salário, horas extras, tempo de empresa, idade) **refletem os principais motivos de turnover voluntário no Brasil**.
+ - Isso reforça a validade dos seus dados e análises.
+
+3. Benchmark como meta
+- Podemos definir os 13% como meta de redução para os **próximos 12 meses**.
+- Isso pode ser incorporado ao roadmap projeto para futuros analises como critério de sucesso.
+
+####  Conclusão
+
+Esses insights são valiosos para a área de RH e gestão, pois permitem ações direcionadas como:
+
+Reavaliar faixas salariais.
+Monitorar e equilibrar a carga de trabalho.
+Criar programas de incentivo de longo prazo.
+Investir em retenção de talentos jovens e recém-contratados.
 
 ---
 
-### 📓 Etapa 6: Implantação (Deployment)
+###  Etapa 6: Implantação (Deployment)
 
-#### 📤 Entregáveis
+#### Tabela 10: Plano de Ação – Redução de Turnover com base em variáveis críticas
 
-- Recomendação de políticas para reduzir o turnover.  
-- Definição de métricas para acompanhamento da retenção dos funcionários.  
+| Prioridade | O que fazer?                                 | Por que?                                                                 | Quem?                              | Como fazer?                                                                                                                                         | Custo Estimado                                      | Horizonte de Tempo     |
+|------------|-----------------------------------------------|-------------------------------------------------------------------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|------------------------|
+| 1          | Revisão da política de Horas Extras           | Colaboradores que fazem hora extra têm maior propensão ao turnover.     | Time de RH e Operações             | Criar grupos de controle e teste. Monitorar impacto com dashboards de turnover e produtividade.                                                     | Possível redução de produtividade em áreas críticas | Curto prazo (0–3 meses) |
+| 2          | Revisão Salarial e de Benefícios              | Salário é a variável com maior IV (0.43).                               | Time de Remuneração e Financeiro   | Realizar benchmarking salarial. Avaliar viabilidade de ajustes ou benefícios complementares.                                                        | Aumento da folha de pagamento                        | Médio prazo (3–6 meses) |
+| 3          | Programa de Retenção para Novos Colaboradores | Funcionários com pouco tempo de empresa têm maior risco de saída.       | Time de Cultura e Onboarding       | Reforçar onboarding, criar plano de integração de 90 dias, mentorias e acompanhamento com líderes.                                                  | Horas de projeto e treinamento                       | Curto prazo (0–3 meses) |
+| 4          | Incentivo à Participação Acionária            | Colaboradores com mais ações tendem a permanecer.                       | Diretoria e RH Estratégico         | Expandir programa de ações para mais níveis hierárquicos. Comunicar benefícios de longo prazo.                                                      | Custo de diluição acionária ou bônus atrelado        | Médio prazo (3–6 meses) |
+| 5          | Plano de Desenvolvimento para Jovens Talentos | Jovens têm maior propensão ao turnover.                                 | RH e Desenvolvimento Organizacional | Criar trilhas de carreira, programas de aceleração e feedback contínuo para jovens profissionais.                                                   | Investimento em capacitação e coaching               | Longo prazo (6–12 meses) |
+| 6          | Pesquisa de Satisfação e Clima Organizacional | Para entender melhor os motivos subjetivos de saída.                    | RH e Comunicação Interna           | Aplicar pesquisa qualitativa e quantitativa com foco em propósito, cultura e equilíbrio vida-trabalho.                                              | Ferramenta externa de pesquisa ou consultoria        | Curto prazo (0–3 meses) |
 
+####  Métricas para Acompanhamento da Retenção de Funcionários
 
-## 📌 Referências: 
+Acompanhar a retenção de talentos é essencial para avaliar a eficácia das estratégias de RH e reduzir o turnover. Abaixo estão as principais métricas recomendadas:
+
+1. Taxa de Retenção
+
+  **Fórmula:**  Taxa de Retenção = ((Funcionários no final do período - Novas contratações) / Funcionários no início do período) × 100
+  **Objetivo:** Avaliar a capacidade da empresa de manter seus colaboradores ao longo do tempo.
+  **Periodicidade:** Mensal, trimestral ou anual.
+
+ 2. Taxa de Turnover
+  Turnover = (Número de desligamentos no período / Número médio de funcionários) × 100
+  
+  **Objetivo:** Medir a rotatividade geral da empresa.
+  **Recomendações:**
+  - Segmentar por área, faixa etária, tempo de empresa, tipo de desligamento (voluntário/involuntário).
+
+3. Turnover Voluntário vs. Involuntário
+
+  **Objetivo:** Entender se os desligamentos são motivados por decisão do colaborador ou da empresa.
+  **Insight:** Altas taxas de turnover voluntário indicam problemas de engajamento, cultura ou liderança.
+
+4. Tempo Médio de Permanência
+
+  **Fórmula:**  Tempo Médio = Soma do tempo de permanência de todos os funcionários desligados / Número de desligamentos
+  **Objetivo:** Avaliar a longevidade média dos colaboradores na empresa.
+
+5. Índice de Retenção nos Primeiros 12 Meses
+    Retenção 12M = (Número de novos contratados que permanecem após 12 meses / Total de contratados no período) × 100
+      **Objetivo:** Avaliar a eficácia do onboarding e da integração inicial.
+
+6. eNPS (Employee Net Promoter Score)
+   **Fórmula:**     eNPS = % Promotores - % Detratores
+   **Objetivo:** Medir o nível de satisfação e lealdade dos colaboradores.
+   **Como aplicar:** Pesquisa com a pergunta “Em uma escala de 0 a 10, o quanto você recomendaria esta empresa como um bom lugar para trabalhar?”
+
+7. Absenteísmo
+  **Fórmula:** Absenteísmo = (Total de horas/dias de ausência / Total de horas/dias trabalháveis) × 100
+  **Objetivo:** Pode ser um indicador indireto de desengajamento.
+
+Sugestões de Acompanhamento
+
+- Criar dashboards mensais com gráficos de tendência.
+- Estabelecer alertas automáticos para áreas com aumento de turnover.
+- Segmentar por perfil (idade, cargo, tempo de empresa, etc.).
+- Comparar com benchmarks internos e externos.
+
+##  Referências: 
   [^1]: ROBERT HALF. *Brasil lidera índice de rotatividade de funcionários em todo o mundo: 56%*. Publicado em 23 ago. 2023. Disponível em: [https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html](https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html)
   
   [^2]: EVERMONTE. *Turnover: por que os colaboradores estão permanecendo menos tempo nas companhias?*. Publicado em 08 jul. 2024. Disponível em: [https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter](https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter)
