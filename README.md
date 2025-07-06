@@ -6,7 +6,7 @@
  Projeto da formação "**Gerando Valor com Dados**" da Escola de Dados [Preditiva.IA](https://www.preditiva.ai.com)
 
 ## Índice
-- [Contextualização](#-contextualização)
+- [Contextualização](#Contextualização)
    - [Benchmark de Turnover no Setor de Tecnologia no Brasil.](#-benchmark-de-turnover-no-setor-de-tecnologia-no-brasil)
 - [Metodologia: CRISP-DM](#-metodologia-crisp-dm)
   - [Etapa 1: Compreensão do Negócio -*Business Understanding*-.](#-etapa-1-compreensão-do-negócio-business-understanding)
