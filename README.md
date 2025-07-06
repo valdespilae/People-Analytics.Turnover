@@ -8,7 +8,7 @@
 ## Índice
 - [Contextualização](#Contextualização)
    - [Benchmark de Turnover no Setor de Tecnologia no Brasil.](#Benchmark-de-Turnover-no-Setor-de-Tecnologia-no-Brasil)
-- [Metodologia-CRISP-DM-Framework de Análise de Dados](#Metodologia-CRISP-DM-Framework-de-Análise-de-Dados)
+- [Metodologia CRISP DM](#Metodologia-CRISP-DM)
   - [Etapa 1: Compreensão do Negócio](#Etapa-1-Compreensão-do-Negócio)
   - [Etapa 2: Compreensão dos Dados](#Etapa-2-Compreensão-dos-Dados)
      - [Variáveis Qualitativas Nominal](#Variáveis-Qualitativas-Nominal)
@@ -72,7 +72,7 @@ Diante desse cenário, e com base às pesquesisas abordadas anteriormente, foram
 
 O ***turnover*** não é apenas uma questão de remuneração, mas sim de **propósito e engajamento**. Empresas que conseguem oferecer um ambiente estimulante e oportunidades de crescimento tendem a reter seus talentos por mais tempo.  
 
-## Metodologia - CRISP-DM
+## Metodologia CRISP DM
 
 ###  O que é CRISP-DM?  
 
