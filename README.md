@@ -15,10 +15,16 @@
      - [Análises Univariada. Variáveis Qualitativas Ordinal](#-análises-univariada.-variáveis-qualitativas-ordinal)
      - [Análises Univariada. Variáveis Quantitativa Discreta](#-análises-univariada.-variáveis-quantitativa-discreta)
      - [Análises Univariada. Variáveis Quantitativa Contínua](#análises-univariada.-variáveis-quantitativa-contínua)
+     - [Matriz Geral — Perfil de Todos os Funcionários](#-matriz-geral—perfil-de-todos-os-funcionários)
+     - [Perfil-Padrão de Funcionário com Alta Propensão ao Turnover](#-Perfil-Padrão-de-funcionário-com-alta-propensão-ao-turnover)
    - [Etapa 3: Preparação dos Dados (Data Preparation](#-etapa-3-preparação-dos-dados-data-preparation)
    - [Etapa 4: Modelagem (Modeling)](#-etapa-4-modelagem-Modeling)
    - [Etapa 5: Avaliação (Evaluation)](#-etapa-5-avaliação-evaluation)
+      - [Interpretação dos resultados obtidos aprtir do cálculo do *Information Value*](#-interpretação-dos-resultadosobtidos-aprtir-do-cálculo-do-*Information-Value*)
+      - [Comparação com benchmarks do setor para validar insights](#-Comparação-com-benchmarks-do-setor-para-alidar-insights])
    - [Etapa 6: Implantação (Deployment)](#-etapa-6-implantação-deployment)
+      - [Plano de Ação – Redução de Turnover com base em variáveis críticas](#-plano-de-acao–reducao-de-turnover-com-base-em-variaveis-críticas)
+      - [Métricas para Acompanhamento da Retenção de Funcionários](#-metricas-para-acompanhamento-da-retencao-de-funcionários)
  - [Referências](#Referências)
 
 ##  Contextualização  
@@ -729,7 +735,7 @@ Considerando as análises da tabela de frequência salarial e do boxplot de sal�
 - A faixa mais alta (> R$ 10.600) representa **16,9%**, sugerindo um **grupo de alta remuneração ou cargos estratégicos**.
 
 <div align="center">
-<img src= https://github.com/user-attachments/assets/15a1b297-3fc5-4844-9b74-5bf720b876ed
+<img src= https://github.com/user-attachments/assets/a84a5000-f066-4006-8a6a-798e952a7255
   alt="Salário Mensal dos Funcionários width="200" height="400">
   <p><strong> Figura 21:</strong> Boxplot Salário Mensal dos Funcionários.</p>
 </div>
@@ -818,9 +824,10 @@ Tabla 5: Integração — Tabela × Boxplot
 |                                | Frequência de Viagens               | 71% viajam raramente → baixa exposição a deslocamentos.                                            |
 | Mobilidade                     | Distância até o Trabalho            | ~64% moram até 9km → logística favorável.                                                          |
 
+#### - Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
 Com base aos resultados anteriores podemos construir o **perfil-padrão dos funcionários com maior prospeção a sair da empresa** e, logo depois algumas **recomendações práticas para reteção segmentada** com focos pontos críticos identificados
 
-Tabela 7: Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
+ Tabela 7: Perfil-Padrão de Funcionário com Alta Propensão ao Turnover
 | Dimensão                    | Característica com maior tendência de saída                                      |
 |-----------------------------|----------------------------------------------------------------------------------|
 | Idade                       | Entre 28 e 37 anos (45% dos desligados)                                          |
@@ -874,7 +881,6 @@ Trata-se de um problema de **classificação binária**, onde a variável alvo �
   <p><strong> Figura 23 </strong> Framework de Análise de Dados by Preditiva.ia.</p>
 </div>
 
-
 ####  Análise de Associação com a Variável Alvo
 
 Como o foco é entender **quais variáveis influenciam a decisão do funcionário de sair da empresa**, aplicamos técnicas de **medidas de associação**, com destaque para o método **Information Value (IV)**.
@@ -922,7 +928,7 @@ Esta análise permite focar nos fatores mais relevantes para a saída dos colabo
 
 ###  Etapa 5: Avaliação (Evaluation)
 
-#### Interpretação dos resultados obtidos na modelagem.  
+#### Interpretação dos resultados obtidos aprtir do cálculo do *Information Value*.  
 
  Salário
   - Funcionários com salário baixo têm uma maior taxa de saída.
@@ -1005,24 +1011,30 @@ Acompanhar a retenção de talentos é essencial para avaliar a eficácia das es
 3. Turnover Voluntário vs. Involuntário
 
   **Objetivo:** Entender se os desligamentos são motivados por decisão do colaborador ou da empresa.
+  
   **Insight:** Altas taxas de turnover voluntário indicam problemas de engajamento, cultura ou liderança.
 
 4. Tempo Médio de Permanência
 
   **Fórmula:**  Tempo Médio = Soma do tempo de permanência de todos os funcionários desligados / Número de desligamentos
+  
   **Objetivo:** Avaliar a longevidade média dos colaboradores na empresa.
 
 5. Índice de Retenção nos Primeiros 12 Meses
     Retenção 12M = (Número de novos contratados que permanecem após 12 meses / Total de contratados no período) × 100
+   
       **Objetivo:** Avaliar a eficácia do onboarding e da integração inicial.
 
-6. eNPS (Employee Net Promoter Score)
+7. eNPS (Employee Net Promoter Score)
    **Fórmula:**     eNPS = % Promotores - % Detratores
+   
    **Objetivo:** Medir o nível de satisfação e lealdade dos colaboradores.
+   
    **Como aplicar:** Pesquisa com a pergunta “Em uma escala de 0 a 10, o quanto você recomendaria esta empresa como um bom lugar para trabalhar?”
 
-7. Absenteísmo
+9. Absenteísmo
   **Fórmula:** Absenteísmo = (Total de horas/dias de ausência / Total de horas/dias trabalháveis) × 100
+   
   **Objetivo:** Pode ser um indicador indireto de desengajamento.
 
 Sugestões de Acompanhamento
@@ -1033,6 +1045,7 @@ Sugestões de Acompanhamento
 - Comparar com benchmarks internos e externos.
 
 ##  Referências: 
+
   [^1]: ROBERT HALF. *Brasil lidera índice de rotatividade de funcionários em todo o mundo: 56%*. Publicado em 23 ago. 2023. Disponível em: [https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html](https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html)
   
   [^2]: EVERMONTE. *Turnover: por que os colaboradores estão permanecendo menos tempo nas companhias?*. Publicado em 08 jul. 2024. Disponível em: [https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter](https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter)
