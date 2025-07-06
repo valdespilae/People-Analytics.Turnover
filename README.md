@@ -53,7 +53,7 @@ Para contextualizar melhor este projeto, é essencial entender a taxa de rotativ
 
 ### 🎯 Insight para o Projeto  
 
-Com base nesses dados, uma meta realista para a organização é redução da taxa de turnover para **abaixo de 15%**, posicionando-se entre os **benchmarks** mais estáveis do setor de tecnologia nacional e internacional. 
+Com base nesses dados, uma meta realista para a organização é redução da taxa de turnover para **abaixo de 15%**, posicionando-se entre os **benchmarks** mais estáveis do setor de tecnologia nacional e internacional e determinar quais políticas/fatores deveriam mudar de fomra a minmizar o turnover
 
 ### Estratégias para minimizar o turnover  
 
