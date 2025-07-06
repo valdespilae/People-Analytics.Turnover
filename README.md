@@ -8,9 +8,9 @@
 ## Índice
 - [Contextualização](#Contextualização)
    - [Benchmark de Turnover no Setor de Tecnologia no Brasil.](#Benchmark-de-Turnover-no-Setor-de-Tecnologia-no-Brasil)
-- [Metodologia: CRISP DM](#Metodologia:-crisp-dm)
-  - [Etapa 1: Compreensão do Negócio](#Etapa-1:-Compreensão-do-Negócio)
-  - [Etapa 2: Compreensão dos Dados](#Etapa-2:-Compreensão-dos-Dados)
+- [Metodologia: CRISP DM](#Metodologia-crisp-dm)
+  - [Etapa 1: Compreensão do Negócio](#Etapa-1-Compreensao-do-Negócio)
+  - [Etapa 2: Compreensão dos Dados](#Etapa-2-Compreensao-dos-Dados)
      - [Análises Univariada. Variáveis Qualitativas Nominal](#Análises-Univariada.-Variáveis-Qualitativas-Nominal)
      - [Análises Univariada. Variáveis Qualitativas Ordinal](#Análises-Univariada.-Variáveis-Qualitativas-Ordinal)
      - [Análises Univariada. Variáveis Quantitativa Discreta](#Análises-Univariada.-Variáveis-Quantitativa-Discreta)
