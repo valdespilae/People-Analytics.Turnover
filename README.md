@@ -22,7 +22,7 @@
    - [Etapa 5: Avaliação](#Etapa-5-Avaliação)
       - [Interpretação dos resultados obtidos apartir do cálculo do IV](#Interpretação-dos-resultados-obtidos-apartir-do-cálculo-do-iv)
       - [Comparação com benchmarks do setor para validar insights](#Comparação-com-benchmarks-do-setor-para-validar-insights)
-   - [Etapa 6 Implantação](#Etapa-6-Implantação)
+   - [Etapa 6: Implantação](#Etapa-6-Implantação)
       - [Plano de Ação: Redução de Turnover com base em variáveis críticas](#Plano-de-Ação–Redução-de-Turnover-com-base-em-variáveis-críticas)
       - [Métricas para Acompanhamento da Retenção de Funcionários](#Métricas-para-Acompanhamento-da-Retenção-de-Funcionários)
  - [Referências](#Referências)
