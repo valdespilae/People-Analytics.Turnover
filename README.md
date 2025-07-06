@@ -11,7 +11,7 @@
 - [Metodologia CRISP DM](#Metodologia-CRISP-DM)
   - [Etapa 1: Compreensão do Negócio](#Etapa-1-Compreensão-do-Negócio)
   - [Etapa 2: Compreensão dos Dados](#Etapa-2-Compreensão-dos-Dados)
-     - [Variáveis Qualitativas Nominal](#Variáveis-Qualitativas-Nominal)
+     - [Análises Univariada. Variáveis Qualitativas Nominal](#Análises-Univariada-Variáveis-Qualitativas-Nominal)
      - [Variáveis Qualitativas Ordinal](#Variáveis-qualitativas-Ordinal)
      - [Variáveis Quantitativa Discreta](#Variáveis-Quantitativa-Discreta)
      - [Variáveis Quantitativa Contínua](#Variáveis-Quantitativa-Continua)
@@ -128,7 +128,7 @@ Com essa metodologia, garantimos que o projeto será conduzido de forma **organi
 
 ## Metodologia - CRISP-DM. Framework de Análise de Dados
 
-### Etapa 1: Compreensão do Negócio (Business Understanding)
+### Etapa 1: Compreensão do Negócio
 
 Para compreender quais são as características que fazem um funcionário ficar ou deixar a empresa de Tecnologia, o departamento de Recursos Humanos da empresa catalogou informações de **1.470 funcionários** que 
 deixaram ou permaneceram na companhia no *último ano*. O resultado desse levantamento gerou **19 possíveis fatores** para tentar explicar o comportamento do ***turnover***. Para conhecer esses fatores, verifique a tabela de metadados
@@ -159,7 +159,7 @@ existentes na secção seguinte ou na pasta */docs/* no arquivo .xlsx *classific
 
 ---
 
-###  Etapa 2: Compreensão dos Dados (Data Understanding)
+###  Etapa 2: Compreensão dos Dados
 
 Após a definição clara do problema de negócio e dos objetivos estratégicos do projeto, o próximo passo consiste em explorar a base de dados fornecida pelo departamento de Recursos Humanos. Para isso, foi disponibilizado um arquivo no formato **.xlsx**, contendo informações de **1.470 funcionários** que permaneceram ou deixaram a empresa no último ano. A base contempla variáveis de diferentes naturezas — **demográficas, funcionais e comportamentais** — que foram organizadas e documentadas na tabela de **metadados**, facilitando a identificação e classificação de cada atributo. Ao todo, foram listadas **19 variáveis potencialmente associadas ao turnover**, como idade, salário, tempo na empresa, frequência de viagens, satisfação organizacional, entre outros fatores. 
 
