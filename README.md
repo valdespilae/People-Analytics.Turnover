@@ -1005,47 +1005,43 @@ Acompanhar a retenção de talentos é essencial para avaliar a eficácia das es
 
 1. Taxa de Retenção
 
-  **Fórmula:**  Taxa de Retenção = ((Funcionários no final do período - Novas contratações) / Funcionários no início do período) × 100
-  **Objetivo:** Avaliar a capacidade da empresa de manter seus colaboradores ao longo do tempo.
-  **Periodicidade:** Mensal, trimestral ou anual.
+  - **Fórmula:**  Taxa de Retenção = ((Funcionários no final do período - Novas contratações) / Funcionários no início do período) × 100
+  - **Objetivo:** Avaliar a capacidade da empresa de manter seus colaboradores ao longo do tempo.
+  - **Periodicidade:** Mensal, trimestral ou anual.
 
- 2. Taxa de Turnover
-  Turnover = (Número de desligamentos no período / Número médio de funcionários) × 100
-  
-  **Objetivo:** Medir a rotatividade geral da empresa.
-  **Recomendações:**
-  - Segmentar por área, faixa etária, tempo de empresa, tipo de desligamento (voluntário/involuntário).
+2. Taxa de Turnover
+  - Turnover = (Número de desligamentos no período / Número médio de funcionários) × 100
+  - **Objetivo:** Medir a rotatividade geral da empresa.
+  - **Recomendações:**
+    Segmentar por área, faixa etária, tempo de empresa, tipo de desligamento (voluntário/involuntário).
 
 3. Turnover Voluntário vs. Involuntário
 
-  **Objetivo:** Entender se os desligamentos são motivados por decisão do colaborador ou da empresa.
-  
-  **Insight:** Altas taxas de turnover voluntário indicam problemas de engajamento, cultura ou liderança.
+  - **Objetivo:** Entender se os desligamentos são motivados por decisão do colaborador ou da empresa.
+  - **Insight:** Altas taxas de turnover voluntário indicam problemas de engajamento, cultura ou liderança.
 
 4. Tempo Médio de Permanência
 
-  **Fórmula:**  Tempo Médio = Soma do tempo de permanência de todos os funcionários desligados / Número de desligamentos
-  
-  **Objetivo:** Avaliar a longevidade média dos colaboradores na empresa.
+  - **Fórmula:**  Tempo Médio = Soma do tempo de permanência de todos os funcionários desligados / Número de desligamentos
+  -  **Objetivo:** Avaliar a longevidade média dos colaboradores na empresa.
 
 5. Índice de Retenção nos Primeiros 12 Meses
-    Retenção 12M = (Número de novos contratados que permanecem após 12 meses / Total de contratados no período) × 100
-   
-      **Objetivo:** Avaliar a eficácia do onboarding e da integração inicial.
+
+   - Retenção 12M = (Número de novos contratados que permanecem após 12 meses / Total de contratados no período) × 100
+   -  **Objetivo:** Avaliar a eficácia do onboarding e da integração inicial.
 
 7. eNPS (Employee Net Promoter Score)
-   **Fórmula:**     eNPS = % Promotores - % Detratores
-   
-   **Objetivo:** Medir o nível de satisfação e lealdade dos colaboradores.
-   
-   **Como aplicar:** Pesquisa com a pergunta “Em uma escala de 0 a 10, o quanto você recomendaria esta empresa como um bom lugar para trabalhar?”
+
+   - **Fórmula:**     eNPS = % Promotores - % Detratores
+   - **Objetivo:** Medir o nível de satisfação e lealdade dos colaboradores.
+   - **Como aplicar:** Pesquisa com a pergunta “Em uma escala de 0 a 10, o quanto você recomendaria esta empresa como um bom lugar para trabalhar?”
 
 9. Absenteísmo
-  **Fórmula:** Absenteísmo = (Total de horas/dias de ausência / Total de horas/dias trabalháveis) × 100
-   
-  **Objetivo:** Pode ser um indicador indireto de desengajamento.
 
-Sugestões de Acompanhamento
+   - **Fórmula:** Absenteísmo = (Total de horas/dias de ausência / Total de horas/dias trabalháveis) × 100
+   - **Objetivo:** Pode ser um indicador indireto de desengajamento.
+
+**Sugestões de Acompanhamento**
 
 - Criar dashboards mensais com gráficos de tendência.
 - Estabelecer alertas automáticos para áreas com aumento de turnover.
