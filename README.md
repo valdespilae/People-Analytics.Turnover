@@ -20,9 +20,9 @@
    - [Etapa 3: Preparação dos Dados](#Etapa-3-Preparação-dos-Dados)
    - [Etapa 4: Modelagem ou Análises](#Etapa-4-Modelagem-ou-Análises)
    - [Etapa 5: Avaliação](#Etapa-5-Avaliação)
-      - [Interpretação dos resultados obtidos aprtir do cálculo do IV](#Interpretação-dos-resultados-obtidos-aprtir-do-cálculo-do-IV)
+      - [Interpretação dos resultados obtidos aprtir do cálculo do IV](#interpretacao-dos-resultados-obtidos-aprtir-do-calculo-do-iv)
       - [Comparação com benchmarks do setor para validar insights](#Comparação-com-benchmarks-do-setor-para-validar-insights)
-   - [Etapa 6: Implantação](#Etapa-6:-Implantação)
+   - [Etapa 6: Implantação](#etapa-6-implantacao)
       - [Plano de Ação: Redução de Turnover com base em variáveis críticas](#Plano-de-Ação:–Redução-de-Turnover-com-base-em-variáveis-críticas)
       - [Métricas para Acompanhamento da Retenção de Funcionários](#Métricas-para-Acompanhamento-da-Retenção-de-Funcionários)
  - [Referências](#Referências)
@@ -927,7 +927,7 @@ Esta análise permite focar nos fatores mais relevantes para a saída dos colabo
 - **Proposição de plano de ação para retenção baseado nos fatores de maior impacto**
 
 ###  Etapa 5: Avaliação
-#### Interpretação dos resultados obtidos aprtir do cálculo do *Information Value*.  
+#### Interpretação dos resultados obtidos apartir do cálculo do *Information Value*.  
 
  Salário
   - Funcionários com salário baixo têm uma maior taxa de saída.
