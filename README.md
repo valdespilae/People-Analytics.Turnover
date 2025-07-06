@@ -8,7 +8,7 @@
 ## Índice
 - [Contextualização](#Contextualização)
    - [Benchmark de Turnover no Setor de Tecnologia no Brasil.](#Benchmark-de-Turnover-no-Setor-de-Tecnologia-no-Brasil)
-- [Metodologia CRISP DM](#Metodologia-CRISP-DM)
+- [Metodologia-CRISP-DM-Framework de Análise de Dados](#Metodologia-CRISP-DM-Framework-de-Análise-de-Dados)
   - [Etapa 1: Compreensão do Negócio](#Etapa-1-Compreensão-do-Negócio)
   - [Etapa 2: Compreensão dos Dados](#Etapa-2-Compreensão-dos-Dados)
      - [Variáveis Qualitativas Nominal](#Variáveis-Qualitativas-Nominal)
@@ -26,6 +26,7 @@
       - [Plano de Ação: Redução de Turnover com base em variáveis críticas](#Plano-de-Ação–Redução-de-Turnover-com-base-em-variáveis-críticas)
       - [Métricas para Acompanhamento da Retenção de Funcionários](#Métricas-para-Acompanhamento-da-Retenção-de-Funcionários)
  - [Referências](#Referências)
+
 
 ##  Contextualização  
 
@@ -125,7 +126,7 @@ Este projeto busca **entender os fatores que influenciam o turnover** e propor *
 
 Com essa metodologia, garantimos que o projeto será conduzido de forma **organizada, eficiente e baseada em evidências**, trazendo insights valiosos para reduzir o turnover na empresa de tecnologia.  
 
-## Metodologia - CRISP-DM. Framework de Análise de Dados. 
+## Metodologia - CRISP-DM. Framework de Análise de Dados
 
 ### Etapa 1: Compreensão do Negócio (Business Understanding)
 
@@ -859,7 +860,7 @@ Durante a preparação, aplicamos as seguintes práticas:
 - Padronização de escalas e formatos
 ---
 
-### Etapa 4: Modelagem
+### Etapa 4: Modelagem ou Análises
 
 Nesta fase inicial do projeto, optamos por não aplicar modelagem estatística preditiva. O foco esteve em análises descritivas e exploratórias, com o objetivo de compreender os fatores associados ao turnover de funcionários.
 
@@ -927,7 +928,7 @@ Esta análise permite focar nos fatores mais relevantes para a saída dos colabo
 - **Proposição de plano de ação para retenção baseado nos fatores de maior impacto**
 
 ###  Etapa 5: Avaliação
-#### Interpretação dos resultados obtidos apartir do cálculo do *Information Value*.  
+#### Interpretação dos resultados obtidos apartir do cálculo do IV 
 
  Salário
   - Funcionários com salário baixo têm uma maior taxa de saída.
@@ -1044,7 +1045,6 @@ Sugestões de Acompanhamento
 - Comparar com benchmarks internos e externos.
 
 ##  Referências: 
-
   [^1]: ROBERT HALF. *Brasil lidera índice de rotatividade de funcionários em todo o mundo: 56%*. Publicado em 23 ago. 2023. Disponível em: [https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html](https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/08/brasil-lidera-indice-de-rotatividade-de-funcionarios-em-todo-o-mundo-56_199128.html)
   
   [^2]: EVERMONTE. *Turnover: por que os colaboradores estão permanecendo menos tempo nas companhias?*. Publicado em 08 jul. 2024. Disponível em: [https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter](https://evermonte.com/turnover-por-que-os-colaboradores-estao-permanecendo-menos-tempo-nas-companhias-evermonte-headhunter)
