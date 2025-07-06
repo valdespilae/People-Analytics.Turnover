@@ -829,7 +829,8 @@ Tabela 6:  Matriz Geral — Perfil de Todos os Funcionários (20 Variáveis)
 |                                | Frequência de Viagens               | 71% viajam raramente → baixa exposição a deslocamentos.                                            |
 | Mobilidade                     | Distância até o Trabalho            | ~64% moram até 9km → logística favorável.                                                          |
 
-#### - Perfil Padrão de Funcionário com Alta Propensão ao Turnover
+#### Perfil Padrão de Funcionário com Alta Propensão ao Turnover
+
 Com base aos resultados anteriores podemos construir o **perfil-padrão dos funcionários com maior prospeção a sair da empresa** e, logo depois algumas **recomendações práticas para reteção segmentada** com focos pontos críticos identificados
 
  Tabela 7: Perfil-Padrão do Funcionário com Alta Propensão ao Turnover
