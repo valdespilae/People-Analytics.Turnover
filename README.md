@@ -896,7 +896,7 @@ Como o foco é entender **quais variáveis influenciam a decisão do funcionári
 O Information Value é uma métrica que indica **o poder preditivo de uma variável categórica ou binned (agrupada) em relação a uma variável alvo binária**. Quanto maior o IV, mais forte é a associação.
 Se uma variável tem poder forte, isso significa que uma ou mais categorias da variável tem um alto ou baixo nível de turnover, sendo útil estudá-la com mais profundidade.
 
-Tabela 8:  Valore de *information Value* e sua interpretação
+Tabela 8:  Intervalo de valores do *information Value* e sua interpretação
 
 | Valor de IV         | Interpretação                |
 |---------------------|------------------------------|
